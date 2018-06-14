@@ -7,6 +7,7 @@ width = 7000
 height = 7000
 two_player = False
 tree_range = 20000
+speed_mult = 8
 
 [MAP]
 width = 10000

@@ -74,7 +74,7 @@ class Particle:
             canvas.draw_circle((x, y), radius, 2, 'White')
 
     def updatePos(self):
-        self.pos.add( self.vel.copy().multiply(time.time() - self.currentTime))
+        self.pos.add( self.vel.copy().multiply((time.time() - self.currentTime)*int(config['DEVELOPER']['SPEED_MULT'])))
 
     def update(self):
         if self.updateSprite and self.spriteKey != '':

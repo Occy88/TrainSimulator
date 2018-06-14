@@ -100,7 +100,7 @@ print("GENERATING RANDOM ENVIRONMENT")
 print("ENVIRONMENT GENERATED")
 
 #----------------   LOADING DATA FOR NODES----------------------------
-file = open(cwd+"/img/Data/data.json",'r')
+file = open(cwd+"/img/Data/export.txt",'r', encoding='utf-8')
 text=file.read()
 data=json.loads(text)
 
@@ -158,23 +158,76 @@ for relationId in relation_dict:
     for elements in members:
         dic={}
         if elements['type']=='node':
-            if elements['role']=='stop':
-                nodeTraffic_dict.update({elements['ref']:dic})
-                node=node_dict[elements['ref']]
-                node['maxVel']=0
-                node['delay']=1
 
-                all_stops.append(node['id'])
+            nodeTraffic_dict.update({elements['ref']:dic})
+            node=node_dict[elements['ref']]
+            node['maxVel']=0
+            node['delay']=1
+
+            all_stops.append(node['id'])
 
 
 #==============load train example=====================
+testLine1='Waterloo & City: Bank → Waterloo'
+testLine2='Waterloo & City: Waterloo → Bank'
+for a in range(1):
+    train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
+    train_dict.update({train.idObject:train})
+    train_dict.update({train.idObject:train})
 testLine1='Northern Line: Edgware → Charing Cross → Kennington'
 testLine2='Northern Line: Kennington → Charing Cross → Edgware'
+for a in range(10):
+    train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
+    train_dict.update({train.idObject:train})
+    train_dict.update({train.idObject:train})
+testLine1='Central Line: Epping → West Ruislip'
+testLine2='Central Line: West Ruislip → Epping'
+for a in range(10):
+    train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
+    train_dict.update({train.idObject:train})
+    train_dict.update({train.idObject:train})
+testLine1='Circle Line: Hammersmith → Edgware Road'
+testLine2='Circle Line: Edgware Road → Hammersmith'
+for a in range(10):
+    train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
+    train_dict.update({train.idObject:train})
+    train_dict.update({train.idObject:train})
+testLine1 = 'District Line: Ealing Broadway → Upminster'
+testLine2 = 'District Line: Upminster → Ealing Broadway'
+for a in range(10):
+    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
+                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
+    train_dict.update({train.idObject: train})
+    train_dict.update({train.idObject: train})
+testLine1 = 'Bakerloo: Harrow → Elephant'
+testLine2 = 'Bakerloo: Elephant → Harrow'
+for a in range(1):
+    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
+                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
+    train_dict.update({train.idObject: train})
+    train_dict.update({train.idObject: train})
+testLine1 = 'Jubilee Line: Stratford → Stanmore'
+testLine2 = 'Jubilee Line: Stanmore → Stratford'
+for a in range(10):
+    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
+                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
+    train_dict.update({train.idObject: train})
+    train_dict.update({train.idObject: train})
+testLine1 = 'Metropolitan Line: Aldgate → Amersham'
+testLine2 = 'Metropolitan Line: Amersham → Aldgate'
+for a in range(10):
+    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
+                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
+    train_dict.update({train.idObject: train})
+    train_dict.update({train.idObject: train})
+testLine1 = 'Hammersmith & City: Hammersmith → Barking'
+testLine2 = 'Hammersmith & City: Barking → Hammersmith'
+for a in range(10):
+    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
+                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
+    train_dict.update({train.idObject: train})
+    train_dict.update({train.idObject: train})
 
-train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
-train_dict.update({train.idObject:train})
-train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
-train_dict.update({train.idObject:train})
 for name in line_dict:
     print(name)
 #==================ATTEMPT AT FINDING PAIR FROM LINE NAME=============

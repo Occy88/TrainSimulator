@@ -1,5 +1,6 @@
 import time, configparser
 from Classes.Functions import Line as line
+from Classes.Functions.Collisions.Collisions import doCirclesIntersect
 from Classes.Middle.Particle import Particle
 from Classes.Base.Vector import Vector
 config = configparser.ConfigParser()
@@ -55,6 +56,24 @@ class Train:
                                  False, False, self.idObject, numRows, numColumns, startRow, startColumn, endRow,
                                  endColumn)
 
+    def update(self,nodeTraffic_dict,train_dict,relation_dict,line_dict,way_dict,node_dict):
+        if not self.reachedEnd:
+            if self.cooldown>0:#wait for cooldown
+                self.cooldown-= ((time.time()-self.currentTime)*int(config['DEVELOPER']['SPEED_MULT']))
+
+            elif self.cooldown<0:
+                self.cooldown=0
+            else:
+                self.updateVelocity(nodeTraffic_dict,train_dict,relation_dict,line_dict,way_dict,node_dict)
+        else:
+            self.particle.vel.multiply(0)
+
+        self.particle.update()
+        self.currentTime = time.time()
+
+    def draw(self, canvas, cam,node_dict):
+
+        self.particle.draw(canvas, cam)
 
     def incrementIndexes(self,way_dict):
         self.currentNode=self.nextNode
@@ -82,54 +101,74 @@ class Train:
                     self.traverseForward=False
                     self.nodeIndex=len(self.node_list)-1
                     self.nextNode=self.node_list[self.nodeIndex]
+    def getNodeFromId(self,node_dict,nodeId):
+        return node_dict[nodeId]
+    def getPosVectorFromNode(self, node_dict,nodeId):
+        node=node_dict[nodeId]
+        return Vector(node['x'],node['y'])
 
-
-    def updateVelocity(self,nodeTraffic_dict,train_dict,relation_dict,line_dict,way_dict,node_dict):
-
-        currentNode=node_dict[self.currentNode]
-        nextNode=node_dict[self.nextNode]
-        currentStop=node_dict[self.currentStop]
-        nextStop=node_dict[self.nextStop]
-        # check for condition of index incrementation
+    def checkIfReachedNode(self,way_dict,node_dict):
         if self.particle.vel.getX() != 0 or self.particle.vel.getY() != 0:
-            if self.particle.vel.copy().dot(Vector(nextNode['x'], nextNode['y']).subtract( self.particle.pos)) < 0 and self.particle.pos.copy().subtract(Vector(nextNode['x'],nextNode['y'])).length()<2*self.particle.vel.copy().length():
-                print("REACHED NODE")
+            if self.particle.vel.copy().dot(self.getPosVectorFromNode(node_dict,self.nextNode).subtract( self.particle.pos)) < 0 :
                 # if traveling away from node and close to it (reached it)
-                self.incrementIndexes(way_dict)
-                currentNode=node_dict[self.currentNode]
-                nextNode=node_dict[self.nextNode]
-                self.cooldown=currentNode['delay']
 
-                vel=Vector(nextNode['x'],nextNode['y']).subtract(self.particle.pos)
+                # if doCirclesIntersect(self.particle.pos,2,self.getPosVectorFromNode(node_dict,self.nextNode),2):
+                self.incrementIndexes(way_dict)
+
+                self.cooldown=node_dict[self.currentNode]['delay']
+
+                vel=self.getPosVectorFromNode(node_dict,self.nextNode).subtract(self.getPosVectorFromNode(node_dict,self.currentNode))
                 if vel.length()!=0:
                     vel.normalize()
                     self.directionVect=vel.copy()
                     vel.multiply(self.particle.vel.length())
 
-                self.particle.vel=vel.copy()
 
-        #if current velocity< than next node velocity
-            #accelerate
-        currentVel=self.particle.vel.copy().length()
-        if currentVel<nextNode['maxVel'] or nextNode==nextStop:
-            self.acceleration=self.maxAcceleration
+                    self.particle.vel=vel.copy()
+                    self.particle.pos=self.getPosVectorFromNode(node_dict,self.currentNode)
+        elif self.particle.pos == self.getPosVectorFromNode(node_dict,self.nextNode):
+            self.incrementIndexes(way_dict)
 
-        #elif current velocity > than next node velocity
-            #check distance required to decel -->
-                # decelerate
-        elif currentVel>nextNode['maxVel'] and nextNode!=nextStop:
-            self.acceleration=-self.maxAcceleration
-        #else accel=0
-        else:
-            self.acceleration=0
-        # if distance between current node and next stop node < distance needed to decelerate:
-        # decelerate
+            self.cooldown = node_dict[self.currentNode]['delay']
+
+            vel = self.getPosVectorFromNode(node_dict, self.nextNode).subtract(
+                self.getPosVectorFromNode(node_dict, self.currentNode))
+            if vel.length() != 0:
+                vel.normalize()
+                self.directionVect = vel.copy()
+                vel.multiply(self.particle.vel.length())
+
+                self.particle.vel = vel.copy()
+                self.particle.pos = self.getPosVectorFromNode(node_dict, self.currentNode)
+
+    def checkDecelForStop(self,node_dict):
+        nextStop = node_dict[self.nextStop]
         distanceToStop = self.particle.pos.copy().distanceTo(Vector(nextStop['x'], nextStop['y']))
         distanceToDecel = self.particle.vel.copy().multiply(
             (self.particle.vel.length() / self.maxAcceleration)).length()
 
         if distanceToStop < distanceToDecel:
             self.acceleration = -self.maxAcceleration
+
+    def updateVelocity(self,nodeTraffic_dict,train_dict,relation_dict,line_dict,way_dict,node_dict):
+        # check for condition of index incrementation
+        self.checkIfReachedNode(way_dict,node_dict)
+
+        currentVel=self.particle.vel.copy().length()
+        nextNode = node_dict[self.nextNode]
+        nextStop = node_dict[self.nextStop]
+
+        if currentVel<nextNode['maxVel'] or nextNode==nextStop:
+            self.acceleration=self.maxAcceleration
+
+        elif currentVel>nextNode['maxVel'] and nextNode!=nextStop:
+            self.acceleration=-self.maxAcceleration
+
+        else:
+            self.acceleration=0
+
+        self.checkDecelForStop(node_dict)
+
 
         #second distance check with trains in the same stop location of the dictionary:
         stop=nodeTraffic_dict[self.nextStop]
@@ -148,32 +187,28 @@ class Train:
 
 
         #update velocity in relation to acceleration
+        if self.currentNode==self.nextNode:
+            self.incrementIndexes(way_dict)
         if self.directionVect.length()!=0 and self.acceleration!=0:
             velToAdd= self.directionVect.copy().multiply(self.acceleration)
-            velToAdd.multiply(time.time() - self.currentTime)
+            velToAdd.multiply((time.time() - self.currentTime)*int(config['DEVELOPER']['SPEED_MULT']))
             self.particle.vel.add(velToAdd)
 
 
-
-
-
         #check if reached stop
+        self.checkIfReachedStop(nodeTraffic_dict,relation_dict,line_dict,way_dict,node_dict)
+
+    def checkIfReachedStop(self,nodeTraffic_dict,relation_dict,line_dict,way_dict,node_dict):
         if self.currentNode == self.nextStop :
-            print("REACHED STOP")
-            print(self.directionVect)
             self.stopIndex+=1
             self.currentStop=self.nextStop
             # if in current remove, add yourself to
 
             stop=nodeTraffic_dict[self.currentStop]
-            print(stop)
-            print(self.idObject)
             if self.idObject in stop:
                 stop.pop(self.idObject)
-                print("POPPED")
 
 
-            print("ADDED")
 
 
             if self.stopIndex<len(self.stop_list):
@@ -189,9 +224,6 @@ class Train:
                     self.setLine(relation_dict, line_dict, way_dict, node_dict, self.line1)
                     self.line1Bool = True
             self.particle.vel.multiply(0)
-        #     print('++++++++++REACHED STOP++++++++++++')
-        # print("=========================================")
-
     def setLine(self,relation_dict,line_dict,way_dict,node_dict,line_name):
         self.way_list = line_dict[line_name]  # make sure this is a list of ways by id's
         wayId = self.way_list[0]
@@ -222,29 +254,7 @@ class Train:
         self.cooldown = nodeCurrent['delay']
         self.currentTime = time.time()
 
-    def update(self,nodeTraffic_dict,train_dict,relation_dict,line_dict,way_dict,node_dict):
-        print(self.maxVel, self.maxAcceleration)
-        if not self.reachedEnd:
-            if self.cooldown>0:#wait for cooldown
-                self.cooldown-= (time.time()-self.currentTime)
 
-            elif self.cooldown<0:
-                self.cooldown=0
-            else:
-                self.updateVelocity(nodeTraffic_dict,train_dict,relation_dict,line_dict,way_dict,node_dict)
-        else:
-            self.particle.vel.multiply(0)
-
-        self.particle.update()
-
-        self.currentTime = time.time()
-    def draw(self, canvas, cam,node_dict):
-        for node in self.stop_list:
-            line.drawNode(canvas, cam, node_dict,node, 'orange')
-
-        line.drawNode(canvas,cam,node_dict,self.nextNode,'green')
-        line.drawNode(canvas, cam, node_dict, self.nextStop,'red')
-        self.particle.draw(canvas, cam)
 
     def checkVel(self):
         pass

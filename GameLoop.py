@@ -51,14 +51,14 @@ def draw(canvas):
 #========== GAME LOOPS NON MAIN =====================
 
     if gameState1.main and  gameState2.main:
-        line.drawByName(canvas, cam, line_dict, way_dict, node_dict, testLine1,
-                        'blue')
-        line.drawByName(canvas, cam, line_dict, way_dict, node_dict,testLine2,'red')
-
+        # line.drawByName(canvas, cam, line_dict, way_dict, node_dict, 'Waterloo & City: Waterloo → Bank',
+        #                 'blue')
+        line.draw(canvas,cam,way_dict,node_dict)
         for trainId in train_dict:
             train=train_dict[trainId]
+
             train.update(nodeTraffic_dict,train_dict,relation_dict,line_dict,way_dict,node_dict)
-            line.drawNodeList(canvas,cam,node_dict,all_stops)
+            # line.drawNodeList(canvas,cam,node_dict,all_stops)
             train.draw(canvas,cam,node_dict)
 
 #===================================================================
