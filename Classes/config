@@ -1,0 +1,55 @@
+[DEVELOPER]
+developer_options = 0
+god_mode = True
+show_monster_thoughts = True
+show_collision = True
+width = 7000
+height = 7000
+two_player = False
+tree_range = 20000
+
+[MAP]
+width = 10000
+height = 10000
+tree_range=20000
+two_player=False
+[CANVAS]
+canvas_width = 1500
+canvas_height = 1200
+game_state = False
+
+[NETWORKING]
+config_type = server
+client_ip = 10.2.76.93
+logging = False
+logging_level = low
+
+[CAMERA]
+cam_move_sensitivity = 40
+cam_zoom_sensitivity = 0.13
+cam_min_zoom_dist = 100
+cam_max_zoom_dist = 1250
+cam_min_move_dist = 2000
+
+[PARTICLE]
+particle_velocity = 300
+particle_radius = 20
+particle_max_range = 2000
+
+[SPRITE]
+sprite_fps = 0.05
+
+[PLAYER]
+player_id = 1
+player_radius = 40
+player_max_velocity = 100
+player_initial_angle = 0
+player_dimensions_x = 50
+player_dimensions_y = 100
+player_initial_velocity_x = 0
+player_initial_velocity_y = 0
+player_initial_position_x = 2500
+player_initial_position_y = 2500
+player_sprite_fps = 10
+player_sprite = ch_1
+
