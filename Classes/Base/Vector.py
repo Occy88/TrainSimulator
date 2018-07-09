@@ -23,7 +23,24 @@ class Vector:
     def copy(self):
         v = Vector(self.x, self.y)
         return v
+    def angleTo(self,other):
+        h=self.y-(-other.y)
+        l=self.x-other.x
 
+        if h ==0:
+            h=0.01
+
+        theta= math.degrees(math.atan(float(l)/float(h)))
+        if l==0 and h>0:
+            return -180
+        if l==0 and h<0:
+            return 0
+        if l<0 and h>0:
+            return theta+180
+        if l>0 and h>0:
+            return theta-180
+
+        return theta
     def add(self, other):
         self.x += other.x
         self.y += other.y
@@ -44,6 +61,7 @@ class Vector:
         self.y *= other.y
         return self
     def divide(self, k):
+
         self.x /= k
         self.y /= k
         return self
@@ -89,8 +107,11 @@ class Vector:
         return self
 
     def rotate(self, angle):
-        self.x = self.x * math.cos(angle) - self.y * math.sin(angle)
-        self.y = self.x * math.sin(angle) + self.y * math.cos(angle)
+        angle=math.radians(angle)
+        x = self.x * math.cos(angle) - self.y * math.sin(angle)
+        y = self.x * math.sin(angle) + self.y * math.cos(angle)
+        self.x=x
+        self.y=y
         return self
     def getAngle(self, other):
         return math.acos(self.dot(other))

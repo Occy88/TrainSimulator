@@ -1,5 +1,5 @@
 #from Classes.Settings import *
-from Classes.Functions.Geometry import angleFromCoordinate, getDistance
+from Classes.Functions.Geometry import *
 from Classes.Base.Vector import Vector
 
 from SimpleGUICS2Pygame import simpleguics2pygame
@@ -9,6 +9,7 @@ from Handlers.Mouse import Mouse
 
 from Classes.Middle.SpriteControl.SpriteAnimator import SpriteAnimator
 from Classes.Functions import Line as line
+from Classes.Functions.MapLoader import MapLoader
 from GameStates.GameStates import GameState
 import configparser
 from Classes.Super.Train import Train
@@ -19,6 +20,10 @@ import json
 import os
 import uuid
 import math
+import re
+
+#// TO DO
+#temp browers, website scraping
 
 # ------------GAME STATES----------------
 if('True' == config['CANVAS']['game_state']):
@@ -37,12 +42,12 @@ visual_set = set()
 visual_set_external=set()
 weapon_set = set()
 weapon_set_external = set()
-
+image_set=set()
 env_l1_set = set()
 env_l2_list=[]
 env_l3_list=[]
-
-
+send_list=[]
+weighted_graph_dict={}
 node_dict={}
 way_dict={}
 relation_dict={}
@@ -50,12 +55,13 @@ line_dict={} #line_name : node_list
 train_dict={}
 nodeTraffic_dict={}
 
-
 node_draw_list=[]
 relationPoint_list=[]
 
 monster_set = set()
 monster_set_external = set()
+
+variables={'simulation_speed':1}
 
 # MOUSE HANDLER (PYGAME)(NO RIGHT/MIDDLE CLICKS ON SIMPLEGUI)
 mouse = Mouse()
@@ -78,11 +84,8 @@ link=cwd + '/img/story.jpg'
 story = simpleguics2pygame.load_image(link)
 print(story.get_height())
 print(splash.get_width())
-ch1 = SpriteAnimator(cwd + '/img/Character/1.jpg')
-ch2 = SpriteAnimator(cwd + '/img/Character/2.jpg')
 
-spriteDictionary = {'ch_1': ch1,
-                    'ch_2': ch2,}
+spriteDictionary = {}
 
 # -----------------------MOVING OBJECTS-------------------
 print("ASSETS LOADED")
@@ -90,7 +93,7 @@ print("LOADING OBJECTS")
 # CAMERA
 cam = Camera(Vector(0,0), Vector(int(config['CANVAS']['CANVAS_WIDTH'])*4,int(config['CANVAS']['CANVAS_HEIGHT'])*4))
 
-# PLAYER
+# PLAYERWrotham Heath Golf Club, Seven Mile Ln, Borough Green, Wrotham Heath, Sevenoaks TN15 8QZ
 
 # -----------------------NON-MOVING OBJECTS------------------
 print("OBJECTS LOADED")
@@ -100,7 +103,7 @@ print("GENERATING RANDOM ENVIRONMENT")
 print("ENVIRONMENT GENERATED")
 
 #----------------   LOADING DATA FOR NODES----------------------------
-file = open(cwd+"/img/Data/export.txt",'r', encoding='utf-8')
+file = open(cwd+"/img/Data/data.txt",'r', encoding='utf-8')
 text=file.read()
 data=json.loads(text)
 
@@ -111,6 +114,7 @@ for element in data['elements']:
     if element['type']=='node':
         if not foundBase:
             baseNode=element
+
             element.update({'x':0})
             element.update({'y':0})
             node_dict.update({element['id']:element})
@@ -119,11 +123,14 @@ for element in data['elements']:
         else:
 
             angle=angleFromCoordinate(baseNode['lat'],baseNode['lon'],element['lat'],element['lon'])
+
             distance=getDistance(baseNode['lat'],baseNode['lon'],element['lat'],element['lon'])
-            x=distance*math.sin(math.radians(angle))
-            y=distance*math.cos(math.radians(angle))
+            x=distance*math.sin(angle)
+            y=distance*math.cos(angle)
             element.update({'x': x})
             element.update({'y': -y})
+
+
             node_dict.update({element['id']: element})
 
     elif element['type']=='way':
@@ -131,8 +138,10 @@ for element in data['elements']:
 
     elif element['type']=='relation':
         relation_dict.update({element['id']: element})
-    else:
-        print(element['type'])
+
+
+#update with station names
+
 
 
 #   ================= GENERATE A DICTIONARY CONTAINING ALL LINES/PATHS ===========
@@ -148,9 +157,9 @@ for elements in relation_dict:
 #first update all nodes with a specific maxVel and delay of 0 as there is a lack of data
 for nodeId in node_dict:
     node= node_dict[nodeId]
-    node.update({'maxVel':1000})
+    node.update({'maxVel':20})
     node.update({'delay':0})
-all_stops=[]
+all_stops_dict={}
 #now find all the stops and change the delay to say 30 sec (new york minimum) and max vel 0 (assume trains stop at all stops?
 for relationId in relation_dict:
     relation=relation_dict[relationId]
@@ -161,85 +170,121 @@ for relationId in relation_dict:
 
             nodeTraffic_dict.update({elements['ref']:dic})
             node=node_dict[elements['ref']]
-            node['maxVel']=0
-            node['delay']=1
+            node['maxVel']=20
+            node['delay']=10
+            if not elements['ref'] in all_stops_dict:
+                all_stops_dict.update({elements['ref']:node_dict[elements['ref']]})
 
-            all_stops.append(node['id'])
+for stopId in all_stops_dict:
+    stop=node_dict[stopId]
+    shortestDistance=1000000
+    stationName='defaultName'
+    for element in data['elements']:
+
+        if 'tags' in element:
+            if 'station' in element['tags']: #this is the serch for station nodes
+                if element['type']== 'node':
+                    distance=Vector(element['x'],element['y']).distanceTo(Vector(stop['x'],stop['y']))
+                    if distance<shortestDistance:
+                        shortestDistance=distance
+                        tags=element['tags']
+                        stationName=tags['name']
+                        stationName = stationName.split(' (')[0]
+                elif element['type']=='way':
+                    nodes= element['nodes']
+                    nodeId=nodes[0]
+                    node=node_dict[nodeId]
+                    distance = Vector(node['x'], node['y']).distanceTo(Vector(stop['x'], stop['y']))
+                    if distance < shortestDistance:
+                        shortestDistance = distance
+                        tags = element['tags']
+                        stationName = tags['name']
+                        stationName = stationName.split(' (')[0]
+                elif element['type']=='relation':
+
+                    tags=element['tags']
+                    if 'name' in tags and 'railway' in tags:
+                        if tags['railway']== 'station':
+
+                            members=element['members']
+                            wayTags=members[0]
+                            way=way_dict[wayTags['ref']]
+                            nodes=way['nodes']
+                            nodeId = nodes[0]
+                            node = node_dict[nodeId]
+                            distance = Vector(node['x'], node['y']).distanceTo(Vector(stop['x'], stop['y']))
+                            if distance < shortestDistance:
+                                shortestDistance = distance
+                                stationName = tags['name']
+                                stationName=stationName.split(' (')[0]
+
+    stop.update({'name':stationName})
+
+for stopId in all_stops_dict:
+    stop=all_stops_dict[stopId]
+    stop.update({'train':{}})
+    send_list.append(stop)
 
 
-#==============load train example=====================
-testLine1='Waterloo & City: Bank → Waterloo'
-testLine2='Waterloo & City: Waterloo → Bank'
-for a in range(1):
-    train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
-    train_dict.update({train.idObject:train})
-    train_dict.update({train.idObject:train})
-testLine1='Northern Line: Edgware → Charing Cross → Kennington'
-testLine2='Northern Line: Kennington → Charing Cross → Edgware'
-for a in range(10):
-    train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
-    train_dict.update({train.idObject:train})
-    train_dict.update({train.idObject:train})
-testLine1='Central Line: Epping → West Ruislip'
-testLine2='Central Line: West Ruislip → Epping'
-for a in range(10):
-    train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
-    train_dict.update({train.idObject:train})
-    train_dict.update({train.idObject:train})
-testLine1='Circle Line: Hammersmith → Edgware Road'
-testLine2='Circle Line: Edgware Road → Hammersmith'
-for a in range(10):
-    train=Train(30,2,testLine1,testLine2,relation_dict,line_dict,way_dict,node_dict,0,5,'',spriteDictionary,0.01,getUid(),1,1,1,1,1,1)
-    train_dict.update({train.idObject:train})
-    train_dict.update({train.idObject:train})
-testLine1 = 'District Line: Ealing Broadway → Upminster'
-testLine2 = 'District Line: Upminster → Ealing Broadway'
-for a in range(10):
-    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
-                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
-    train_dict.update({train.idObject: train})
-    train_dict.update({train.idObject: train})
-testLine1 = 'Bakerloo: Harrow → Elephant'
-testLine2 = 'Bakerloo: Elephant → Harrow'
-for a in range(1):
-    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
-                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
-    train_dict.update({train.idObject: train})
-    train_dict.update({train.idObject: train})
-testLine1 = 'Jubilee Line: Stratford → Stanmore'
-testLine2 = 'Jubilee Line: Stanmore → Stratford'
-for a in range(10):
-    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
-                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
-    train_dict.update({train.idObject: train})
-    train_dict.update({train.idObject: train})
-testLine1 = 'Metropolitan Line: Aldgate → Amersham'
-testLine2 = 'Metropolitan Line: Amersham → Aldgate'
-for a in range(10):
-    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
-                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
-    train_dict.update({train.idObject: train})
-    train_dict.update({train.idObject: train})
-testLine1 = 'Hammersmith & City: Hammersmith → Barking'
-testLine2 = 'Hammersmith & City: Barking → Hammersmith'
-for a in range(10):
-    train = Train(30, 2, testLine1, testLine2, relation_dict, line_dict, way_dict, node_dict, 0, 5, '',
-                  spriteDictionary, 0.01, getUid(), 1, 1, 1, 1, 1, 1)
-    train_dict.update({train.idObject: train})
-    train_dict.update({train.idObject: train})
 
-for name in line_dict:
-    print(name)
+
 #==================ATTEMPT AT FINDING PAIR FROM LINE NAME=============
+#node_corrections:
+node=node_dict[5473272644]
+node['name']='Bank'
+node=node_dict[5473272645]
+node['name']='Bank'
+
+#===============constructing wighted graph ================
+for stationId in all_stops_dict:
+    station=all_stops_dict[stationId]
+    if not station['name'] in weighted_graph_dict:
+        weighted_graph_dict.update({station['name']:{}})
+from Classes.Functions.Line import getStopListFromLineName
+line_dict_names={}
+for lineId in line_dict:
+    stations=getStopListFromLineName(relation_dict,way_dict,lineId)
+    name_dict={}
+    for id in stations:
+        station=all_stops_dict[id]
+        name_dict.update({station['name']:(station['x'],station['y'])})
+    line_dict_names.update({lineId:name_dict})
+
+for name in weighted_graph_dict:
+    for listId in line_dict_names:
+        dict=line_dict_names[listId]
+        if name in dict:
+            for stopName in dict:
+                pos1=dict[name]
+                pos2=dict[stopName]
+                pos1=Vector(pos1[0],pos1[1])
+                pos2 = Vector(pos2[0], pos2[1])
+                weight=pos1.distanceTo(pos2)
+                wgStops=weighted_graph_dict[name]
+                if not stopName in wgStops:
+                    print(stopName,weight)
+                    wgStops.update({stopName:weight})
 
 
+
+none_connected_stop_list=[]
+for stopName in weighted_graph_dict:
+    print("===========================================")
+    if len((weighted_graph_dict[stopName]))<1:
+        none_connected_stop_list.append(stopName)
+for name in none_connected_stop_list:
+    weighted_graph_dict.pop(name)
 #add a drawn element into the every way to avoid being drawn twice.
 for wayId in way_dict:
     way=way_dict[wayId]
 
     way.update({'drawn':False})
 
-
+mapLoader=MapLoader(14)
+from Classes.Functions.TrainLoader import TrainLoader
+from Classes.Functions.AutoCam import AutoCam
+trainLoader=TrainLoader()
+autoCam=AutoCam()
 #-------------  LOADING DATA FOR WAYS ------------------------------
 
 # tree = Particle(True, Vector(2500, 2500), Vector(0, 0), 0, Vector(2500, 2500), 200, 0, 0, 0, 'en_l1_tr', spriteDictionary,

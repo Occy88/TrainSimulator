@@ -1,0 +1,80 @@
+('Northern Line: Edgware → Charing Cross → Kennington',
+'Northern Line: Kennington → Charing Cross → Edgware')
+
+('Circle Line: Edgware Road → Hammersmith',
+'Circle Line: Hammersmith → Edgware Road')
+
+('District Line: Ealing Broadway → Upminster',
+'District Line: Upminster → Ealing Broadway')
+
+('Jubilee Line: Stratford → Stanmore',
+'Jubilee Line: Stanmore → Stratford')
+
+('Metropolitan Line: Aldgate → Amersham',
+'Metropolitan Line: Amersham → Aldgate')
+
+('Piccadilly Line: Heathrow Terminal 5 → Cockfosters',
+'Piccadilly Line: Cockfosters → Heathrow Terminal 5')
+
+('Victoria Line: Brixton → Walthamstow Central',
+'Victoria Line: Walthamstow Central → Brixton')
+
+('Bakerloo: Harrow → Elephant',
+'Bakerloo: Elephant → Harrow')
+
+('Hammersmith & City: Barking → Hammersmith',
+'Hammersmith & City: Hammersmith → Barking')
+
+('Central Line: Woodford → Hainault',
+'Central Line: Hainault → Woodford')
+
+('Central Line: White City → Hainault',
+'Central Line: Hainault → White City')
+
+('Central Line: Ealing Broadway → Hainault',
+'Central Line: Hainault → Ealing Broadway')
+
+('Central Line: West Ruislip → Epping',
+'Central Line: Epping → West Ruislip')
+
+('Victoria Line: Seven Sisters → Brixton',
+'Victoria Line: Brixton → Seven Sisters')
+
+('Metropolitan Line: Aldgate → Chesham',
+'Metropolitan Line: Chesham → Aldgate')
+
+('Metropolitan Line: Aldgate → Uxbridge',
+'Metropolitan Line: Uxbridge → Aldgate')
+
+('Metropolitan Line: Watford → Baker Street',
+'Metropolitan Line: Baker Street → Watford')
+
+('District Line: Edgware Road → Wimbledon',
+'District Line: Wimbledon → Edgware Road')
+
+('District Line: High Street Kensington → Kensington (Olympia)',
+'District Line: Kensington (Olympia) → High Street Kensington')
+
+('District Line: Upminster → Richmond',
+District Line: Richmond → Upminster')
+
+('Northern Line: Edgware → Bank → Morden',
+'Northern Line: Morden → Bank → Edgware')
+
+('Northern Line: Finchley Central → Mill Hill East',
+'Northern Line: Mill Hill East → Finchley Central')
+
+('Northern Line: Morden → Bank → High Barnet',
+'Northern Line: High Barnet → Bank → Morden')
+
+('Northern Line: Edgware → Charing Cross → Kennington',
+'Northern Line: Kennington → Charing Cross → Edgware')
+
+('Northern Line: Kennington → Charing Cross → High Barnet',
+'Northern Line: High Barnet → Charing Cross → Kennington')
+
+('Piccadilly Line: Heathrow Terminal 4 → Cockfosters',
+'Piccadilly Line: Cockfosters → Heathrow Terminal 4')
+
+('Piccadilly Line: Uxbridge → Cockfosters',
+'Piccadilly Line: Cockfosters → Uxbridge')

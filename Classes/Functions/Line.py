@@ -25,7 +25,7 @@ def draw(canvas,cam,way_dict,node_dict):
             nodeVect.transformToCam(cam)
             convPoints.append((nodeVect.getX(), nodeVect.getY()))
 
-        canvas.draw_polyline(convPoints, 1, 'red')
+        canvas.draw_polyline(convPoints, 1, random.choice(['red','green','blue']))
 
 def nodeToVector(node):
     return Vector(node['x'],node['y'])
@@ -37,7 +37,7 @@ def drawNode(canvas,cam,node_dict,nodeId,color):
     radius = 8
     ratio = cam.ratioToCam()
     radius = radius * ratio.getX()
-    canvas.draw_circle((nodeVect.getX(), nodeVect.getY()), radius, 4, color)
+    canvas.draw_circle((nodeVect.getX(), nodeVect.getY()), radius, 10, color)
 
 
 def drawNodeList(canvas,cam,node_dict,node_list):
@@ -48,7 +48,7 @@ def drawNodeList(canvas,cam,node_dict,node_list):
         radius=5
         ratio = cam.ratioToCam()
         radius =radius * ratio.getX()
-        canvas.draw_circle((nodeVect.getX(), nodeVect.getY()), radius, 4, 'White')
+        canvas.draw_circle((nodeVect.getX(), nodeVect.getY()), radius, 10, 'White')
 
 def drawByName(canvas,cam,line_dict,way_dict,node_dict,name,color):
     way_list= line_dict[name]

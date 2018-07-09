@@ -7,7 +7,7 @@ width = 7000
 height = 7000
 two_player = False
 tree_range = 20000
-speed_mult = 8
+speed_mult = 1
 
 [MAP]
 width = 10000
@@ -15,8 +15,8 @@ height = 10000
 tree_range=20000
 two_player=False
 [CANVAS]
-canvas_width = 1500
-canvas_height = 1200
+canvas_width = 1600
+canvas_height = 2000
 game_state = False
 
 [NETWORKING]
@@ -54,3 +54,6 @@ player_initial_position_y = 2500
 player_sprite_fps = 10
 player_sprite = ch_1
 
+[API]
+tfl key=b9d3c4c9f50de822787139a4c6667ea3
+tfl app key=43237875

@@ -3,9 +3,9 @@ from Classes.Base.Vector import Vector
 
 
 class SpriteAnimator:
-    def __init__(self, image):
-        self.image = simpleguics2pygame.load_image(image)
-        self.dimOriginal = Vector(self.image.get_width(), self.image.get_height())
+    def __init__(self, image,scaleFactor):
+        self.image = image
+        self.dimOriginal = Vector(self.image.get_width(), self.image.get_height()).multiply(scaleFactor)
         self.dimCamera = Vector(0, 0)
 
 

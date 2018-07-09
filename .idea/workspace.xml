@@ -5,16 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="535d3321-3371-455d-b0a1-9ee7583f198c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Data/export.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Functions/AutoCam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Functions/MapLoader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Functions/TrainLoader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Functions/lines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Super/MapTile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/External/Functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/External/Logs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/External/Objects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/External/Person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/External/RecieveStops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/External/TripManager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cs1830.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cs1830.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Base/Vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Base/Vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Functions/Geometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Functions/Geometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Functions/Line.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Functions/Line.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/Middle/Particle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Middle/Particle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Middle/SpriteControl/SpriteAnimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Middle/SpriteControl/SpriteAnimator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/Super/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Super/Train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/config" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handlers/KeyHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Handlers/KeyHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loading/Objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loading/Objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/img/Data/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/img/Data/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Data/export.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,14 +40,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cs1830$GameLoop.coverage" NAME="GameLoop Coverage Results" MODIFIED="1519919847962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TrainSim$Objects.coverage" NAME="Objects Coverage Results" MODIFIED="1529251514263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Loading" />
+    <SUITE FILE_PATH="coverage/TrainSim$GameLoop__2_.coverage" NAME="GameLoop (2) Coverage Results" MODIFIED="1531158451814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TrainSim$EmailSender.coverage" NAME="EmailSender Coverage Results" MODIFIED="1530784443940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/External" />
+    <SUITE FILE_PATH="coverage/cs1830$GameLoop__2_.coverage" NAME="GameLoop (2) Coverage Results" MODIFIED="1528993652633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cs1830$ScriptTest.coverage" NAME="ScriptTest Coverage Results" MODIFIED="1519925090499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
+    <SUITE FILE_PATH="coverage/TrainSim$Objects__1_.coverage" NAME="Objects (1) Coverage Results" MODIFIED="1530725254302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/External" />
     <SUITE FILE_PATH="coverage/cs1830$Classes.coverage" NAME="Classes Coverage Results" MODIFIED="1519869300078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cs1830$GameLoop__1_.coverage" NAME="GameLoop (1) Coverage Results" MODIFIED="1520959147743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TrainSimulator$GameLoop__2_.coverage" NAME="GameLoop (2) Coverage Results" MODIFIED="1529017236270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cs1830$JsonToObject.coverage" NAME="JsonToObject Coverage Results" MODIFIED="1519925717525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Transfer" />
-    <SUITE FILE_PATH="coverage/cs1830$GameLoop__2_.coverage" NAME="GameLoop (2) Coverage Results" MODIFIED="1528993652633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cs1830$GameLoop.coverage" NAME="GameLoop Coverage Results" MODIFIED="1519919847962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TrainSim$GetImage.coverage" NAME="GetImage Coverage Results" MODIFIED="1529251508924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes/Functions" />
     <SUITE FILE_PATH="coverage/cs1830$test.coverage" NAME="test Coverage Results" MODIFIED="1519869864557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cs1830$ScriptTest.coverage" NAME="ScriptTest Coverage Results" MODIFIED="1519925090499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../.." />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -49,41 +70,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="675">
+      <file leaf-file-name="Train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Super/Train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecieveStops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/External/RecieveStops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/Data/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="149824" column="4" selection-start-line="149824" selection-start-column="4" selection-end-line="149834" selection-end-column="17" />
+            <state relative-caret-position="798">
+              <caret line="1636" column="21" selection-start-line="1636" selection-start-column="21" selection-end-line="1636" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="export.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/Data/export.txt">
+      <file leaf-file-name="Person.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/External/Person.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="6928" column="22" selection-start-line="6928" selection-start-column="10" selection-end-line="6928" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomGen.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Loading/RandomGen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameLoop.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GameLoop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+            <state relative-caret-position="476">
+              <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
               <folding>
-                <element signature="e#230#254#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Objects.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/External/Objects.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/External/Functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="879">
+              <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/External/Logs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22274" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TripManager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/External/TripManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapTile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Super/MapTile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -91,61 +164,8 @@
       <file leaf-file-name="Camera.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/Super/Camera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Super/Train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Particle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Middle/Particle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameStates.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameStates/GameStates.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Objects.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Loading/Objects.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="171" column="43" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
-              <folding>
-                <element signature="e#32#103#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1071">
+              <caret line="43" column="15" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -162,39 +182,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>traffic</find>
-      <find>self.particle.</find>
-      <find>print(id</find>
-      <find>nextStop</find>
-      <find>self.directionVect</find>
-      <find>self.particle.vel</find>
-      <find>added</find>
-      <find>draw</find>
-      <find>REACHED</find>
-      <find>reached N</find>
-      <find>decelerating</find>
-      <find>R</find>
-      <find>None</find>
+      <find>self.acceleration=0</find>
+      <find>self.increment</find>
+      <find>self.nextStop =</find>
+      <find>self.nextStop=</find>
+      <find>wimbledon</find>
+      <find>self.stop_list</find>
+      <find>self.stop_list=</find>
+      <find>CheckIfRea</find>
+      <find>self.setLine</find>
+      <find>dista</find>
+      <find>setLine</find>
       <find>update</find>
-      <find>self.particle.pos</find>
-      <find>po</find>
-      <find>pos</find>
-      <find>{}</find>
-      <find>time.time</find>
-      <find>self.particle.vel.m</find>
-      <find>TIME</find>
-      <find>self.particle.vel.mul</find>
-      <find>vel.multipl</find>
-      <find>Waterloo &amp; City: Bank → Waterloo</find>
-      <find>569024606</find>
-      <find>5473273807</find>
-      <find>78805960</find>
-      <find>&quot;role&quot;: &quot;pla</find>
-      <find>file</find>
+      <find>self</find>
+      <find>self.particle.vel.multiply</find>
+      <find>self.particle.vel.multiply(0</find>
+      <find>checkDec</find>
+      <find>dict</find>
+      <find>=========</find>
+      <find>dict=</find>
+      <find>recieve</find>
+      <find>generateRoute</find>
+      <find>Chalfont &amp; Latimer</find>
+      <find>all_stops_dict.</find>
+      <find>self.gener</find>
       <find>print</find>
+      <find>all_stops_dict.update</find>
+      <find>weighte</find>
+      <find>draw</find>
+      <find>.draw</find>
+      <find>cwd</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/img/Map</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -203,24 +224,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Classes/Vector.py" />
-        <option value="$PROJECT_DIR$/Classes/Camera.py" />
-        <option value="$PROJECT_DIR$/Classes/SpriteSheet.py" />
-        <option value="$PROJECT_DIR$/Classes/Weapon.py" />
-        <option value="$PROJECT_DIR$/Classes/ClickHandler.py" />
-        <option value="$PROJECT_DIR$/Classes/Player.py" />
-        <option value="$PROJECT_DIR$/Collisions/Collisions.py" />
-        <option value="$PROJECT_DIR$/Classes/RandomGen.py" />
-        <option value="$PROJECT_DIR$/Classes/Particle.py" />
-        <option value="$PROJECT_DIR$/Classes/MonsterAi.py" />
-        <option value="$PROJECT_DIR$/Classes/Monster.py" />
-        <option value="$PROJECT_DIR$/Classes/SpriteAnimator.py" />
-        <option value="$PROJECT_DIR$/Classes/CollisionHandler.py" />
-        <option value="$PROJECT_DIR$/Classes/Objects.py" />
         <option value="$PROJECT_DIR$/Collisions/CollisionHandler.py" />
         <option value="$PROJECT_DIR$/Game/Classes/Super/MonsterAi.py" />
         <option value="$PROJECT_DIR$/Game/Classes/Middle/Particle.py" />
-        <option value="$PROJECT_DIR$/Classes/Middle/SpriteControl/SpriteAnimator.py" />
         <option value="$PROJECT_DIR$/Classes/Super/MonsterAi.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Classes/Assigment.html" />
@@ -234,26 +240,41 @@
         <option value="$PROJECT_DIR$/Classes/Super/Home.py" />
         <option value="$PROJECT_DIR$/Classes/Super/Player.py" />
         <option value="$PROJECT_DIR$/Loading/RandomGen.py" />
-        <option value="$PROJECT_DIR$/Handlers/KeyHandler.py" />
         <option value="$PROJECT_DIR$/Handlers/ClickHandler.py" />
         <option value="$PROJECT_DIR$/Classes/Functions/Collisions/CollisionHandler.py" />
         <option value="$PROJECT_DIR$/Loading/MonsterAi.py" />
-        <option value="$PROJECT_DIR$/Classes/Base/Vector.py" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$PROJECT_DIR$/Classes/Super/Ways.py" />
         <option value="$PROJECT_DIR$/Classes/Super/Relation.py" />
-        <option value="$PROJECT_DIR$/Classes/Functions/Geometry.py" />
         <option value="$PROJECT_DIR$/Classes/Super/Camera.py" />
         <option value="$PROJECT_DIR$/Classes/Super/Line.py" />
-        <option value="$PROJECT_DIR$/Classes/Functions/Line.py" />
         <option value="$PROJECT_DIR$/img/Data/data.json" />
-        <option value="$PROJECT_DIR$/Classes/config" />
+        <option value="$PROJECT_DIR$/img/Data/export.txt" />
+        <option value="$PROJECT_DIR$/Classes/Functions/GetImage.py" />
+        <option value="$PROJECT_DIR$/Classes/Middle/SpriteControl/SpriteAnimator.py" />
+        <option value="$PROJECT_DIR$/Classes/Super/MapTile.py" />
+        <option value="$PROJECT_DIR$/Classes/Functions/Geometry.py" />
+        <option value="$PROJECT_DIR$/Classes/Functions/AutoCam.py" />
+        <option value="$PROJECT_DIR$/Classes/Base/Vector.py" />
         <option value="$PROJECT_DIR$/Classes/Middle/Particle.py" />
         <option value="$PROJECT_DIR$/img/Data/data.txt" />
-        <option value="$PROJECT_DIR$/img/Data/export.txt" />
-        <option value="$PROJECT_DIR$/Loading/Objects.py" />
+        <option value="$PROJECT_DIR$/External/Objects" />
+        <option value="$PROJECT_DIR$/External/EmailSender.py" />
+        <option value="$PROJECT_DIR$/Classes/Functions/MapLoader.py" />
+        <option value="$PROJECT_DIR$/Handlers/KeyHandler.py" />
+        <option value="$PROJECT_DIR$/Classes/Functions/Line.py" />
+        <option value="$PROJECT_DIR$/Classes/Functions/TrainLoader.py" />
         <option value="$PROJECT_DIR$/Classes/Super/Train.py" />
+        <option value="$PROJECT_DIR$/Classes/config" />
+        <option value="$PROJECT_DIR$/External/Objects.py" />
+        <option value="$PROJECT_DIR$/Classes/Functions/lines" />
+        <option value="$PROJECT_DIR$/External/Functions.py" />
+        <option value="$PROJECT_DIR$/Loading/Objects.py" />
+        <option value="$PROJECT_DIR$/External/RecieveStops.py" />
         <option value="$PROJECT_DIR$/GameLoop.py" />
+        <option value="$PROJECT_DIR$/External/Person.py" />
+        <option value="$PROJECT_DIR$/External/Logs" />
+        <option value="$PROJECT_DIR$/External/TripManager.py" />
       </list>
     </option>
   </component>
@@ -266,75 +287,110 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1187" />
-    <option name="y" value="290" />
-    <option name="width" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="51" />
+    <option name="width" value="3840" />
     <option name="height" value="2109" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+              <item name="Classes" type="cbb8eebc:String" user="Classes" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+              <item name="Classes" type="cbb8eebc:String" user="Classes" />
+              <item name="Functions" type="cbb8eebc:String" user="Functions" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+              <item name="Classes" type="cbb8eebc:String" user="Classes" />
+              <item name="Super" type="cbb8eebc:String" user="Super" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+              <item name="External" type="cbb8eebc:String" user="External" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+              <item name="GameStates" type="cbb8eebc:String" user="GameStates" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+              <item name="img" type="cbb8eebc:String" user="img" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+              <item name="img" type="cbb8eebc:String" user="img" />
+              <item name="Data" type="cbb8eebc:String" user="Data" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TrainSim" type="cbb8eebc:String" user="TrainSim" />
+              <item name="Loading" type="cbb8eebc:String" user="Loading" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainSim" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainSim" type="462c0819:PsiDirectoryNode" />
               <item name="Classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainSim" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrainSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainSim" type="462c0819:PsiDirectoryNode" />
               <item name="Classes" type="462c0819:PsiDirectoryNode" />
               <item name="Functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="Functions" type="462c0819:PsiDirectoryNode" />
-              <item name="Collisions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="Middle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainSim" type="462c0819:PsiDirectoryNode" />
               <item name="Classes" type="462c0819:PsiDirectoryNode" />
               <item name="Super" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="GameStates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainSim" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainSim" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrainSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="Loading" type="462c0819:PsiDirectoryNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,18 +400,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/octavio/Desktop/Programming/TrainSim/External/RecieveStops.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/Map" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="C:\Users\Octavio del Ser\Desktop\Programming\TrainSim\TrainSimulator\img\Data" />
       <recent name="$PROJECT_DIR$/Classes/Functions" />
       <recent name="$PROJECT_DIR$/Classes/Super" />
-      <recent name="$PROJECT_DIR$/Loading" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Classes/Super" />
@@ -378,7 +435,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.GameLoop (2)">
-    <configuration name="GameLoop (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="EmailSender" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs1830" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,12 +443,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/External" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game/GameLoop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/External/EmailSender.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -416,7 +473,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="GameLoop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GetImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs1830" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -424,18 +481,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classes/Functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\octav\Desktop\Programming\Games\cs1830\GameLoop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes/Functions/MapLoader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="JsonToObject" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Objects (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs1830" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -443,18 +500,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Transfer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/External" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Transfer/JsonToObject.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/External/Objects.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ScriptTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Objects" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs1830" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,31 +519,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../.." />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Loading" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../ScriptTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Loading/Objects.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.GameLoop" />
-      <item itemvalue="Python.ScriptTest" />
-      <item itemvalue="Python.GameLoop (1)" />
-      <item itemvalue="Python.JsonToObject" />
       <item itemvalue="Python.GameLoop (2)" />
+      <item itemvalue="Python.GetImage" />
+      <item itemvalue="Python.Objects" />
+      <item itemvalue="Python.Objects (1)" />
+      <item itemvalue="Python.EmailSender" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.GameLoop (2)" />
-        <item itemvalue="Python.GameLoop (1)" />
-        <item itemvalue="Python.JsonToObject" />
-        <item itemvalue="Python.ScriptTest" />
-        <item itemvalue="Python.GameLoop" />
+        <item itemvalue="Python.EmailSender" />
+        <item itemvalue="Python.Objects (1)" />
+        <item itemvalue="Python.Objects" />
+        <item itemvalue="Python.GetImage" />
       </list>
     </recent_temporary>
   </component>
@@ -513,31 +570,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1187" y="290" width="1920" height="2109" extended-state="0" />
+    <frame x="0" y="51" width="3840" height="2109" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" weight="0.09352909" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.13867028" side_tool="true" weight="0.14353064" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.86132973" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.29936975" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.86132973" visible="true" weight="0.3610658" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.4980968" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.81702125" visible="true" weight="0.15831557" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" weight="0.0069296374" />
-      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49625" weight="0.3285" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49063772" weight="0.3735726" />
+      <window_info anchor="right" id="SciView" order="0" visible="true" weight="0.02531983" />
+      <window_info id="Structure" order="2" sideWeight="0.18297872" side_tool="true" visible="true" weight="0.15831557" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49782962" weight="0.32843935" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49063772" weight="0.3735726" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49782962" weight="0.32843935" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49625" weight="0.3285" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,31 +606,31 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Classes/Super/Camera.py</url>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Transfer/JsonToObject.py</url>
           <line>65</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Loading/RandomGen.py</url>
           <line>262</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/GameLoop.py</url>
-          <line>72</line>
+          <line>106</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Transfer/JsonToObject.py</url>
           <line>119</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Classes/Functions/Line.py</url>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -585,206 +642,327 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier2/3.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier3/2.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier3/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier3/6.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier3/5.jpg" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transfer/recovery.py" />
-    <entry file="file://$PROJECT_DIR$/img/Projectiles/Tier4/2.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier2/2.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier2/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier2/4.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier1/3.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier1/4.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier1/5.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier3/4.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/Monsters/Tier3/3.jpg" />
-    <entry file="file://$PROJECT_DIR$/packages">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/geopy/point.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="474">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/Data/export.json" />
-    <entry file="file:///usr/lib/python3.6/threading.py" />
-    <entry file="file://$PROJECT_DIR$/Classes/Middle/SpriteControl/SpriteSheet.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/geopy/distance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="29">
+          <caret line="422" selection-start-line="422" selection-end-line="422" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/JpegImagePlugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="621" selection-start-line="621" selection-end-line="621" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="1934" selection-start-line="1934" selection-end-line="1934" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/splash.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Map/1-414.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/Map/1-614.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/Map/1-814.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/Map/3-514.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Map/15-815.png" />
+    <entry file="file://$PROJECT_DIR$/img/Map/15-715.png" />
     <entry file="file://$PROJECT_DIR$/Classes/Middle/SpriteControl/SpriteAnimator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="116">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/json/decoder.py" />
-    <entry file="file:///usr/lib/python3.6/json/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Classes/Super/Monster.py" />
-    <entry file="file://$PROJECT_DIR$/Classes/Super/Home.py" />
-    <entry file="file://$PROJECT_DIR$/Classes/Super/Player.py" />
-    <entry file="file://$PROJECT_DIR$/Classes/Functions/Collisions/CollisionHandler.py" />
-    <entry file="file://$PROJECT_DIR$/Loading/MonsterAi.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
-    <entry file="file://$PROJECT_DIR$/Classes/Super/Relation.py" />
-    <entry file="file://$PROJECT_DIR$/img/Character/2.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/Classes/Middle/SpriteControl/SpriteSheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Middle/Particle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Data/export.txt" />
+    <entry file="file://$PROJECT_DIR$/External/Objects" />
+    <entry file="file:///usr/lib/python3.6/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="723" selection-start-line="723" selection-end-line="723" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External/EmailSender.py" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/SimpleGUICS2Pygame/simpleguics2pygame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="564" selection-start-line="564" selection-end-line="564" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib/python3.6/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="645" column="34" selection-start-line="645" selection-start-column="34" selection-end-line="645" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Base/Vector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="17" />
+        <state relative-caret-position="354">
+          <caret line="97" column="13" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="13" />
           <folding>
             <element signature="e#0#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Handlers/ClickHandler.py">
+    <entry file="file://$PROJECT_DIR$/Handlers/Mouse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Functions/Geometry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Functions/Line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="667">
+          <caret line="23" selection-start-column="3" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Handlers/KeyHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handlers/Mouse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-column="3" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/SimpleGUICS2Pygame/simpleguics2pygame.py" />
-    <entry file="file://C:/Python36/Lib/encodings/cp1252.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Functions/Collisions/Collisions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Super/Camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Middle/Particle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameStates/GameStates.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Loading/RandomGen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="435">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/Data/data.txt">
+    <entry file="file:///usr/lib/python3.6/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="149824" column="4" selection-start-line="149824" selection-start-column="4" selection-end-line="149834" selection-end-column="17" />
+        <state relative-caret-position="9744">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/Data/export.txt">
+    <entry file="file:///usr/lib/python3.6/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="6928" column="22" selection-start-line="6928" selection-start-column="10" selection-end-line="6928" selection-end-column="22" />
+        <state relative-caret-position="10179">
+          <caret line="353" selection-start-line="353" selection-end-line="353" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Loading/Objects.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="171" column="43" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
+        <state relative-caret-position="24766">
+          <caret line="887" selection-start-line="887" selection-end-line="887" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Functions/lines">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Functions/Line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#32#103#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Super/Train.py">
+    <entry file="file://$PROJECT_DIR$/Loading/RandomGen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
+        <state relative-caret-position="899">
+          <caret line="302" column="24" selection-start-line="302" selection-start-column="24" selection-end-line="302" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loading/Sound.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib/python3.6/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="915" selection-start-line="915" selection-end-line="915" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Functions/Geometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Functions/AutoCam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Functions/TrainLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="116" column="24" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Functions/MapLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1165">
           <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLoop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+        <state relative-caret-position="-377">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="e#230#254#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loading/Objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="78" column="3" selection-start-line="78" selection-end-line="78" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Super/Camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Super/MapTile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Super/Train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External/Person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External/RecieveStops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Data/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="1636" column="21" selection-start-line="1636" selection-start-column="21" selection-end-line="1636" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External/TripManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External/Logs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22274" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External/Functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External/Objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

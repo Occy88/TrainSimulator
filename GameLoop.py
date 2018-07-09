@@ -32,36 +32,70 @@ if(len(sys.argv) > 1):
 # from Transfer.comms import communicate, recieve, ping
 from Handlers.KeyHandler import keydown, keyup
 from Handlers.ClickHandler import checkClick
+from Loading.Objects import send_list
 from Loading.Objects import *
 from GameStates.intro import introLoop, waitingLoop,storyLoop
-
+from External.RecieveStops import recieveStops,recieveWeightedGraph
+from External.TripManager import updatePeople
+from threading import Thread
 #-----START----GAME----CLOCK
 fps = simplegui_lib_fps.FPS()
 fps.start()
 #initiate Ai
+recieveWeightedGraph(weighted_graph_dict)
+print("HERE")
+updateP=Thread(target=updatePeople)
+print("then here")
+updateP.start()
+
+print("NOW Here ")
 
 print("MONSTERS LOADED AND SPAWNED")
-
 
 
 #--------------GAME-----LOOP-------------------
 def draw(canvas):
     
-
 #========== GAME LOOPS NON MAIN =====================
+
+        # x,y=train.nextNode['lon'],train.nextNode['lat']
+        # pos=Vector(x,y).transformToCam(cam)
+        # canvas.draw_circle((pos.getX(),pos.getY()), 20, 2, 'Yellow')
 
     if gameState1.main and  gameState2.main:
         # line.drawByName(canvas, cam, line_dict, way_dict, node_dict, 'Waterloo & City: Waterloo → Bank',
         #                 'blue')
-        line.draw(canvas,cam,way_dict,node_dict)
+        autoCam.update(cam,train_dict)
+        mapLoader.update((baseNode['lat'], baseNode['lon']), cam, spriteDictionary)
+        mapLoader.draw(canvas, cam)
+        trainLoader.load(train_dict,spriteDictionary,relation_dict,line_dict,way_dict,node_dict,nodeTraffic_dict,variables['simulation_speed'])
         for trainId in train_dict:
             train=train_dict[trainId]
-
-            train.update(nodeTraffic_dict,train_dict,relation_dict,line_dict,way_dict,node_dict)
+            train.update(nodeTraffic_dict,relation_dict,line_dict,way_dict,node_dict,variables['simulation_speed'])
             # line.drawNodeList(canvas,cam,node_dict,all_stops)
             train.draw(canvas,cam,node_dict)
+            if train.send:
+                train.send=False
+                stopId=train.currentStop
+                stop=all_stops_dict[stopId]
+                stop['train']=train.encode()
+                send_list.append(stop)
+            if train.remove:
+                train.remove=False
+                stopId = train.currentStop
+                stop = all_stops_dict[stopId]
+                stop['train'] = {}
+                send_list.append(stop)
 
-#===================================================================
+
+
+        for stop in send_list:
+            recieveStops(stop)
+        send_list.clear()
+
+
+        life.set_text('Number of Trains: '+str(len(train_dict)))
+#========================  ===========================================
 
 #================ CLICK HANDLER =================================
 
@@ -106,7 +140,7 @@ def draw(canvas):
 frame = simpleguics2pygame.create_frame('Game', int(config['CANVAS']['CANVAS_WIDTH']), int(config['CANVAS']['CANVAS_HEIGHT']))
 frame.set_canvas_background('Black')
 #Labels
-life = frame.add_label('Life: ')
+life = frame.add_label('Number of Trains: '+str(len(train_dict)))
 magic = frame.add_label('Magic: ')
 rng = frame.add_label('Ranfe: ')
 arrows = frame.add_label('Arrows: ')

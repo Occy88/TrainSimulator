@@ -22,7 +22,6 @@ class Particle:
         self.spriteKey = spriteKey
 
         if spriteKey != '':
-            print('spriteKey: ',spriteKey)
             self.spriteSheet = SpriteSheet(spriteDictionary.get(self.spriteKey, 'elf_demo'), fps)
 
             self.spriteSheet.setRow(numRows, numColumns, startRow, startColumn, endRow, endColumn)
@@ -50,7 +49,8 @@ class Particle:
         if self.spriteKey != '':
             distance.subtract(self.spriteSheet.animator.dimCamera.copy().multiply(2))
 
-        if distance.getX() < cam.dim.getX() / 2 and distance.getY() < cam.dim.getY() / 2:
+
+        if distance.getX() < cam.dim.getX()  and distance.getY() < cam.dim.getY() :
             # --------TESTING PURPOSES----DO NOT REMOVE-------------
             # cam.dim = Vector(2600*2, 1400*2)
             objectPos = self.pos.copy().transformToCam(cam)
@@ -71,14 +71,14 @@ class Particle:
             # DEVELOPER OPTION:
 
             # draw nodes
-            canvas.draw_circle((x, y), radius, 2, 'White')
+            # canvas.draw_circle((x, y), radius, 2, 'White')
 
-    def updatePos(self):
-        self.pos.add( self.vel.copy().multiply((time.time() - self.currentTime)*int(config['DEVELOPER']['SPEED_MULT'])))
+    def updatePos(self,simulation_speed):
+        self.pos.add( self.vel.copy().multiply((time.time() - self.currentTime)*simulation_speed))
 
-    def update(self):
+    def update(self,simulation_speed):
         if self.updateSprite and self.spriteKey != '':
             self.spriteSheet.update()
 
-        self.updatePos()
+        self.updatePos(simulation_speed)
         self.currentTime = time.time()

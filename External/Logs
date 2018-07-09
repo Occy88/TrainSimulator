@@ -1,0 +1,1156 @@
+{"id: ": 1, "Trip: ": ["Aldgate", "Liverpool Street", "Leyton", "Redbridge"], "Number of Trips Left: ": 3}
+{"id: ": 2, "Trip: ": ["Warren Street", "Camden Town"], "Number of Trips Left: ": 1}
+{"id: ": 3, "Trip: ": ["Brixton", "Stockwell", "London Bridge", "West Ham", "Dagenham East"], "Number of Trips Left: ": 1}
+{"id: ": 4, "Trip: ": ["Wembley Central", "Edgware Road"], "Number of Trips Left: ": 4}
+{"id: ": 5, "Trip: ": ["Liverpool Street", "King's Cross St. Pancras", "Arsenal"], "Number of Trips Left: ": 2}
+{"id: ": 6, "Trip: ": ["West Harrow", "King's Cross St. Pancras", "Camden Town", "Chalk Farm"], "Number of Trips Left: ": 3}
+{"id: ": 8, "Trip: ": ["Walthamstow Central", "King's Cross St. Pancras", "Knightsbridge"], "Number of Trips Left: ": 2}
+{"id: ": 9, "Trip: ": ["Tooting Broadway", "Stockwell", "Tottenham Hale"], "Number of Trips Left: ": 1}
+{"id: ": 10, "Trip: ": ["Brent Cross", "King's Cross St. Pancras", "Preston Road"], "Number of Trips Left: ": 1}
+{"id: ": 11, "Trip: ": ["Balham", "Stockwell", "Vauxhall"], "Number of Trips Left: ": 0}
+{"id: ": 12, "Trip: ": ["Mornington Crescent", "Euston", "King's Cross St. Pancras", "Finchley Road", "Kingsbury"], "Number of Trips Left: ": 3}
+{"id: ": 13, "Trip: ": ["Green Park", "Bond Street", "Notting Hill Gate"], "Number of Trips Left: ": 2}
+{"id: ": 16, "Trip: ": ["Leytonstone", "Stratford", "Queensbury"], "Number of Trips Left: ": 2}
+{"id: ": 17, "Trip: ": ["Heathrow Terminal 5", "Acton Town", "Rayners Lane", "Harrow-on-the-Hill", "Northwood"], "Number of Trips Left: ": 3}
+{"id: ": 19, "Trip: ": ["Amersham", "Wembley Park", "Baker Street", "Monument"], "Number of Trips Left: ": 0}
+{"id: ": 20, "Trip: ": ["West Brompton", "Notting Hill Gate", "Shepherd's Bush"], "Number of Trips Left: ": 1}
+{"id: ": 21, "Trip: ": ["Elm Park", "Barking", "King's Cross St. Pancras", "Camden Town", "Edgware"], "Number of Trips Left: ": 3}
+{"id: ": 22, "Trip: ": ["Northwick Park", "King's Cross St. Pancras", "Whitechapel"], "Number of Trips Left: ": 0}
+{"id: ": 23, "Trip: ": ["Queensbury", "Finchley Road", "King's Cross St. Pancras", "Finsbury Park"], "Number of Trips Left: ": 0}
+{"id: ": 24, "Trip: ": ["Heathrow Terminals 2 & 3", "Holborn", "Bethnal Green"], "Number of Trips Left: ": 2}
+{"id: ": 25, "Trip: ": ["Walthamstow Central", "King's Cross St. Pancras", "Edgware Road", "Harlesden"], "Number of Trips Left: ": 2}
+{"id: ": 26, "Trip: ": ["Aldgate", "Liverpool Street", "Chancery Lane"], "Number of Trips Left: ": 1}
+{"id: ": 28, "Trip: ": ["High Street Kensington", "Liverpool Street", "Barking", "Dagenham East"], "Number of Trips Left: ": 4}
+{"id: ": 29, "Trip: ": ["Harlesden", "Edgware Road", "Baker Street", "Wembley Park", "Amersham"], "Number of Trips Left: ": 0}
+{"id: ": 30, "Trip: ": ["Camden Town", "Warren Street", "Green Park", "South Kensington"], "Number of Trips Left: ": 1}
+{"id: ": 31, "Trip: ": ["Turnham Green", "Temple", "Barbican"], "Number of Trips Left: ": 4}
+{"id: ": 32, "Trip: ": ["Barking", "West Ham", "Stratford", "Barkingside"], "Number of Trips Left: ": 1}
+{"id: ": 33, "Trip: ": ["Harrow & Wealdstone", "Baker Street", "Stratford", "Barkingside"], "Number of Trips Left: ": 0}
+{"id: ": 34, "Trip: ": ["Canada Water", "Waterloo", "Embankment", "Notting Hill Gate", "Holland Park"], "Number of Trips Left: ": 0}
+{"id: ": 36, "Trip: ": ["Southgate", "King's Cross St. Pancras", "Brent Cross", "Colindale"], "Number of Trips Left: ": 1}
+{"id: ": 37, "Trip: ": ["Maida Vale", "Oxford Circus", "Leyton", "Hainault"], "Number of Trips Left: ": 2}
+{"id: ": 38, "Trip: ": ["Belsize Park", "Camden Town", "King's Cross St. Pancras", "Finchley Road", "Kingsbury"], "Number of Trips Left: ": 3}
+{"id: ": 39, "Trip: ": ["Manor House", "Knightsbridge"], "Number of Trips Left: ": 3}
+{"id: ": 40, "Trip: ": ["South Kenton", "Baker Street", "Farringdon"], "Number of Trips Left: ": 0}
+{"id: ": 41, "Trip: ": ["Tottenham Court Road", "Embankment", "Cannon Street"], "Number of Trips Left: ": 2}
+{"id: ": 42, "Trip: ": ["Borough", "King's Cross St. Pancras", "Cockfosters"], "Number of Trips Left: ": 3}
+{"id: ": 44, "Trip: ": ["Old Street", "South Wimbledon"], "Number of Trips Left: ": 1}
+{"id: ": 46, "Trip: ": ["South Ealing", "Holborn", "Leyton"], "Number of Trips Left: ": 1}
+{"id: ": 47, "Trip: ": ["Blackhorse Road", "King's Cross St. Pancras", "Holborn", "Loughton"], "Number of Trips Left: ": 2}
+{"id: ": 48, "Trip: ": ["Uxbridge", "Hillingdon", "Bounds Green"], "Number of Trips Left: ": 4}
+{"id: ": 49, "Trip: ": ["Ickenham", "King's Cross St. Pancras", "Highgate"], "Number of Trips Left: ": 0}
+{"id: ": 50, "Trip: ": ["North Acton", "Notting Hill Gate", "South Kensington", "Hyde Park Corner"], "Number of Trips Left: ": 2}
+{"id: ": 51, "Trip: ": ["Tottenham Hale", "King's Cross St. Pancras", "Brent Cross", "Colindale"], "Number of Trips Left: ": 2}
+{"id: ": 52, "Trip: ": ["Tooting Bec", "Bank", "Leytonstone"], "Number of Trips Left: ": 3}
+{"id: ": 53, "Trip: ": ["Tooting Bec", "Stockwell", "Victoria", "Earl's Court", "Southfields"], "Number of Trips Left: ": 4}
+{"id: ": 54, "Trip: ": ["High Barnet", "King's Cross St. Pancras", "Baker Street", "Maida Vale"], "Number of Trips Left: ": 0}
+{"id: ": 55, "Trip: ": ["Finchley Road", "Baker Street", "Edgware Road", "Parsons Green"], "Number of Trips Left: ": 0}
+{"id: ": 56, "Trip: ": ["West Brompton", "High Street Kensington", "Latimer Road"], "Number of Trips Left: ": 3}
+{"id: ": 57, "Trip: ": ["Ruislip Manor", "Gloucester Road"], "Number of Trips Left: ": 3}
+{"id: ": 58, "Trip: ": ["Highbury & Islington", "King's Cross St. Pancras", "Finchley Road", "Canons Park"], "Number of Trips Left: ": 4}
+{"id: ": 59, "Trip: ": ["Gunnersbury", "Turnham Green", "Northfields"], "Number of Trips Left: ": 3}
+{"id: ": 60, "Trip: ": ["South Ruislip", "Liverpool Street", "Stepney Green"], "Number of Trips Left: ": 1}
+{"id: ": 61, "Trip: ": ["Charing Cross", "Piccadilly Circus", "Hammersmith"], "Number of Trips Left: ": 0}
+{"id: ": 62, "Trip: ": ["Marylebone", "Paddington", "Notting Hill Gate", "Greenford"], "Number of Trips Left: ": 3}
+{"id: ": 63, "Trip: ": ["Charing Cross", "Leicester Square", "Covent Garden"], "Number of Trips Left: ": 0}
+{"id: ": 64, "Trip: ": ["Chalk Farm", "Warren Street", "Oxford Circus", "Paddington", "Westbourne Park"], "Number of Trips Left: ": 4}
+{"id: ": 65, "Trip: ": ["Burnt Oak", "Brent Cross", "King's Cross St. Pancras", "Liverpool Street", "Leyton", "Wanstead"], "Number of Trips Left: ": 3}
+{"id: ": 66, "Trip: ": ["Russell Square", "King's Cross St. Pancras", "Baker Street", "North Wembley"], "Number of Trips Left: ": 0}
+{"id: ": 67, "Trip: ": ["Woodside Park", "King's Cross St. Pancras", "Holborn", "Chancery Lane"], "Number of Trips Left: ": 0}
+{"id: ": 68, "Trip: ": ["Lancaster Gate", "Oxford Circus", "Warren Street", "Camden Town"], "Number of Trips Left: ": 0}
+{"id: ": 70, "Trip: ": ["Neasden", "Baker Street", "Bayswater"], "Number of Trips Left: ": 4}
+{"id: ": 71, "Trip: ": ["North Greenwich", "Westminster", "Victoria", "Barons Court"], "Number of Trips Left: ": 2}
+{"id: ": 72, "Trip: ": ["Hyde Park Corner", "Earl's Court", "Southfields"], "Number of Trips Left: ": 4}
+{"id: ": 73, "Trip: ": ["Heathrow Terminals 2 & 3", "Acton Town", "Rayners Lane", "Preston Road"], "Number of Trips Left: ": 4}
+{"id: ": 74, "Trip: ": ["North Ealing", "Piccadilly Circus", "Charing Cross", "Embankment", "Tower Hill"], "Number of Trips Left: ": 1}
+{"id: ": 75, "Trip: ": ["Willesden Green", "St. John's Wood"], "Number of Trips Left: ": 4}
+{"id: ": 76, "Trip: ": ["Croxley", "Finchley Road", "King's Cross St. Pancras", "Whitechapel"], "Number of Trips Left: ": 0}
+{"id: ": 77, "Trip: ": ["Tufnell Park", "King's Cross St. Pancras", "Oakwood"], "Number of Trips Left: ": 1}
+{"id: ": 79, "Trip: ": ["Newbury Park", "Leyton", "Holborn", "Heathrow Terminal 5"], "Number of Trips Left: ": 4}
+{"id: ": 80, "Trip: ": ["Tottenham Hale", "King's Cross St. Pancras", "Upton Park"], "Number of Trips Left: ": 1}
+{"id: ": 81, "Trip: ": ["Barons Court", "Bounds Green"], "Number of Trips Left: ": 3}
+{"id: ": 82, "Trip: ": ["Ladbroke Grove", "Victoria", "Stockwell", "South Wimbledon"], "Number of Trips Left: ": 0}
+{"id: ": 83, "Trip: ": ["Paddington", "Oxford Circus", "Warren Street", "Colindale"], "Number of Trips Left: ": 3}
+{"id: ": 84, "Trip: ": ["Eastcote", "Wembley Park", "Stratford", "Leytonstone"], "Number of Trips Left: ": 0}
+{"id: ": 86, "Trip: ": ["Northwood Hills", "Harrow-on-the-Hill", "Rayners Lane", "Ealing Common", "Ealing Broadway", "North Acton", "Hanger Lane"], "Number of Trips Left: ": 1}
+{"id: ": 87, "Trip: ": ["Ladbroke Grove", "Paddington", "Oxford Circus"], "Number of Trips Left: ": 2}
+{"id: ": 88, "Trip: ": ["Ruislip", "Wembley Park", "Stratford", "Fairlop"], "Number of Trips Left: ": 4}
+{"id: ": 89, "Trip: ": ["Hounslow Central", "Hammersmith", "Paddington", "Marylebone"], "Number of Trips Left: ": 1}
+{"id: ": 90, "Trip: ": ["Leicester Square", "Hendon Central"], "Number of Trips Left: ": 3}
+{"id: ": 92, "Trip: ": ["Wimbledon Park", "Earl's Court", "Rayners Lane", "Harrow-on-the-Hill", "Chorleywood"], "Number of Trips Left: ": 1}
+{"id: ": 93, "Trip: ": ["Harrow-on-the-Hill", "Amersham"], "Number of Trips Left: ": 1}
+{"id: ": 94, "Trip: ": ["Ruislip", "Park Royal"], "Number of Trips Left: ": 0}
+{"id: ": 95, "Trip: ": ["Heathrow Terminal 4", "Hatton Cross", "Acton Town", "Ealing Broadway", "North Acton", "Greenford"], "Number of Trips Left: ": 1}
+{"id: ": 96, "Trip: ": ["Park Royal", "Rayners Lane", "Wembley Park", "Queensbury"], "Number of Trips Left: ": 3}
+{"id: ": 97, "Trip: ": ["London Bridge", "Bond Street", "West Ruislip"], "Number of Trips Left: ": 3}
+{"id: ": 98, "Trip: ": ["Highgate", "King's Cross St. Pancras", "Gloucester Road"], "Number of Trips Left: ": 4}
+{"id: ": 100, "Trip: ": ["Snaresbrook", "Ruislip Gardens"], "Number of Trips Left: ": 4}
+{"id: ": 101, "Trip: ": ["Dagenham Heathway", "West Ham", "Finchley Road", "Ruislip"], "Number of Trips Left: ": 2}
+{"id: ": 102, "Trip: ": ["Old Street", "King's Cross St. Pancras", "Uxbridge"], "Number of Trips Left: ": 4}
+{"id: ": 103, "Trip: ": ["Queensway", "Notting Hill Gate", "Westbourne Park"], "Number of Trips Left: ": 3}
+{"id: ": 104, "Trip: ": ["West Hampstead", "Baker Street", "Marylebone", "Paddington", "Hammersmith", "Osterley"], "Number of Trips Left: ": 3}
+{"id: ": 105, "Trip: ": ["Hainault", "Stratford", "Canning Town"], "Number of Trips Left: ": 1}
+{"id: ": 106, "Trip: ": ["St. James's Park", "Liverpool Street", "Epping"], "Number of Trips Left: ": 0}
+{"id: ": 108, "Trip: ": ["Northfields", "Acton Town", "Rayners Lane", "Harrow-on-the-Hill", "Chesham"], "Number of Trips Left: ": 3}
+{"id: ": 109, "Trip: ": ["Balham", "Bank", "Mile End"], "Number of Trips Left: ": 1}
+{"id: ": 110, "Trip: ": ["Canary Wharf", "Baker Street", "Marylebone"], "Number of Trips Left: ": 2}
+{"id: ": 111, "Trip: ": ["Ruislip Gardens", "Loughton"], "Number of Trips Left: ": 4}
+{"id: ": 112, "Trip: ": ["Tooting Broadway", "King's Cross St. Pancras", "Caledonian Road"], "Number of Trips Left: ": 4}
+{"id: ": 113, "Trip: ": ["Theydon Bois", "Greenford"], "Number of Trips Left: ": 4}
+{"id: ": 114, "Trip: ": ["Perivale", "North Acton", "Ealing Broadway", "Ealing Common", "Rayners Lane"], "Number of Trips Left: ": 1}
+{"id: ": 115, "Trip: ": ["Old Street", "Moorgate", "Liverpool Street", "Bethnal Green"], "Number of Trips Left: ": 4}
+{"id: ": 116, "Trip: ": ["Hillingdon", "Holborn", "Debden"], "Number of Trips Left: ": 3}
+{"id: ": 117, "Trip: ": ["Arsenal", "King's Cross St. Pancras", "Bayswater"], "Number of Trips Left: ": 3}
+{"id: ": 118, "Trip: ": ["Russell Square", "Holborn", "Liverpool Street", "Whitechapel"], "Number of Trips Left: ": 3}
+{"id: ": 119, "Trip: ": ["Shepherd's Bush Market", "Hammersmith", "Rayners Lane", "Harrow-on-the-Hill", "Rickmansworth"], "Number of Trips Left: ": 3}
+{"id: ": 120, "Trip: ": ["Heathrow Terminals 2 & 3", "Holborn", "Leyton", "Redbridge"], "Number of Trips Left: ": 4}
+{"id: ": 121, "Trip: ": ["High Street Kensington", "Paddington", "Kenton"], "Number of Trips Left: ": 1}
+{"id: ": 122, "Trip: ": ["Sloane Square", "Paddington", "Kilburn Park"], "Number of Trips Left: ": 0}
+{"id: ": 124, "Trip: ": ["Harlesden", "Oxford Circus", "Tottenham Court Road"], "Number of Trips Left: ": 0}
+{"id: ": 125, "Trip: ": ["Stockwell", "Burnt Oak"], "Number of Trips Left: ": 3}
+{"id: ": 126, "Trip: ": ["Harlesden", "Paddington", "High Street Kensington", "Kensington"], "Number of Trips Left: ": 2}
+{"id: ": 127, "Trip: ": ["Putney Bridge", "Earl's Court", "Gloucester Road"], "Number of Trips Left: ": 0}
+{"id: ": 128, "Trip: ": ["Ruislip", "Harrow-on-the-Hill", "Pinner"], "Number of Trips Left: ": 2}
+{"id: ": 129, "Trip: ": ["Hounslow Central", "Hammersmith", "Notting Hill Gate", "Epping"], "Number of Trips Left: ": 2}
+{"id: ": 130, "Trip: ": ["Acton Town", "Rayners Lane", "Harrow-on-the-Hill", "Watford"], "Number of Trips Left: ": 4}
+{"id: ": 131, "Trip: ": ["Whitechapel", "Mansion House", "Embankment", "Charing Cross", "Piccadilly Circus", "Hyde Park Corner"], "Number of Trips Left: ": 1}
+{"id: ": 132, "Trip: ": ["Chigwell", "Woodford", "Liverpool Street", "King's Cross St. Pancras", "Turnpike Lane"], "Number of Trips Left: ": 0}
+{"id: ": 133, "Trip: ": ["East Ham", "West Ham", "Stratford", "Gants Hill"], "Number of Trips Left: ": 1}
+{"id: ": 134, "Trip: ": ["Canada Water", "Waterloo", "Embankment", "Notting Hill Gate", "Holland Park"], "Number of Trips Left: ": 2}
+{"id: ": 135, "Trip: ": ["Greenford", "Notting Hill Gate", "Victoria", "Stockwell", "South Wimbledon"], "Number of Trips Left: ": 4}
+{"id: ": 136, "Trip: ": ["Holloway Road", "Turnham Green"], "Number of Trips Left: ": 0}
+{"id: ": 137, "Trip: ": ["Gloucester Road", "High Street Kensington", "Kensington"], "Number of Trips Left: ": 1}
+{"id: ": 138, "Trip: ": ["Heathrow Terminals 2 & 3", "Holborn", "Chancery Lane"], "Number of Trips Left: ": 4}
+{"id: ": 139, "Trip: ": ["Charing Cross", "Embankment", "Liverpool Street", "Mile End"], "Number of Trips Left: ": 1}
+{"id: ": 140, "Trip: ": ["Chiswick Park", "Turnham Green", "Green Park", "West Ham", "Upney"], "Number of Trips Left: ": 1}
+{"id: ": 141, "Trip: ": ["Northwood", "Harrow-on-the-Hill", "Rayners Lane", "Ealing Common", "Stamford Brook"], "Number of Trips Left: ": 1}
+{"id: ": 143, "Trip: ": ["Marylebone", "Paddington", "Fulham Broadway"], "Number of Trips Left: ": 0}
+{"id: ": 145, "Trip: ": ["Northwood Hills", "Baker Street", "Charing Cross", "Waterloo", "Bermondsey"], "Number of Trips Left: ": 1}
+{"id: ": 146, "Trip: ": ["Highbury & Islington", "King's Cross St. Pancras", "Kennington"], "Number of Trips Left: ": 1}
+{"id: ": 147, "Trip: ": ["Fairlop", "Stratford", "Neasden"], "Number of Trips Left: ": 3}
+{"id: ": 148, "Trip: ": ["West Harrow", "Baker Street", "Sloane Square"], "Number of Trips Left: ": 4}
+{"id: ": 149, "Trip: ": ["Wembley Park", "Baker Street", "Charing Cross", "Embankment", "Elephant and Castle", "Borough"], "Number of Trips Left: ": 2}
+{"id: ": 151, "Trip: ": ["North Ealing", "Sudbury Hill"], "Number of Trips Left: ": 3}
+{"id: ": 153, "Trip: ": ["Heathrow Terminal 4", "Hounslow East", "Hammersmith", "Notting Hill Gate", "Oxford Circus", "Warren Street", "Chalk Farm"], "Number of Trips Left: ": 1}
+{"id: ": 154, "Trip: ": ["Plaistow", "King's Cross St. Pancras", "Finchley Central"], "Number of Trips Left: ": 2}
+{"id: ": 155, "Trip: ": ["Northwick Park", "King's Cross St. Pancras", "Russell Square"], "Number of Trips Left: ": 2}
+{"id: ": 156, "Trip: ": ["Bond Street", "Wembley Park", "Preston Road"], "Number of Trips Left: ": 4}
+{"id: ": 157, "Trip: ": ["Green Park", "Holborn", "Woodford"], "Number of Trips Left: ": 2}
+{"id: ": 158, "Trip: ": ["Rickmansworth", "Baker Street", "Regent's Park"], "Number of Trips Left: ": 2}
+{"id: ": 159, "Trip: ": ["Bond Street", "Notting Hill Gate", "Shepherd's Bush Market"], "Number of Trips Left: ": 4}
+{"id: ": 160, "Trip: ": ["Hillingdon", "Covent Garden"], "Number of Trips Left: ": 1}
+{"id: ": 161, "Trip: ": ["Croxley", "Finchley Road", "Farringdon", "Monument"], "Number of Trips Left: ": 0}
+{"id: ": 163, "Trip: ": ["Richmond", "Gloucester Road", "Leicester Square"], "Number of Trips Left: ": 3}
+{"id: ": 164, "Trip: ": ["Whitechapel", "Moorgate", "Tufnell Park"], "Number of Trips Left: ": 0}
+{"id: ": 165, "Trip: ": ["Acton Town", "Turnham Green"], "Number of Trips Left: ": 3}
+{"id: ": 166, "Trip: ": ["Marylebone", "Baker Street", "Moorgate"], "Number of Trips Left: ": 0}
+{"id: ": 167, "Trip: ": ["Westminster", "Edgware Road", "Kilburn Park"], "Number of Trips Left: ": 4}
+{"id: ": 168, "Trip: ": ["Brent Cross", "Warren Street", "Oxford Circus", "Notting Hill Gate", "Hammersmith", "Hounslow East"], "Number of Trips Left: ": 1}
+{"id: ": 169, "Trip: ": ["Bank", "Waterloo", "Westminster", "Victoria", "Pimlico"], "Number of Trips Left: ": 4}
+{"id: ": 170, "Trip: ": ["Waterloo", "Kennington", "Stockwell"], "Number of Trips Left: ": 3}
+{"id: ": 173, "Trip: ": ["Wembley Park", "Baker Street", "Oxford Circus", "Warren Street"], "Number of Trips Left: ": 1}
+{"id: ": 174, "Trip: ": ["Wembley Park", "Rayners Lane", "Ealing Common", "Chiswick Park"], "Number of Trips Left: ": 0}
+{"id: ": 176, "Trip: ": ["Oval", "Stockwell", "Victoria", "West Kensington"], "Number of Trips Left: ": 0}
+{"id: ": 177, "Trip: ": ["Watford", "Finchley Road", "West Ham", "Plaistow"], "Number of Trips Left: ": 4}
+{"id: ": 178, "Trip: ": ["Covent Garden", "King's Cross St. Pancras", "West Finchley"], "Number of Trips Left: ": 1}
+{"id: ": 180, "Trip: ": ["Whitechapel", "Liverpool Street", "Oxford Circus", "Paddington", "Latimer Road"], "Number of Trips Left: ": 4}
+{"id: ": 181, "Trip: ": ["Sudbury Hill", "Hammersmith", "Royal Oak"], "Number of Trips Left: ": 3}
+{"id: ": 182, "Trip: ": ["Brent Cross", "Warren Street", "Oxford Circus", "Notting Hill Gate", "Goldhawk Road"], "Number of Trips Left: ": 1}
+{"id: ": 183, "Trip: ": ["West Ruislip", "Oxford Circus", "Charing Cross", "Embankment", "Temple"], "Number of Trips Left: ": 3}
+{"id: ": 184, "Trip: ": ["Blackhorse Road", "King's Cross St. Pancras", "Gloucester Road", "Earl's Court"], "Number of Trips Left: ": 1}
+{"id: ": 185, "Trip: ": ["Heathrow Terminal 4", "Earl's Court", "Fulham Broadway"], "Number of Trips Left: ": 3}
+{"id: ": 186, "Trip: ": ["Parsons Green", "Earl's Court", "Green Park", "West Ham", "Dagenham East"], "Number of Trips Left: ": 2}
+{"id: ": 187, "Trip: ": ["Edgware Road", "King's Cross St. Pancras", "Manor House"], "Number of Trips Left: ": 2}
+{"id: ": 188, "Trip: ": ["Southwark", "Westminster", "Goldhawk Road"], "Number of Trips Left: ": 3}
+{"id: ": 189, "Trip: ": ["South Kensington", "Shepherd's Bush Market"], "Number of Trips Left: ": 1}
+{"id: ": 191, "Trip: ": ["Euston Square", "Monument"], "Number of Trips Left: ": 3}
+{"id: ": 192, "Trip: ": ["Bermondsey", "Waterloo", "Charing Cross", "Piccadilly Circus", "Ickenham"], "Number of Trips Left: ": 1}
+{"id: ": 193, "Trip: ": ["Tooting Broadway", "Stockwell", "Victoria", "South Kensington", "Hatton Cross"], "Number of Trips Left: ": 1}
+{"id: ": 194, "Trip: ": ["Ealing Common", "King's Cross St. Pancras", "Highgate"], "Number of Trips Left: ": 1}
+{"id: ": 195, "Trip: ": ["Turnham Green", "Hammersmith", "Paddington", "South Kenton"], "Number of Trips Left: ": 1}
+{"id: ": 196, "Trip: ": ["Goodge Street", "Leicester Square", "Green Park", "Stockwell", "Clapham North"], "Number of Trips Left: ": 3}
+{"id: ": 197, "Trip: ": ["Brixton", "Victoria", "Notting Hill Gate", "Greenford"], "Number of Trips Left: ": 2}
+{"id: ": 198, "Trip: ": ["Westminster", "Acton Town"], "Number of Trips Left: ": 3}
+{"id: ": 199, "Trip: ": ["Shepherd's Bush Market", "Hammersmith", "Earl's Court", "Southfields"], "Number of Trips Left: ": 0}
+{"id: ": 200, "Trip: ": ["Southfields", "Earl's Court", "Covent Garden"], "Number of Trips Left: ": 0}
+{"id: ": 201, "Trip: ": ["Chancery Lane", "Oxford Circus", "Baker Street", "Kilburn"], "Number of Trips Left: ": 1}
+{"id: ": 202, "Trip: ": ["Richmond", "Turnham Green", "Rayners Lane", "Harrow-on-the-Hill", "Chorleywood"], "Number of Trips Left: ": 2}
+{"id: ": 203, "Trip: ": ["Richmond", "Hammersmith", "Notting Hill Gate", "Oxford Circus", "Warren Street", "Camden Town"], "Number of Trips Left: ": 1}
+{"id: ": 204, "Trip: ": ["Kensal Green", "Oxford Circus", "Theydon Bois"], "Number of Trips Left: ": 4}
+{"id: ": 205, "Trip: ": ["White City", "Notting Hill Gate", "Wimbledon"], "Number of Trips Left: ": 1}
+{"id: ": 206, "Trip: ": ["Woodside Park", "Moorgate", "Whitechapel"], "Number of Trips Left: ": 4}
+{"id: ": 208, "Trip: ": ["Southwark", "Waterloo", "Highgate"], "Number of Trips Left: ": 1}
+{"id: ": 209, "Trip: ": ["Harrow & Wealdstone", "Maida Vale"], "Number of Trips Left: ": 4}
+{"id: ": 210, "Trip: ": ["North Acton", "Wanstead", "Barkingside"], "Number of Trips Left: ": 0}
+{"id: ": 211, "Trip: ": ["Ruislip Gardens", "North Acton", "Ealing Broadway", "Acton Town", "Osterley"], "Number of Trips Left: ": 3}
+{"id: ": 212, "Trip: ": ["Charing Cross", "Piccadilly Circus", "Ruislip Manor"], "Number of Trips Left: ": 3}
+{"id: ": 213, "Trip: ": ["St. John's Wood", "Dollis Hill"], "Number of Trips Left: ": 4}
+{"id: ": 214, "Trip: ": ["Northwick Park", "King's Cross St. Pancras", "Highbury & Islington"], "Number of Trips Left: ": 2}
+{"id: ": 218, "Trip: ": ["Boston Manor", "South Kensington", "Victoria", "Stockwell"], "Number of Trips Left: ": 1}
+{"id: ": 219, "Trip: ": ["Euston", "King's Cross St. Pancras", "Plaistow"], "Number of Trips Left: ": 4}
+{"id: ": 220, "Trip: ": ["Latimer Road", "Paddington", "Oxford Circus", "Holborn", "Russell Square"], "Number of Trips Left: ": 4}
+{"id: ": 221, "Trip: ": ["Boston Manor", "South Kensington"], "Number of Trips Left: ": 2}
+{"id: ": 223, "Trip: ": ["Finchley Road", "King's Cross St. Pancras", "Oakwood"], "Number of Trips Left: ": 3}
+{"id: ": 224, "Trip: ": ["Hounslow West", "Turnham Green", "Temple"], "Number of Trips Left: ": 0}
+{"id: ": 225, "Trip: ": ["Knightsbridge", "Hatton Cross"], "Number of Trips Left: ": 2}
+{"id: ": 226, "Trip: ": ["Totteridge & Whetstone", "King's Cross St. Pancras", "Wembley Park"], "Number of Trips Left: ": 0}
+{"id: ": 227, "Trip: ": ["North Wembley", "Baker Street", "King's Cross St. Pancras", "Russell Square"], "Number of Trips Left: ": 1}
+{"id: ": 229, "Trip: ": ["Holloway Road", "King's Cross St. Pancras", "Totteridge & Whetstone"], "Number of Trips Left: ": 3}
+{"id: ": 230, "Trip: ": ["Heathrow Terminals 2 & 3", "Hammersmith", "Notting Hill Gate", "Tottenham Court Road"], "Number of Trips Left: ": 0}
+{"id: ": 231, "Trip: ": ["Barking", "Euston Square"], "Number of Trips Left: ": 0}
+{"id: ": 232, "Trip: ": ["Edgware", "Colindale"], "Number of Trips Left: ": 1}
+{"id: ": 233, "Trip: ": ["Snaresbrook", "Liverpool Street", "St. James's Park"], "Number of Trips Left: ": 3}
+{"id: ": 234, "Trip: ": ["Ladbroke Grove", "Bow Road"], "Number of Trips Left: ": 0}
+{"id: ": 237, "Trip: ": ["Great Portland Street", "Baker Street", "Kilburn Park"], "Number of Trips Left: ": 3}
+{"id: ": 239, "Trip: ": ["Finchley Road", "Baker Street", "Wembley Central"], "Number of Trips Left: ": 0}
+{"id: ": 240, "Trip: ": ["Swiss Cottage", "Baker Street", "Oxford Circus"], "Number of Trips Left: ": 2}
+{"id: ": 244, "Trip: ": ["Canning Town", "Finchley Road", "North Harrow"], "Number of Trips Left: ": 4}
+{"id: ": 246, "Trip: ": ["Vauxhall", "Green Park", "Holborn", "Buckhurst Hill"], "Number of Trips Left: ": 0}
+{"id: ": 248, "Trip: ": ["Canada Water", "London Bridge", "West Finchley"], "Number of Trips Left: ": 1}
+{"id: ": 249, "Trip: ": ["East Acton", "Liverpool Street"], "Number of Trips Left: ": 2}
+{"id: ": 250, "Trip: ": ["Hainault", "Leyton", "Liverpool Street", "Barbican"], "Number of Trips Left: ": 4}
+{"id: ": 251, "Trip: ": ["Harrow-on-the-Hill", "Baker Street", "Marylebone"], "Number of Trips Left: ": 3}
+{"id: ": 252, "Trip: ": ["Highbury & Islington", "King's Cross St. Pancras", "Euston Square"], "Number of Trips Left: ": 3}
+{"id: ": 253, "Trip: ": ["Mansion House", "Embankment", "Earl's Court", "Parsons Green"], "Number of Trips Left: ": 1}
+{"id: ": 254, "Trip: ": ["Blackhorse Road", "Finsbury Park", "Ickenham"], "Number of Trips Left: ": 1}
+{"id: ": 255, "Trip: ": ["Manor House", "Finsbury Park", "Seven Sisters"], "Number of Trips Left: ": 1}
+{"id: ": 257, "Trip: ": ["Kennington", "Charing Cross", "Piccadilly Circus", "Hillingdon"], "Number of Trips Left: ": 2}
+{"id: ": 258, "Trip: ": ["West Harrow", "Baker Street", "Oxford Circus", "Woodford"], "Number of Trips Left: ": 3}
+{"id: ": 259, "Trip: ": ["Hainault", "Leyton", "Liverpool Street", "King's Cross St. Pancras", "Walthamstow Central"], "Number of Trips Left: ": 1}
+{"id: ": 260, "Trip: ": ["London Bridge", "Finchley Road", "Watford"], "Number of Trips Left: ": 1}
+{"id: ": 261, "Trip: ": ["Parsons Green", "Earl's Court", "Acton Town"], "Number of Trips Left: ": 4}
+{"id: ": 262, "Trip: ": ["Dollis Hill", "Baker Street", "Kilburn Park"], "Number of Trips Left: ": 2}
+{"id: ": 263, "Trip: ": ["Willesden Green", "Baker Street", "Shepherd's Bush Market"], "Number of Trips Left: ": 4}
+{"id: ": 264, "Trip: ": ["Mile End", "King's Cross St. Pancras", "Manor House"], "Number of Trips Left: ": 1}
+{"id: ": 265, "Trip: ": ["Southfields", "Earl's Court", "Green Park", "West Ham", "Upminster Bridge"], "Number of Trips Left: ": 2}
+{"id: ": 266, "Trip: ": ["Roding Valley", "Woodford", "Bank", "London Bridge", "Southwark"], "Number of Trips Left: ": 0}
+{"id: ": 268, "Trip: ": ["Tottenham Hale", "King's Cross St. Pancras", "Barbican"], "Number of Trips Left: ": 0}
+{"id: ": 269, "Trip: ": ["Buckhurst Hill", "Stratford", "West Ham", "Dagenham East"], "Number of Trips Left: ": 0}
+{"id: ": 270, "Trip: ": ["Bank", "Balham"], "Number of Trips Left: ": 2}
+{"id: ": 272, "Trip: ": ["Walthamstow Central", "King's Cross St. Pancras", "Borough"], "Number of Trips Left: ": 4}
+{"id: ": 273, "Trip: ": ["St. James's Park", "South Kensington", "North Ealing"], "Number of Trips Left: ": 4}
+{"id: ": 274, "Trip: ": ["Piccadilly Circus", "Eastcote"], "Number of Trips Left: ": 1}
+{"id: ": 275, "Trip: ": ["Queensway", "Notting Hill Gate", "Hammersmith", "Ruislip Manor"], "Number of Trips Left: ": 3}
+{"id: ": 276, "Trip: ": ["Finchley Road", "Baker Street", "Victoria"], "Number of Trips Left: ": 3}
+{"id: ": 277, "Trip: ": ["Stanmore", "Baker Street", "Marylebone", "Paddington", "Notting Hill Gate", "Greenford"], "Number of Trips Left: ": 4}
+{"id: ": 278, "Trip: ": ["Hanger Lane", "Notting Hill Gate", "Victoria", "Stockwell", "Colliers Wood"], "Number of Trips Left: ": 3}
+{"id: ": 280, "Trip: ": ["Tottenham Hale", "King's Cross St. Pancras", "Liverpool Street", "Buckhurst Hill"], "Number of Trips Left: ": 3}
+{"id: ": 281, "Trip: ": ["Stanmore", "Finchley Road", "King's Cross St. Pancras", "Arsenal"], "Number of Trips Left: ": 2}
+{"id: ": 282, "Trip: ": ["Elm Park", "West Ham", "Wembley Park", "Harrow-on-the-Hill"], "Number of Trips Left: ": 3}
+{"id: ": 283, "Trip: ": ["Pimlico", "Stockwell", "Tooting Bec"], "Number of Trips Left: ": 4}
+{"id: ": 284, "Trip: ": ["Bow Road", "King's Cross St. Pancras", "Finchley Road", "Kilburn"], "Number of Trips Left: ": 2}
+{"id: ": 285, "Trip: ": ["Alperton", "Rayners Lane", "Harrow-on-the-Hill", "Moor Park"], "Number of Trips Left: ": 2}
+{"id: ": 288, "Trip: ": ["Hanger Lane", "North Acton", "Ealing Broadway", "Acton Town", "Osterley"], "Number of Trips Left: ": 2}
+{"id: ": 290, "Trip: ": ["Hampstead", "Warren Street", "Oxford Circus", "North Acton"], "Number of Trips Left: ": 2}
+{"id: ": 291, "Trip: ": ["Ruislip Gardens", "Leytonstone", "Newbury Park"], "Number of Trips Left: ": 3}
+{"id: ": 292, "Trip: ": ["Stockwell", "Victoria", "South Kensington", "Heathrow Terminals 2 & 3"], "Number of Trips Left: ": 2}
+{"id: ": 293, "Trip: ": ["Tufnell Park", "King's Cross St. Pancras", "Gloucester Road", "Earl's Court"], "Number of Trips Left: ": 1}
+{"id: ": 294, "Trip: ": ["Walthamstow Central", "King's Cross St. Pancras", "Edgware Road", "Kensal Green"], "Number of Trips Left: ": 1}
+{"id: ": 295, "Trip: ": ["Marylebone", "Baker Street", "Tower Hill"], "Number of Trips Left: ": 3}
+{"id: ": 296, "Trip: ": ["Wanstead", "Leyton", "Oxford Circus", "Regent's Park"], "Number of Trips Left: ": 1}
+{"id: ": 297, "Trip: ": ["Edgware", "Warren Street", "Oxford Circus", "Paddington", "High Street Kensington"], "Number of Trips Left: ": 3}
+{"id: ": 298, "Trip: ": ["South Woodford", "Stratford", "Finchley Road", "Preston Road"], "Number of Trips Left: ": 3}
+{"id: ": 299, "Trip: ": ["Finchley Road", "Aldgate"], "Number of Trips Left: ": 3}
+{"id: ": 302, "Trip: ": ["Farringdon", "Hammersmith", "Heathrow Terminals 2 & 3"], "Number of Trips Left: ": 1}
+{"id: ": 303, "Trip: ": ["Leicester Square", "Embankment", "Moorgate"], "Number of Trips Left: ": 0}
+{"id: ": 305, "Trip: ": ["Stepney Green", "Temple"], "Number of Trips Left: ": 3}
+{"id: ": 306, "Trip: ": ["Ealing Common", "Victoria", "Vauxhall"], "Number of Trips Left: ": 1}
+{"id: ": 307, "Trip: ": ["Stamford Brook", "Hammersmith", "Paddington", "Regent's Park"], "Number of Trips Left: ": 0}
+{"id: ": 309, "Trip: ": ["Queensbury", "Stratford", "Woodford"], "Number of Trips Left: ": 0}
+{"id: ": 310, "Trip: ": ["West Kensington", "Earl's Court", "Green Park", "Warren Street", "Mornington Crescent"], "Number of Trips Left: ": 2}
+{"id: ": 311, "Trip: ": ["Colliers Wood", "Bank", "Epping"], "Number of Trips Left: ": 4}
+{"id: ": 312, "Trip: ": ["Mansion House", "Euston Square", "Finchley Road", "Stanmore"], "Number of Trips Left: ": 1}
+{"id: ": 313, "Trip: ": ["West Finchley", "Warren Street", "Oxford Circus", "Ealing Broadway"], "Number of Trips Left: ": 2}
+{"id: ": 315, "Trip: ": ["Whitechapel", "King's Cross St. Pancras", "Tottenham Hale"], "Number of Trips Left: ": 1}
+{"id: ": 316, "Trip: ": ["Wanstead", "Hainault", "Chigwell"], "Number of Trips Left: ": 2}
+{"id: ": 317, "Trip: ": ["Russell Square", "Holborn", "Bank", "Moorgate"], "Number of Trips Left: ": 2}
+{"id: ": 318, "Trip: ": ["Ruislip", "Hammersmith", "High Street Kensington"], "Number of Trips Left: ": 2}
+{"id: ": 319, "Trip: ": ["North Acton", "Notting Hill Gate", "Victoria", "Stockwell", "South Wimbledon"], "Number of Trips Left: ": 1}
+{"id: ": 320, "Trip: ": ["Monument", "Notting Hill Gate", "East Acton"], "Number of Trips Left: ": 1}
+{"id: ": 321, "Trip: ": ["Chalk Farm", "Morden"], "Number of Trips Left: ": 4}
+{"id: ": 322, "Trip: ": ["Tottenham Court Road", "Woodford", "Grange Hill"], "Number of Trips Left: ": 3}
+{"id: ": 325, "Trip: ": ["Westbourne Park", "Baker Street", "Kingsbury"], "Number of Trips Left: ": 0}
+{"id: ": 326, "Trip: ": ["Croxley", "Harrow-on-the-Hill", "Rayners Lane", "Acton Town", "Hatton Cross", "Heathrow Terminal 4"], "Number of Trips Left: ": 2}
+{"id: ": 328, "Trip: ": ["Woodford", "Notting Hill Gate", "Hammersmith", "Turnham Green"], "Number of Trips Left: ": 1}
+{"id: ": 329, "Trip: ": ["Brixton", "Victoria", "South Kensington", "Ickenham"], "Number of Trips Left: ": 3}
+{"id: ": 330, "Trip: ": ["Putney Bridge", "High Street Kensington", "Wood Lane"], "Number of Trips Left: ": 1}
+{"id: ": 331, "Trip: ": ["Golders Green", "King's Cross St. Pancras", "Finchley Road", "Kilburn"], "Number of Trips Left: ": 0}
+{"id: ": 333, "Trip: ": ["Turnpike Lane", "Holborn"], "Number of Trips Left: ": 3}
+{"id: ": 334, "Trip: ": ["Heathrow Terminals 2 & 3", "Hammersmith", "Paddington", "Harrow & Wealdstone"], "Number of Trips Left: ": 4}
+{"id: ": 336, "Trip: ": ["Snaresbrook", "Loughton"], "Number of Trips Left: ": 3}
+{"id: ": 337, "Trip: ": ["Lambeth North", "Waterloo", "West Ham", "Dagenham Heathway"], "Number of Trips Left: ": 3}
+{"id: ": 338, "Trip: ": ["Plaistow", "King's Cross St. Pancras", "Tottenham Hale"], "Number of Trips Left: ": 0}
+{"id: ": 339, "Trip: ": ["Kew Gardens", "Hammersmith", "Paddington", "Marylebone", "Baker Street", "St. John's Wood"], "Number of Trips Left: ": 0}
+{"id: ": 340, "Trip: ": ["Chalk Farm", "Hampstead"], "Number of Trips Left: ": 1}
+{"id: ": 342, "Trip: ": ["Bayswater", "Embankment", "Elephant and Castle"], "Number of Trips Left: ": 4}
+{"id: ": 344, "Trip: ": ["Debden", "Oxford Circus", "Kilburn Park"], "Number of Trips Left: ": 3}
+{"id: ": 345, "Trip: ": ["Charing Cross", "Piccadilly Circus", "Earl's Court", "West Brompton"], "Number of Trips Left: ": 4}
+{"id: ": 346, "Trip: ": ["Watford", "Moor Park", "Chorleywood"], "Number of Trips Left: ": 3}
+{"id: ": 347, "Trip: ": ["Marble Arch", "Mile End", "Bow Road"], "Number of Trips Left: ": 2}
+{"id: ": 348, "Trip: ": ["South Woodford", "Leytonstone"], "Number of Trips Left: ": 2}
+{"id: ": 349, "Trip: ": ["Tooting Bec", "Bank", "Mile End", "Bromley-by-Bow"], "Number of Trips Left: ": 0}
+{"id: ": 350, "Trip: ": ["Farringdon", "Cannon Street"], "Number of Trips Left: ": 1}
+{"id: ": 351, "Trip: ": ["Eastcote", "Piccadilly Circus", "Charing Cross"], "Number of Trips Left: ": 4}
+{"id: ": 352, "Trip: ": ["Piccadilly Circus", "Paddington", "Notting Hill Gate"], "Number of Trips Left: ": 1}
+{"id: ": 353, "Trip: ": ["Colindale", "Warren Street", "Oxford Circus", "Notting Hill Gate", "Hammersmith", "Heathrow Terminal 5"], "Number of Trips Left: ": 1}
+{"id: ": 354, "Trip: ": ["Bank", "Mile End", "Hornchurch"], "Number of Trips Left: ": 0}
+{"id: ": 355, "Trip: ": ["Euston Square", "Barking", "Hornchurch"], "Number of Trips Left: ": 3}
+{"id: ": 356, "Trip: ": ["Plaistow", "West Ham", "Green Park", "Earl's Court", "Southfields"], "Number of Trips Left: ": 4}
+{"id: ": 357, "Trip: ": ["Gloucester Road", "Edgware Road"], "Number of Trips Left: ": 2}
+{"id: ": 358, "Trip: ": ["St. John's Wood", "Bermondsey"], "Number of Trips Left: ": 2}
+{"id: ": 359, "Trip: ": ["Clapham South", "Bank", "Leytonstone"], "Number of Trips Left: ": 0}
+{"id: ": 360, "Trip: ": ["Bromley-by-Bow", "Ladbroke Grove"], "Number of Trips Left: ": 4}
+{"id: ": 361, "Trip: ": ["South Wimbledon", "Stockwell", "Victoria", "Paddington", "Harrow & Wealdstone"], "Number of Trips Left: ": 1}
+{"id: ": 363, "Trip: ": ["Hillingdon", "Gloucester Road"], "Number of Trips Left: ": 1}
+{"id: ": 364, "Trip: ": ["Southfields", "Paddington", "Kenton"], "Number of Trips Left: ": 3}
+{"id: ": 365, "Trip: ": ["Willesden Green", "Baker Street", "Marylebone", "Paddington", "Notting Hill Gate"], "Number of Trips Left: ": 2}
+{"id: ": 366, "Trip: ": ["Lambeth North", "Embankment", "Charing Cross"], "Number of Trips Left: ": 0}
+{"id: ": 367, "Trip: ": ["Borough", "Elephant and Castle", "Embankment", "Edgware Road", "North Wembley"], "Number of Trips Left: ": 3}
+{"id: ": 368, "Trip: ": ["Parsons Green", "Earl's Court", "Victoria", "Vauxhall"], "Number of Trips Left: ": 3}
+{"id: ": 369, "Trip: ": ["Hendon Central", "King's Cross St. Pancras", "Sudbury Hill"], "Number of Trips Left: ": 0}
+{"id: ": 370, "Trip: ": ["Westbourne Park", "Paddington", "Oxford Circus", "St. Paul's"], "Number of Trips Left: ": 1}
+{"id: ": 371, "Trip: ": ["Fairlop", "Leyton", "Liverpool Street", "King's Cross St. Pancras", "Southgate"], "Number of Trips Left: ": 4}
+{"id: ": 372, "Trip: ": ["Oakwood", "Southgate"], "Number of Trips Left: ": 2}
+{"id: ": 373, "Trip: ": ["Wimbledon", "Earl's Court", "Holborn", "Snaresbrook"], "Number of Trips Left: ": 0}
+{"id: ": 374, "Trip: ": ["Euston Square", "Hammersmith", "Hounslow East", "Heathrow Terminal 4"], "Number of Trips Left: ": 1}
+{"id: ": 375, "Trip: ": ["East Acton", "Notting Hill Gate", "Earl's Court"], "Number of Trips Left: ": 3}
+{"id: ": 376, "Trip: ": ["Queensway", "Oxford Circus", "King's Cross St. Pancras", "Southgate"], "Number of Trips Left: ": 0}
+{"id: ": 377, "Trip: ": ["Gants Hill", "West Acton"], "Number of Trips Left: ": 3}
+{"id: ": 378, "Trip: ": ["Maida Vale", "Oxford Circus", "Holborn"], "Number of Trips Left: ": 2}
+{"id: ": 379, "Trip: ": ["Moorgate", "Embankment"], "Number of Trips Left: ": 4}
+{"id: ": 380, "Trip: ": ["Epping", "Oxford Circus", "Baker Street", "Wembley Park"], "Number of Trips Left: ": 2}
+{"id: ": 381, "Trip: ": ["Green Park", "Warren Street", "Edgware"], "Number of Trips Left: ": 1}
+{"id: ": 384, "Trip: ": ["North Wembley", "Edgware Road", "Embankment", "Waterloo", "Southwark"], "Number of Trips Left: ": 3}
+{"id: ": 386, "Trip: ": ["Hammersmith", "Rayners Lane", "Harrow-on-the-Hill", "Watford"], "Number of Trips Left: ": 2}
+{"id: ": 387, "Trip: ": ["Stockwell", "Colindale"], "Number of Trips Left: ": 3}
+{"id: ": 388, "Trip: ": ["Becontree", "Barking", "King's Cross St. Pancras", "Kentish Town"], "Number of Trips Left: ": 2}
+{"id: ": 390, "Trip: ": ["Watford", "Croxley"], "Number of Trips Left: ": 4}
+{"id: ": 391, "Trip: ": ["Old Street", "Euston", "Mornington Crescent"], "Number of Trips Left: ": 0}
+{"id: ": 392, "Trip: ": ["Seven Sisters", "King's Cross St. Pancras"], "Number of Trips Left: ": 0}
+{"id: ": 393, "Trip: ": ["Park Royal", "Hammersmith", "Paddington", "Marylebone", "Baker Street", "St. John's Wood"], "Number of Trips Left: ": 3}
+{"id: ": 395, "Trip: ": ["Swiss Cottage", "Baker Street", "Marylebone", "Paddington", "Hammersmith"], "Number of Trips Left: ": 3}
+{"id: ": 396, "Trip: ": ["Baker Street", "Aldgate"], "Number of Trips Left: ": 1}
+{"id: ": 397, "Trip: ": ["Old Street", "Moorgate", "Embankment", "Charing Cross", "Piccadilly Circus", "Green Park"], "Number of Trips Left: ": 2}
+{"id: ": 398, "Trip: ": ["Morden", "Stockwell", "Victoria", "South Kensington", "Boston Manor"], "Number of Trips Left: ": 0}
+{"id: ": 399, "Trip: ": ["Finchley Central", "King's Cross St. Pancras", "Uxbridge"], "Number of Trips Left: ": 1}
+{"id: ": 400, "Trip: ": ["Covent Garden", "Leicester Square", "Tottenham Court Road", "Oxford Circus", "Baker Street", "Kingsbury"], "Number of Trips Left: ": 4}
+{"id: ": 401, "Trip: ": ["West Finchley", "King's Cross St. Pancras", "Edgware Road", "Willesden Junction"], "Number of Trips Left: ": 0}
+{"id: ": 402, "Trip: ": ["Cockfosters", "Oakwood"], "Number of Trips Left: ": 4}
+{"id: ": 403, "Trip: ": ["Watford", "Baker Street", "Charing Cross", "Kennington", "Oval"], "Number of Trips Left: ": 3}
+{"id: ": 404, "Trip: ": ["Hyde Park Corner", "Green Park", "Baker Street", "Watford"], "Number of Trips Left: ": 2}
+{"id: ": 405, "Trip: ": ["Marylebone", "Baker Street", "Aldgate"], "Number of Trips Left: ": 3}
+{"id: ": 407, "Trip: ": ["Blackhorse Road", "Finsbury Park", "Oakwood"], "Number of Trips Left: ": 1}
+{"id: ": 409, "Trip: ": ["Northwood", "Wembley Park"], "Number of Trips Left: ": 4}
+{"id: ": 410, "Trip: ": ["Ickenham", "Harrow-on-the-Hill", "Northwood"], "Number of Trips Left: ": 1}
+{"id: ": 411, "Trip: ": ["Plaistow", "West Ham", "Green Park", "South Ealing"], "Number of Trips Left: ": 0}
+{"id: ": 412, "Trip: ": ["Southfields", "Notting Hill Gate", "North Acton"], "Number of Trips Left: ": 3}
+{"id: ": 413, "Trip: ": ["Mile End", "King's Cross St. Pancras", "Walthamstow Central"], "Number of Trips Left: ": 3}
+{"id: ": 414, "Trip: ": ["Blackhorse Road", "Finsbury Park", "North Ealing"], "Number of Trips Left: ": 4}
+{"id: ": 415, "Trip: ": ["Hainault", "Leyton", "Liverpool Street", "Farringdon"], "Number of Trips Left: ": 1}
+{"id: ": 417, "Trip: ": ["Buckhurst Hill", "Stratford"], "Number of Trips Left: ": 2}
+{"id: ": 418, "Trip: ": ["Golders Green", "Warren Street", "Oxford Circus", "Harlesden"], "Number of Trips Left: ": 0}
+{"id: ": 420, "Trip: ": ["Tufnell Park", "King's Cross St. Pancras", "Baker Street", "Wembley Central"], "Number of Trips Left: ": 0}
+{"id: ": 421, "Trip: ": ["Euston", "Warren Street", "Oxford Circus", "Paddington", "Bayswater"], "Number of Trips Left: ": 3}
+{"id: ": 423, "Trip: ": ["Blackhorse Road", "King's Cross St. Pancras", "Notting Hill Gate", "Perivale"], "Number of Trips Left: ": 2}
+{"id: ": 424, "Trip: ": ["South Kensington", "Hounslow West"], "Number of Trips Left: ": 1}
+{"id: ": 425, "Trip: ": ["Moorgate", "King's Cross St. Pancras", "Camden Town", "Belsize Park"], "Number of Trips Left: ": 3}
+{"id: ": 426, "Trip: ": ["North Wembley", "Baker Street", "King's Cross St. Pancras", "Russell Square"], "Number of Trips Left: ": 1}
+{"id: ": 428, "Trip: ": ["Latimer Road", "Barking", "Becontree"], "Number of Trips Left: ": 4}
+{"id: ": 429, "Trip: ": ["Lambeth North", "Waterloo", "West Ham", "Becontree"], "Number of Trips Left: ": 3}
+{"id: ": 430, "Trip: ": ["North Harrow", "Wembley Park", "Bond Street"], "Number of Trips Left: ": 1}
+{"id: ": 431, "Trip: ": ["Totteridge & Whetstone", "King's Cross St. Pancras", "Holloway Road"], "Number of Trips Left: ": 3}
+{"id: ": 432, "Trip: ": ["Chalk Farm", "Tooting Bec"], "Number of Trips Left: ": 4}
+{"id: ": 433, "Trip: ": ["Rickmansworth", "Great Portland Street"], "Number of Trips Left: ": 0}
+{"id: ": 434, "Trip: ": ["Hounslow Central", "Hammersmith", "Notting Hill Gate", "Woodford", "Chigwell"], "Number of Trips Left: ": 3}
+{"id: ": 435, "Trip: ": ["Kensal Green", "Edgware Road", "Barking", "Dagenham East"], "Number of Trips Left: ": 0}
+{"id: ": 436, "Trip: ": ["Hornchurch", "West Ham", "Stratford", "Redbridge"], "Number of Trips Left: ": 1}
+{"id: ": 437, "Trip: ": ["Bethnal Green", "Bank", "Borough"], "Number of Trips Left: ": 4}
+{"id: ": 438, "Trip: ": ["Royal Oak", "Hammersmith", "Alperton"], "Number of Trips Left: ": 1}
+{"id: ": 439, "Trip: ": ["Euston", "Warren Street", "Oxford Circus", "Kenton"], "Number of Trips Left: ": 3}
+{"id: ": 440, "Trip: ": ["Ruislip", "Northwick Park"], "Number of Trips Left: ": 1}
+{"id: ": 441, "Trip: ": ["Osterley", "Piccadilly Circus", "Charing Cross", "Embankment", "Mansion House", "Whitechapel"], "Number of Trips Left: ": 0}
+{"id: ": 442, "Trip: ": ["Lambeth North", "Waterloo", "Westminster", "Victoria", "West Kensington"], "Number of Trips Left: ": 3}
+{"id: ": 443, "Trip: ": ["Pinner", "Harrow-on-the-Hill", "Rayners Lane", "Turnham Green"], "Number of Trips Left: ": 0}
+{"id: ": 444, "Trip: ": ["Bermondsey", "London Bridge", "Euston", "Mornington Crescent"], "Number of Trips Left: ": 1}
+{"id: ": 445, "Trip: ": ["Greenford", "Oxford Circus", "Warren Street", "Hendon Central"], "Number of Trips Left: ": 4}
+{"id: ": 448, "Trip: ": ["Embankment", "Charing Cross", "Baker Street", "Preston Road"], "Number of Trips Left: ": 3}
+{"id: ": 449, "Trip: ": ["West Hampstead", "Finchley Road", "King's Cross St. Pancras", "Whitechapel"], "Number of Trips Left: ": 2}
+{"id: ": 453, "Trip: ": ["Highgate", "King's Cross St. Pancras", "Finchley Road", "Willesden Green"], "Number of Trips Left: ": 3}
+{"id: ": 454, "Trip: ": ["Bethnal Green", "Holborn", "Hounslow West"], "Number of Trips Left: ": 1}
+{"id: ": 455, "Trip: ": ["Ealing Broadway", "Ealing Common", "Piccadilly Circus"], "Number of Trips Left: ": 1}
+{"id: ": 456, "Trip: ": ["Upton Park", "West Ham", "Bond Street", "Queensway"], "Number of Trips Left: ": 1}
+{"id: ": 457, "Trip: ": ["Putney Bridge", "Earl's Court", "Embankment", "Liverpool Street", "Bethnal Green"], "Number of Trips Left: ": 4}
+{"id: ": 458, "Trip: ": ["Edgware Road", "Hammersmith", "Hounslow Central"], "Number of Trips Left: ": 0}
+{"id: ": 459, "Trip: ": ["Dagenham East", "Mile End", "Tottenham Court Road"], "Number of Trips Left: ": 4}
+{"id: ": 461, "Trip: ": ["Temple", "Liverpool Street", "Barking", "Upminster Bridge"], "Number of Trips Left: ": 1}
+{"id: ": 462, "Trip: ": ["Leytonstone", "Oxford Circus", "South Kenton"], "Number of Trips Left: ": 4}
+{"id: ": 463, "Trip: ": ["Green Park", "Bond Street", "Holland Park"], "Number of Trips Left: ": 0}
+{"id: ": 464, "Trip: ": ["Hammersmith", "Green Park", "West Ham", "East Ham"], "Number of Trips Left: ": 2}
+{"id: ": 465, "Trip: ": ["Highbury & Islington", "King's Cross St. Pancras", "Victoria"], "Number of Trips Left: ": 3}
+{"id: ": 466, "Trip: ": ["East Putney", "Earl's Court", "Green Park", "Warren Street", "Camden Town", "High Barnet"], "Number of Trips Left: ": 3}
+{"id: ": 467, "Trip: ": ["High Barnet", "King's Cross St. Pancras", "Baker Street", "St. John's Wood"], "Number of Trips Left: ": 1}
+{"id: ": 468, "Trip: ": ["Watford", "Finchley Road", "Stratford", "Wanstead"], "Number of Trips Left: ": 4}
+{"id: ": 469, "Trip: ": ["Highbury & Islington", "King's Cross St. Pancras", "Harrow-on-the-Hill"], "Number of Trips Left: ": 4}
+{"id: ": 470, "Trip: ": ["Canning Town", "Green Park", "Turnham Green"], "Number of Trips Left: ": 0}
+{"id: ": 471, "Trip: ": ["Upton Park", "West Ham", "Stratford", "Snaresbrook"], "Number of Trips Left: ": 1}
+{"id: ": 472, "Trip: ": ["Hampstead", "Warren Street", "Oxford Circus", "West Ruislip"], "Number of Trips Left: ": 1}
+{"id: ": 473, "Trip: ": ["Canary Wharf", "West Ham", "Upminster Bridge"], "Number of Trips Left: ": 4}
+{"id: ": 474, "Trip: ": ["South Kensington", "Holborn", "Debden"], "Number of Trips Left: ": 4}
+{"id: ": 476, "Trip: ": ["Southwark", "Bond Street", "Hanger Lane"], "Number of Trips Left: ": 2}
+{"id: ": 477, "Trip: ": ["Hanger Lane", "Notting Hill Gate", "Victoria", "Vauxhall"], "Number of Trips Left: ": 4}
+{"id: ": 478, "Trip: ": ["Leyton", "Stratford", "Wembley Park", "Rayners Lane"], "Number of Trips Left: ": 2}
+{"id: ": 479, "Trip: ": ["Canons Park", "Baker Street", "North Wembley"], "Number of Trips Left: ": 3}
+{"id: ": 480, "Trip: ": ["Stratford", "Buckhurst Hill"], "Number of Trips Left: ": 2}
+{"id: ": 481, "Trip: ": ["West Harrow", "Rayners Lane", "Ealing Common", "Ealing Broadway", "North Acton"], "Number of Trips Left: ": 1}
+{"id: ": 483, "Trip: ": ["Croxley", "Baker Street", "Oxford Circus", "Buckhurst Hill"], "Number of Trips Left: ": 4}
+{"id: ": 484, "Trip: ": ["Waterloo", "Bank", "Liverpool Street"], "Number of Trips Left: ": 1}
+{"id: ": 485, "Trip: ": ["Maida Vale", "Oxford Circus", "Warren Street", "Belsize Park"], "Number of Trips Left: ": 2}
+{"id: ": 486, "Trip: ": ["Rayners Lane", "Ealing Common", "Ealing Broadway", "North Acton", "South Ruislip"], "Number of Trips Left: ": 4}
+{"id: ": 487, "Trip: ": ["Barons Court", "Victoria", "Westminster", "Bermondsey"], "Number of Trips Left: ": 4}
+{"id: ": 488, "Trip: ": ["Putney Bridge", "Fulham Broadway"], "Number of Trips Left: ": 4}
+{"id: ": 489, "Trip: ": ["Baker Street", "Oxford Circus", "Leyton", "Hainault"], "Number of Trips Left: ": 2}
+{"id: ": 490, "Trip: ": ["Bank", "Queensway"], "Number of Trips Left: ": 0}
+{"id: ": 491, "Trip: ": ["Wood Green", "King's Cross St. Pancras", "Golders Green"], "Number of Trips Left: ": 4}
+{"id: ": 493, "Trip: ": ["Edgware", "Camden Town", "King's Cross St. Pancras", "Barking", "Becontree"], "Number of Trips Left: ": 4}
+{"id: ": 494, "Trip: ": ["Elephant and Castle", "Embankment", "Charing Cross", "Baker Street", "Northwood Hills"], "Number of Trips Left: ": 4}
+{"id: ": 496, "Trip: ": ["East Ham", "West Ham", "Finchley Road", "Ruislip"], "Number of Trips Left: ": 3}
+{"id: ": 497, "Trip: ": ["Canary Wharf", "London Bridge", "King's Cross St. Pancras", "Blackhorse Road"], "Number of Trips Left: ": 0}
+{"id: ": 498, "Trip: ": ["Bethnal Green", "Gants Hill"], "Number of Trips Left: ": 1}
+{"id: ": 499, "Trip: ": ["Burnt Oak", "Warren Street", "Oxford Circus", "Stonebridge Park"], "Number of Trips Left: ": 0}
+{"id: ": 500, "Trip: ": ["North Acton", "Notting Hill Gate", "Embankment", "Kennington"], "Number of Trips Left: ": 0}
+{"id: ": 501, "Trip: ": ["Shepherd's Bush", "Ealing Broadway", "Acton Town", "Heathrow Terminal 5"], "Number of Trips Left: ": 2}
+{"id: ": 502, "Trip: ": ["Theydon Bois", "Perivale"], "Number of Trips Left: ": 0}
+{"id: ": 504, "Trip: ": ["Watford", "Finchley Road", "King's Cross St. Pancras", "Finsbury Park"], "Number of Trips Left: ": 0}
+{"id: ": 505, "Trip: ": ["Westbourne Park", "Baker Street", "Moor Park"], "Number of Trips Left: ": 0}
+{"id: ": 506, "Trip: ": ["Kenton", "Paddington", "Hammersmith", "Turnham Green"], "Number of Trips Left: ": 3}
+{"id: ": 507, "Trip: ": ["Newbury Park", "Mile End", "Stepney Green"], "Number of Trips Left: ": 3}
+{"id: ": 508, "Trip: ": ["Debden", "Notting Hill Gate", "Hammersmith", "Hounslow East", "Heathrow Terminal 4"], "Number of Trips Left: ": 1}
+{"id: ": 510, "Trip: ": ["Woodside Park", "Camden Town", "Belsize Park"], "Number of Trips Left: ": 2}
+{"id: ": 511, "Trip: ": ["Heathrow Terminal 5", "Acton Town", "Rayners Lane", "West Harrow"], "Number of Trips Left: ": 0}
+{"id: ": 512, "Trip: ": ["Finsbury Park", "King's Cross St. Pancras", "West Finchley"], "Number of Trips Left: ": 3}
+{"id: ": 513, "Trip: ": ["Euston", "Moorgate", "Liverpool Street", "Leyton", "Barkingside"], "Number of Trips Left: ": 1}
+{"id: ": 514, "Trip: ": ["Stratford", "West Ham", "Dagenham East"], "Number of Trips Left: ": 3}
+{"id: ": 515, "Trip: ": ["Colliers Wood", "Stockwell", "Victoria", "Baker Street", "Swiss Cottage"], "Number of Trips Left: ": 1}
+{"id: ": 517, "Trip: ": ["Royal Oak", "Notting Hill Gate", "Ruislip Gardens"], "Number of Trips Left: ": 3}
+{"id: ": 520, "Trip: ": ["North Harrow", "Baker Street", "Marylebone", "Paddington", "Notting Hill Gate", "Holland Park"], "Number of Trips Left: ": 3}
+{"id: ": 522, "Trip: ": ["Marylebone", "Oxford Circus", "South Woodford"], "Number of Trips Left: ": 4}
+{"id: ": 524, "Trip: ": ["Kew Gardens", "Turnham Green", "Acton Town", "Ickenham"], "Number of Trips Left: ": 0}
+{"id: ": 525, "Trip: ": ["Tooting Bec", "Stockwell", "Green Park", "Wembley Park", "North Harrow"], "Number of Trips Left: ": 3}
+{"id: ": 526, "Trip: ": ["Kilburn", "Wembley Park", "Rayners Lane", "Sudbury Town"], "Number of Trips Left: ": 4}
+{"id: ": 527, "Trip: ": ["Theydon Bois", "Tottenham Court Road", "Goodge Street"], "Number of Trips Left: ": 4}
+{"id: ": 529, "Trip: ": ["Goldhawk Road", "Hammersmith", "Osterley"], "Number of Trips Left: ": 4}
+{"id: ": 530, "Trip: ": ["Canary Wharf", "Stratford"], "Number of Trips Left: ": 0}
+{"id: ": 531, "Trip: ": ["Hillingdon", "Hammersmith", "Paddington", "Wembley Central"], "Number of Trips Left: ": 2}
+{"id: ": 532, "Trip: ": ["Old Street", "King's Cross St. Pancras", "Notting Hill Gate", "Northolt"], "Number of Trips Left: ": 3}
+{"id: ": 533, "Trip: ": ["Debden", "Mile End", "Tower Hill"], "Number of Trips Left: ": 4}
+{"id: ": 534, "Trip: ": ["Elephant and Castle", "Tooting Bec"], "Number of Trips Left: ": 3}
+{"id: ": 535, "Trip: ": ["Finsbury Park", "Oakwood"], "Number of Trips Left: ": 3}
+{"id: ": 536, "Trip: ": ["Kilburn Park", "Baker Street", "Barking"], "Number of Trips Left: ": 4}
+{"id: ": 537, "Trip: ": ["Chorleywood", "Finchley Road", "Canary Wharf"], "Number of Trips Left: ": 0}
+{"id: ": 538, "Trip: ": ["Baker Street", "Northwood Hills"], "Number of Trips Left: ": 1}
+{"id: ": 539, "Trip: ": ["Uxbridge", "King's Cross St. Pancras", "Barking", "Elm Park"], "Number of Trips Left: ": 1}
+{"id: ": 540, "Trip: ": ["Westminster", "King's Cross St. Pancras", "Southgate"], "Number of Trips Left: ": 3}
+{"id: ": 541, "Trip: ": ["Stockwell", "Victoria", "Edgware Road"], "Number of Trips Left: ": 2}
+{"id: ": 543, "Trip: ": ["Bromley-by-Bow", "West Ham", "Stratford", "Woodford", "Chigwell"], "Number of Trips Left: ": 4}
+{"id: ": 544, "Trip: ": ["Kentish Town", "King's Cross St. Pancras", "Finchley Road", "West Hampstead"], "Number of Trips Left: ": 0}
+{"id: ": 545, "Trip: ": ["Plaistow", "West Ham", "Stratford", "Hainault", "Grange Hill"], "Number of Trips Left: ": 1}
+{"id: ": 547, "Trip: ": ["East Putney", "Earl's Court", "Holborn", "Leyton", "Gants Hill"], "Number of Trips Left: ": 0}
+{"id: ": 548, "Trip: ": ["Kenton", "Baker Street", "Barking", "Dagenham East"], "Number of Trips Left: ": 4}
+{"id: ": 550, "Trip: ": ["Uxbridge", "Earl's Court", "Southfields"], "Number of Trips Left: ": 3}
+{"id: ": 551, "Trip: ": ["Barbican", "Latimer Road"], "Number of Trips Left: ": 4}
+{"id: ": 552, "Trip: ": ["King's Cross St. Pancras", "Edgware Road", "Willesden Junction"], "Number of Trips Left: ": 2}
+{"id: ": 553, "Trip: ": ["Manor House", "King's Cross St. Pancras", "Barking", "Hornchurch"], "Number of Trips Left: ": 0}
+{"id: ": 554, "Trip: ": ["Snaresbrook", "Notting Hill Gate", "Hammersmith", "Stamford Brook"], "Number of Trips Left: ": 2}
+{"id: ": 555, "Trip: ": ["Kilburn", "Stratford", "Wanstead"], "Number of Trips Left: ": 1}
+{"id: ": 557, "Trip: ": ["Notting Hill Gate", "Leyton", "Barkingside"], "Number of Trips Left: ": 2}
+{"id: ": 558, "Trip: ": ["Heathrow Terminal 4", "Holborn", "Chancery Lane"], "Number of Trips Left: ": 0}
+{"id: ": 559, "Trip: ": ["Buckhurst Hill", "Bank", "Clapham South"], "Number of Trips Left: ": 3}
+{"id: ": 560, "Trip: ": ["Harrow-on-the-Hill", "Baker Street", "Charing Cross"], "Number of Trips Left: ": 2}
+{"id: ": 561, "Trip: ": ["Earl's Court", "Victoria", "Westminster", "Waterloo", "Lambeth North"], "Number of Trips Left: ": 1}
+{"id: ": 562, "Trip: ": ["Barons Court", "Holborn", "Leyton", "Wanstead"], "Number of Trips Left: ": 3}
+{"id: ": 563, "Trip: ": ["East Acton", "Notting Hill Gate", "King's Cross St. Pancras", "Finsbury Park"], "Number of Trips Left: ": 4}
+{"id: ": 564, "Trip: ": ["Mile End", "Holborn", "North Ealing"], "Number of Trips Left: ": 2}
+{"id: ": 565, "Trip: ": ["Heathrow Terminal 5", "Hammersmith", "Paddington", "Marylebone", "Baker Street", "Dollis Hill"], "Number of Trips Left: ": 0}
+{"id: ": 566, "Trip: ": ["Cockfosters", "Hounslow Central"], "Number of Trips Left: ": 4}
+{"id: ": 567, "Trip: ": ["Parsons Green", "Notting Hill Gate", "Ruislip Gardens", "West Ruislip"], "Number of Trips Left: ": 2}
+{"id: ": 568, "Trip: ": ["Bethnal Green", "Oxford Circus", "Paddington"], "Number of Trips Left: ": 3}
+{"id: ": 569, "Trip: ": ["Bethnal Green", "Liverpool Street", "Finchley Road", "Kingsbury"], "Number of Trips Left: ": 2}
+{"id: ": 571, "Trip: ": ["Ruislip Gardens", "Notting Hill Gate", "Paddington", "Warwick Avenue"], "Number of Trips Left: ": 3}
+{"id: ": 572, "Trip: ": ["Stonebridge Park", "Harrow & Wealdstone"], "Number of Trips Left: ": 2}
+{"id: ": 573, "Trip: ": ["Edgware Road", "Charing Cross"], "Number of Trips Left: ": 3}
+{"id: ": 574, "Trip: ": ["Vauxhall", "Victoria", "Westminster", "Waterloo", "Bank", "Newbury Park"], "Number of Trips Left: ": 1}
+{"id: ": 575, "Trip: ": ["Northwood", "Harrow-on-the-Hill", "Rayners Lane", "Turnham Green", "Gunnersbury"], "Number of Trips Left: ": 3}
+{"id: ": 576, "Trip: ": ["Willesden Junction", "Kenton"], "Number of Trips Left: ": 2}
+{"id: ": 578, "Trip: ": ["Regent's Park", "Baker Street", "Chorleywood"], "Number of Trips Left: ": 1}
+{"id: ": 579, "Trip: ": ["Oakwood", "Hillingdon"], "Number of Trips Left: ": 0}
+{"id: ": 581, "Trip: ": ["Holloway Road", "King's Cross St. Pancras", "Shepherd's Bush Market"], "Number of Trips Left: ": 3}
+{"id: ": 582, "Trip: ": ["Newbury Park", "Bethnal Green", "Liverpool Street", "Moorgate", "Totteridge & Whetstone"], "Number of Trips Left: ": 1}
+{"id: ": 583, "Trip: ": ["Southwark", "West Ham", "Upney"], "Number of Trips Left: ": 4}
+{"id: ": 584, "Trip: ": ["Sloane Square", "Baker Street", "Dollis Hill"], "Number of Trips Left: ": 3}
+{"id: ": 585, "Trip: ": ["Upton Park", "Dagenham East"], "Number of Trips Left: ": 2}
+{"id: ": 586, "Trip: ": ["Tooting Broadway", "Stockwell", "Victoria", "South Kensington", "Osterley"], "Number of Trips Left: ": 4}
+{"id: ": 588, "Trip: ": ["West Ham", "Canada Water"], "Number of Trips Left: ": 3}
+{"id: ": 590, "Trip: ": ["Neasden", "Baker Street", "Charing Cross"], "Number of Trips Left: ": 3}
+{"id: ": 591, "Trip: ": ["Amersham", "Harrow-on-the-Hill", "Rayners Lane", "Acton Town", "Osterley"], "Number of Trips Left: ": 0}
+{"id: ": 592, "Trip: ": ["West Acton", "Notting Hill Gate", "Victoria", "Stockwell", "Balham"], "Number of Trips Left: ": 1}
+{"id: ": 593, "Trip: ": ["West Ham", "Baker Street", "South Kenton"], "Number of Trips Left: ": 3}
+{"id: ": 594, "Trip: ": ["Charing Cross", "Oxford Circus", "Marble Arch"], "Number of Trips Left: ": 2}
+{"id: ": 596, "Trip: ": ["Becontree", "West Ham", "London Bridge", "Stockwell", "Brixton"], "Number of Trips Left: ": 2}
+{"id: ": 597, "Trip: ": ["Ruislip Manor", "Baker Street", "Aldgate"], "Number of Trips Left: ": 1}
+{"id: ": 599, "Trip: ": ["Parsons Green", "Earl's Court", "Holborn", "Woodford", "Roding Valley"], "Number of Trips Left: ": 0}
+{"id: ": 600, "Trip: ": ["Ruislip", "Covent Garden"], "Number of Trips Left: ": 4}
+{"id: ": 601, "Trip: ": ["Ickenham", "Baker Street", "Barbican"], "Number of Trips Left: ": 2}
+{"id: ": 602, "Trip: ": ["High Barnet", "Camden Town", "Edgware"], "Number of Trips Left: ": 2}
+{"id: ": 603, "Trip: ": ["Parsons Green", "Earl's Court", "Oakwood"], "Number of Trips Left: ": 0}
+{"id: ": 604, "Trip: ": ["East Acton", "Notting Hill Gate", "Paddington", "Queen's Park"], "Number of Trips Left: ": 2}
+{"id: ": 605, "Trip: ": ["Covent Garden", "Heathrow Terminal 4"], "Number of Trips Left: ": 2}
+{"id: ": 606, "Trip: ": ["Kingsbury", "Green Park", "Stockwell", "Tooting Bec"], "Number of Trips Left: ": 3}
+{"id: ": 607, "Trip: ": ["Watford", "Finchley Road", "Great Portland Street", "Temple"], "Number of Trips Left: ": 3}
+{"id: ": 608, "Trip: ": ["Hounslow Central", "Acton Town", "Rayners Lane", "Harrow-on-the-Hill", "Rickmansworth"], "Number of Trips Left: ": 2}
+{"id: ": 609, "Trip: ": ["Westbourne Park", "King's Cross St. Pancras", "Cockfosters"], "Number of Trips Left: ": 4}
+{"id: ": 610, "Trip: ": ["Cannon Street", "Notting Hill Gate", "Ealing Broadway"], "Number of Trips Left: ": 0}
+{"id: ": 611, "Trip: ": ["Hainault", "Woodford", "Perivale"], "Number of Trips Left: ": 2}
+{"id: ": 613, "Trip: ": ["Arsenal", "King's Cross St. Pancras", "Hendon Central"], "Number of Trips Left: ": 2}
+{"id: ": 614, "Trip: ": ["Maida Vale", "Baker Street", "Monument"], "Number of Trips Left: ": 2}
+{"id: ": 616, "Trip: ": ["Hainault", "Mile End", "Aldgate East"], "Number of Trips Left: ": 3}
+{"id: ": 617, "Trip: ": ["Stonebridge Park", "Edgware Road", "Embankment", "Waterloo", "Bermondsey"], "Number of Trips Left: ": 1}
+{"id: ": 618, "Trip: ": ["Cockfosters", "King's Cross St. Pancras", "Edgware Road", "Kensal Green"], "Number of Trips Left: ": 0}
+{"id: ": 619, "Trip: ": ["Woodside Park", "Moorgate", "Whitechapel"], "Number of Trips Left: ": 3}
+{"id: ": 622, "Trip: ": ["Fulham Broadway", "Earl's Court", "Park Royal"], "Number of Trips Left: ": 3}
+{"id: ": 625, "Trip: ": ["Willesden Green", "Finchley Road"], "Number of Trips Left: ": 1}
+{"id: ": 626, "Trip: ": ["Westminster", "Edgware Road", "Harrow & Wealdstone"], "Number of Trips Left: ": 2}
+{"id: ": 627, "Trip: ": ["Blackhorse Road", "King's Cross St. Pancras", "Liverpool Street", "Debden"], "Number of Trips Left: ": 3}
+{"id: ": 628, "Trip: ": ["Tooting Broadway", "Kennington"], "Number of Trips Left: ": 3}
+{"id: ": 630, "Trip: ": ["Snaresbrook", "Holborn", "Green Park", "Vauxhall"], "Number of Trips Left: ": 3}
+{"id: ": 631, "Trip: ": ["Mile End", "King's Cross St. Pancras", "Alperton", "Hillingdon"], "Number of Trips Left: ": 4}
+{"id: ": 632, "Trip: ": ["Wood Lane", "King's Cross St. Pancras", "Seven Sisters"], "Number of Trips Left: ": 1}
+{"id: ": 633, "Trip: ": ["Newbury Park", "Bethnal Green", "Liverpool Street", "Embankment"], "Number of Trips Left: ": 2}
+{"id: ": 634, "Trip: ": ["Barons Court", "Boston Manor"], "Number of Trips Left: ": 2}
+{"id: ": 635, "Trip: ": ["Finsbury Park", "King's Cross St. Pancras", "Edgware Road", "Stonebridge Park"], "Number of Trips Left: ": 2}
+{"id: ": 637, "Trip: ": ["Chorleywood", "Harrow-on-the-Hill", "Rayners Lane", "Acton Town", "Hatton Cross", "Heathrow Terminal 4"], "Number of Trips Left: ": 4}
+{"id: ": 638, "Trip: ": ["Stratford", "Mile End", "King's Cross St. Pancras", "Southgate"], "Number of Trips Left: ": 0}
+{"id: ": 639, "Trip: ": ["West Ham", "Green Park", "Turnham Green"], "Number of Trips Left: ": 3}
+{"id: ": 640, "Trip: ": ["West Harrow", "Ickenham"], "Number of Trips Left: ": 2}
+{"id: ": 641, "Trip: ": ["Aldgate", "Finchley Road", "Queensbury"], "Number of Trips Left: ": 0}
+{"id: ": 643, "Trip: ": ["Greenford", "Tottenham Court Road", "Leicester Square", "Covent Garden"], "Number of Trips Left: ": 1}
+{"id: ": 644, "Trip: ": ["Sudbury Hill", "Bounds Green"], "Number of Trips Left: ": 2}
+{"id: ": 645, "Trip: ": ["Colliers Wood", "Stockwell", "Victoria", "South Kensington", "Park Royal"], "Number of Trips Left: ": 2}
+{"id: ": 646, "Trip: ": ["Kenton", "Edgware Road", "Embankment"], "Number of Trips Left: ": 0}
+{"id: ": 647, "Trip: ": ["Hampstead", "Warren Street", "Oxford Circus", "Marylebone"], "Number of Trips Left: ": 2}
+{"id: ": 648, "Trip: ": ["North Harrow", "Baker Street", "Westminster"], "Number of Trips Left: ": 0}
+{"id: ": 650, "Trip: ": ["Finchley Road", "Stratford", "Redbridge"], "Number of Trips Left: ": 0}
+{"id: ": 651, "Trip: ": ["Aldgate East", "Liverpool Street", "Marble Arch"], "Number of Trips Left: ": 4}
+{"id: ": 652, "Trip: ": ["Wembley Park", "Pinner"], "Number of Trips Left: ": 3}
+{"id: ": 653, "Trip: ": ["Hammersmith", "Notting Hill Gate", "Oxford Circus", "Warren Street", "Mornington Crescent"], "Number of Trips Left: ": 0}
+{"id: ": 654, "Trip: ": ["South Wimbledon", "Stockwell", "Victoria", "Paddington", "Kensal Green"], "Number of Trips Left: ": 2}
+{"id: ": 655, "Trip: ": ["Rayners Lane", "Harrow-on-the-Hill", "Rickmansworth"], "Number of Trips Left: ": 1}
+{"id: ": 656, "Trip: ": ["Barking", "West Ham", "Bond Street", "White City"], "Number of Trips Left: ": 0}
+{"id: ": 657, "Trip: ": ["South Ealing", "Acton Town", "Rayners Lane", "Harrow-on-the-Hill", "Croxley"], "Number of Trips Left: ": 0}
+{"id: ": 658, "Trip: ": ["King's Cross St. Pancras", "Hammersmith", "Stamford Brook"], "Number of Trips Left: ": 2}
+{"id: ": 660, "Trip: ": ["Stonebridge Park", "Edgware Road", "Baker Street", "Canary Wharf"], "Number of Trips Left: ": 3}
+{"id: ": 661, "Trip: ": ["High Barnet", "Camden Town", "Edgware"], "Number of Trips Left: ": 1}
+{"id: ": 662, "Trip: ": ["Barkingside", "Stratford", "Wembley Park", "Rayners Lane"], "Number of Trips Left: ": 4}
+{"id: ": 663, "Trip: ": ["Dagenham Heathway", "West Ham", "Southwark", "Westminster", "Victoria"], "Number of Trips Left: ": 0}
+{"id: ": 664, "Trip: ": ["North Harrow", "Baker Street", "Kilburn Park"], "Number of Trips Left: ": 1}
+{"id: ": 666, "Trip: ": ["Hammersmith", "Notting Hill Gate", "Oxford Circus", "Warren Street", "West Finchley"], "Number of Trips Left: ": 4}
+{"id: ": 667, "Trip: ": ["Covent Garden", "Holloway Road"], "Number of Trips Left: ": 1}
+{"id: ": 668, "Trip: ": ["Neasden", "Baker Street", "Oxford Circus", "Woodford"], "Number of Trips Left: ": 3}
+{"id: ": 669, "Trip: ": ["Upminster Bridge", "West Ham", "Green Park", "Earl's Court"], "Number of Trips Left: ": 2}
+{"id: ": 670, "Trip: ": ["Lambeth North", "Waterloo", "Bank", "Liverpool Street", "Tower Hill"], "Number of Trips Left: ": 1}
+{"id: ": 671, "Trip: ": ["Rickmansworth", "Baker Street", "Edgware Road"], "Number of Trips Left: ": 4}
+{"id: ": 672, "Trip: ": ["Newbury Park", "Leyton", "Holborn", "Boston Manor"], "Number of Trips Left: ": 0}
+{"id: ": 673, "Trip: ": ["Hyde Park Corner", "Holborn", "Leyton", "Newbury Park"], "Number of Trips Left: ": 3}
+{"id: ": 675, "Trip: ": ["St. Paul's", "Oxford Circus", "Baker Street", "St. John's Wood"], "Number of Trips Left: ": 1}
+{"id: ": 677, "Trip: ": ["Gloucester Road", "King's Cross St. Pancras"], "Number of Trips Left: ": 0}
+{"id: ": 678, "Trip: ": ["Buckhurst Hill", "Woodford", "Hainault", "Newbury Park"], "Number of Trips Left: ": 4}
+{"id: ": 679, "Trip: ": ["Warren Street", "Oxford Circus", "Baker Street", "Preston Road"], "Number of Trips Left: ": 3}
+{"id: ": 680, "Trip: ": ["Chigwell", "Woodford", "Holborn", "Earl's Court"], "Number of Trips Left: ": 0}
+{"id: ": 681, "Trip: ": ["Wanstead", "Leyton", "Holborn", "Park Royal"], "Number of Trips Left: ": 2}
+{"id: ": 682, "Trip: ": ["Mansion House", "Embankment", "Tottenham Court Road"], "Number of Trips Left: ": 4}
+{"id: ": 684, "Trip: ": ["Bethnal Green", "Notting Hill Gate"], "Number of Trips Left: ": 3}
+{"id: ": 687, "Trip: ": ["Kenton", "Baker Street", "Chorleywood"], "Number of Trips Left: ": 2}
+{"id: ": 688, "Trip: ": ["Whitechapel", "Mile End", "Hainault"], "Number of Trips Left: ": 2}
+{"id: ": 689, "Trip: ": ["Colindale", "Warren Street", "Green Park", "Earl's Court", "Putney Bridge"], "Number of Trips Left: ": 4}
+{"id: ": 691, "Trip: ": ["Baker Street", "Ruislip"], "Number of Trips Left: ": 1}
+{"id: ": 692, "Trip: ": ["Wimbledon Park", "Notting Hill Gate", "North Acton"], "Number of Trips Left: ": 0}
+{"id: ": 693, "Trip: ": ["Queen's Park", "Baker Street", "King's Cross St. Pancras", "Southgate"], "Number of Trips Left: ": 1}
+{"id: ": 694, "Trip: ": ["Blackhorse Road", "King's Cross St. Pancras", "Northwick Park"], "Number of Trips Left: ": 4}
+{"id: ": 695, "Trip: ": ["Turnham Green", "Earl's Court", "Putney Bridge"], "Number of Trips Left: ": 3}
+{"id: ": 696, "Trip: ": ["West Hampstead", "Finchley Road", "King's Cross St. Pancras", "Southgate"], "Number of Trips Left: ": 4}
+{"id: ": 697, "Trip: ": ["Wanstead", "Leyton", "Marble Arch"], "Number of Trips Left: ": 4}
+{"id: ": 698, "Trip: ": ["White City", "Notting Hill Gate", "Paddington", "Marylebone", "Baker Street", "Willesden Green"], "Number of Trips Left: ": 0}
+{"id: ": 700, "Trip: ": ["West Harrow", "Aldgate"], "Number of Trips Left: ": 1}
+{"id: ": 701, "Trip: ": ["Newbury Park", "Stratford", "West Ham", "Becontree"], "Number of Trips Left: ": 3}
+{"id: ": 702, "Trip: ": ["Perivale", "Notting Hill Gate", "King's Cross St. Pancras"], "Number of Trips Left: ": 4}
+{"id: ": 703, "Trip: ": ["Kew Gardens", "Barons Court", "Temple", "Moorgate"], "Number of Trips Left: ": 0}
+{"id: ": 704, "Trip: ": ["Snaresbrook", "Bank", "Tooting Broadway"], "Number of Trips Left: ": 2}
+{"id: ": 705, "Trip: ": ["Upton Park", "West Ham", "Finchley Road", "Ruislip"], "Number of Trips Left: ": 1}
+{"id: ": 706, "Trip: ": ["Wood Green", "Acton Town"], "Number of Trips Left: ": 0}
+{"id: ": 707, "Trip: ": ["Chesham", "King's Cross St. Pancras", "Whitechapel"], "Number of Trips Left: ": 2}
+{"id: ": 708, "Trip: ": ["Barkingside", "Leyton", "Tottenham Court Road"], "Number of Trips Left: ": 0}
+{"id: ": 710, "Trip: ": ["Waterloo", "Charing Cross"], "Number of Trips Left: ": 4}
+{"id: ": 711, "Trip: ": ["West Hampstead", "Baker Street", "Harrow & Wealdstone"], "Number of Trips Left: ": 3}
+{"id: ": 713, "Trip: ": ["London Bridge", "Westminster", "High Street Kensington"], "Number of Trips Left: ": 4}
+{"id: ": 714, "Trip: ": ["Victoria", "Stockwell", "Balham"], "Number of Trips Left: ": 0}
+{"id: ": 715, "Trip: ": ["Barbican", "Ladbroke Grove"], "Number of Trips Left: ": 2}
+{"id: ": 716, "Trip: ": ["Highbury & Islington", "King's Cross St. Pancras", "South Ealing"], "Number of Trips Left: ": 3}
+{"id: ": 717, "Trip: ": ["Finchley Road", "Baker Street", "Victoria", "Stockwell", "Clapham South"], "Number of Trips Left: ": 3}
+{"id: ": 718, "Trip: ": ["Kew Gardens", "Earl's Court", "Wimbledon"], "Number of Trips Left: ": 2}
+{"id: ": 719, "Trip: ": ["Shepherd's Bush", "Notting Hill Gate", "St. James's Park"], "Number of Trips Left: ": 3}
+{"id: ": 720, "Trip: ": ["Brent Cross", "King's Cross St. Pancras", "Euston Square"], "Number of Trips Left: ": 3}
+{"id: ": 722, "Trip: ": ["High Barnet", "King's Cross St. Pancras", "Preston Road"], "Number of Trips Left: ": 0}
+{"id: ": 723, "Trip: ": ["Tower Hill", "Embankment", "Goodge Street"], "Number of Trips Left: ": 2}
+{"id: ": 724, "Trip: ": ["Cannon Street", "King's Cross St. Pancras"], "Number of Trips Left: ": 0}
+{"id: ": 725, "Trip: ": ["Embankment", "Farringdon"], "Number of Trips Left: ": 3}
+{"id: ": 726, "Trip: ": ["Whitechapel", "Liverpool Street", "Tottenham Court Road"], "Number of Trips Left: ": 1}
+{"id: ": 727, "Trip: ": ["Queensway", "Woodford", "Chigwell"], "Number of Trips Left: ": 4}
+{"id: ": 728, "Trip: ": ["Kentish Town", "King's Cross St. Pancras", "Hatton Cross"], "Number of Trips Left: ": 2}
+{"id: ": 729, "Trip: ": ["Osterley", "Turnham Green", "Richmond"], "Number of Trips Left: ": 1}
+{"id: ": 730, "Trip: ": ["West Harrow", "Wembley Park", "Stratford", "Hainault"], "Number of Trips Left: ": 4}
+{"id: ": 731, "Trip: ": ["Ealing Common", "Green Park", "Canning Town"], "Number of Trips Left: ": 4}
+{"id: ": 732, "Trip: ": ["Alperton", "Hammersmith", "Notting Hill Gate", "Lancaster Gate"], "Number of Trips Left: ": 1}
+{"id: ": 733, "Trip: ": ["Chorleywood", "Wembley Park", "Bond Street", "Queensway"], "Number of Trips Left: ": 2}
+{"id: ": 734, "Trip: ": ["Tufnell Park", "London Bridge", "Canada Water"], "Number of Trips Left: ": 3}
+{"id: ": 735, "Trip: ": ["Shepherd's Bush", "Notting Hill Gate", "Victoria", "Stockwell", "Colliers Wood"], "Number of Trips Left: ": 4}
+{"id: ": 737, "Trip: ": ["Barbican", "St. James's Park"], "Number of Trips Left: ": 3}
+{"id: ": 738, "Trip: ": ["Stanmore", "Finchley Road", "King's Cross St. Pancras", "Camden Town", "Chalk Farm"], "Number of Trips Left: ": 4}
+{"id: ": 739, "Trip: ": ["Morden", "Bank", "Debden"], "Number of Trips Left: ": 0}
+{"id: ": 740, "Trip: ": ["Golders Green", "Warren Street", "Green Park", "Earl's Court", "Parsons Green"], "Number of Trips Left: ": 1}
+{"id: ": 741, "Trip: ": ["Cockfosters", "King's Cross St. Pancras", "Embankment", "Waterloo"], "Number of Trips Left: ": 4}
+{"id: ": 742, "Trip: ": ["Dagenham Heathway", "West Ham", "London Bridge", "Balham"], "Number of Trips Left: ": 1}
+{"id: ": 743, "Trip: ": ["West Ruislip", "Ruislip Gardens", "Notting Hill Gate", "Victoria", "Vauxhall"], "Number of Trips Left: ": 1}
+{"id: ": 744, "Trip: ": ["Stepney Green", "King's Cross St. Pancras", "Camden Town", "Chalk Farm"], "Number of Trips Left: ": 4}
+{"id: ": 745, "Trip: ": ["Becontree", "West Ham", "London Bridge", "Kennington"], "Number of Trips Left: ": 1}
+{"id: ": 747, "Trip: ": ["Mile End", "Edgware Road", "Kensal Green"], "Number of Trips Left: ": 2}
+{"id: ": 748, "Trip: ": ["Euston Square", "Victoria", "Brixton"], "Number of Trips Left: ": 1}
+{"id: ": 749, "Trip: ": ["Barkingside", "Leyton", "Oxford Circus", "Paddington", "Ladbroke Grove"], "Number of Trips Left: ": 1}
+{"id: ": 750, "Trip: ": ["Bayswater", "Paddington", "Oxford Circus", "Woodford", "Chigwell"], "Number of Trips Left: ": 4}
+{"id: ": 751, "Trip: ": ["Russell Square", "Caledonian Road"], "Number of Trips Left: ": 4}
+{"id: ": 752, "Trip: ": ["Harlesden", "Oxford Circus", "Warren Street"], "Number of Trips Left: ": 2}
+{"id: ": 754, "Trip: ": ["Manor House", "King's Cross St. Pancras", "Finchley Road", "West Hampstead"], "Number of Trips Left: ": 4}
+{"id: ": 755, "Trip: ": ["West Kensington", "Victoria", "Stockwell"], "Number of Trips Left: ": 0}
+{"id: ": 756, "Trip: ": ["Gloucester Road", "St. James's Park", "Westminster", "Canada Water"], "Number of Trips Left: ": 0}
+{"id: ": 757, "Trip: ": ["White City", "Loughton"], "Number of Trips Left: ": 2}
+{"id: ": 758, "Trip: ": ["Canada Water", "Stratford", "Redbridge"], "Number of Trips Left: ": 3}
+{"id: ": 760, "Trip: ": ["Chigwell", "Woodford", "Stratford"], "Number of Trips Left: ": 1}
+{"id: ": 761, "Trip: ": ["Oval", "Stockwell", "Victoria", "South Kensington", "Hounslow East"], "Number of Trips Left: ": 2}
+{"id: ": 762, "Trip: ": ["Tufnell Park", "King's Cross St. Pancras", "North Harrow"], "Number of Trips Left: ": 1}
+{"id: ": 763, "Trip: ": ["Grange Hill", "Hainault", "Leyton", "Liverpool Street", "Moorgate", "Euston"], "Number of Trips Left: ": 1}
+{"id: ": 764, "Trip: ": ["Aldgate East", "Liverpool Street", "Bond Street"], "Number of Trips Left: ": 1}
+{"id: ": 765, "Trip: ": ["Edgware Road", "Baker Street", "Moor Park"], "Number of Trips Left: ": 3}
+{"id: ": 766, "Trip: ": ["Hounslow Central", "Hounslow West"], "Number of Trips Left: ": 0}
+{"id: ": 767, "Trip: ": ["Northwood Hills", "Baker Street", "Temple"], "Number of Trips Left: ": 2}
+{"id: ": 768, "Trip: ": ["Harlesden", "Paddington", "Victoria", "Brixton"], "Number of Trips Left: ": 3}
+{"id: ": 769, "Trip: ": ["Parsons Green", "Earl's Court", "Green Park", "Warren Street", "Burnt Oak"], "Number of Trips Left: ": 1}
+{"id: ": 770, "Trip: ": ["Southwark", "Waterloo", "Charing Cross", "Baker Street", "Northwick Park"], "Number of Trips Left: ": 3}
+{"id: ": 771, "Trip: ": ["Great Portland Street", "St. James's Park"], "Number of Trips Left: ": 2}
+{"id: ": 772, "Trip: ": ["Heathrow Terminals 2 & 3", "South Kensington", "St. James's Park", "Westminster", "London Bridge"], "Number of Trips Left: ": 1}
+{"id: ": 773, "Trip: ": ["North Ealing", "Finsbury Park", "Walthamstow Central"], "Number of Trips Left: ": 4}
+{"id: ": 774, "Trip: ": ["Gants Hill", "Stratford", "Canons Park"], "Number of Trips Left: ": 2}
+{"id: ": 775, "Trip: ": ["Stratford", "Oxford Circus"], "Number of Trips Left: ": 0}
+{"id: ": 776, "Trip: ": ["Liverpool Street", "Buckhurst Hill"], "Number of Trips Left: ": 1}
+{"id: ": 777, "Trip: ": ["Pimlico", "Victoria", "Paddington", "Kenton"], "Number of Trips Left: ": 0}
+{"id: ": 778, "Trip: ": ["Gants Hill", "Barkingside"], "Number of Trips Left: ": 3}
+{"id: ": 780, "Trip: ": ["Brixton", "Green Park", "Wembley Park", "Preston Road"], "Number of Trips Left: ": 3}
+{"id: ": 781, "Trip: ": ["Parsons Green", "Earl's Court", "Gloucester Road", "King's Cross St. Pancras", "Kentish Town"], "Number of Trips Left: ": 2}
+{"id: ": 782, "Trip: ": ["Kilburn", "Green Park", "Stockwell", "Colliers Wood"], "Number of Trips Left: ": 1}
+{"id: ": 783, "Trip: ": ["Walthamstow Central", "King's Cross St. Pancras", "Finchley Road", "Dollis Hill"], "Number of Trips Left: ": 4}
+{"id: ": 784, "Trip: ": ["Stockwell", "Bank", "Liverpool Street", "Aldgate East"], "Number of Trips Left: ": 1}
+{"id: ": 785, "Trip: ": ["Finchley Central", "King's Cross St. Pancras", "Holborn", "St. Paul's"], "Number of Trips Left: ": 2}
+{"id: ": 786, "Trip: ": ["Harlesden", "Oxford Circus", "Warren Street", "Belsize Park"], "Number of Trips Left: ": 0}
+{"id: ": 787, "Trip: ": ["Fairlop", "Leyton", "Holborn", "Earl's Court", "West Kensington"], "Number of Trips Left: ": 4}
+{"id: ": 788, "Trip: ": ["Rickmansworth", "Harrow-on-the-Hill", "Rayners Lane", "Acton Town", "Heathrow Terminals 2 & 3"], "Number of Trips Left: ": 3}
+{"id: ": 789, "Trip: ": ["West Acton", "Notting Hill Gate", "Paddington", "South Kenton"], "Number of Trips Left: ": 0}
+{"id: ": 791, "Trip: ": ["Knightsbridge", "Piccadilly Circus", "Charing Cross", "Embankment", "Temple"], "Number of Trips Left: ": 3}
+{"id: ": 792, "Trip: ": ["Northfields", "Turnham Green", "Hammersmith", "Notting Hill Gate", "Epping"], "Number of Trips Left: ": 1}
+{"id: ": 794, "Trip: ": ["Tottenham Court Road", "Oxford Circus", "Baker Street", "Wembley Park", "Northwood"], "Number of Trips Left: ": 3}
+{"id: ": 795, "Trip: ": ["East Acton", "Notting Hill Gate", "Paddington", "Marylebone", "Baker Street", "Wembley Park"], "Number of Trips Left: ": 1}
+{"id: ": 797, "Trip: ": ["Moor Park", "King's Cross St. Pancras", "West Finchley"], "Number of Trips Left: ": 2}
+{"id: ": 798, "Trip: ": ["Hounslow West", "Acton Town", "Ealing Broadway", "East Acton"], "Number of Trips Left: ": 0}
+{"id: ": 799, "Trip: ": ["Kew Gardens", "Turnham Green", "Finsbury Park", "Tottenham Hale"], "Number of Trips Left: ": 2}
+{"id: ": 800, "Trip: ": ["Manor House", "King's Cross St. Pancras", "West Finchley"], "Number of Trips Left: ": 2}
+{"id: ": 801, "Trip: ": ["Stepney Green", "Upton Park"], "Number of Trips Left: ": 3}
+{"id: ": 803, "Trip: ": ["Mansion House", "Dagenham Heathway"], "Number of Trips Left: ": 0}
+{"id: ": 805, "Trip: ": ["Hounslow West", "Acton Town", "Rayners Lane", "Wembley Park", "Stanmore"], "Number of Trips Left: ": 3}
+{"id: ": 806, "Trip: ": ["Knightsbridge", "Earl's Court", "West Kensington"], "Number of Trips Left: ": 2}
+{"id: ": 808, "Trip: ": ["Embankment", "Liverpool Street", "Barking"], "Number of Trips Left: ": 1}
+{"id: ": 809, "Trip: ": ["Canons Park", "Dollis Hill"], "Number of Trips Left: ": 1}
+{"id: ": 810, "Trip: ": ["Seven Sisters", "King's Cross St. Pancras", "Notting Hill Gate", "Northolt"], "Number of Trips Left: ": 1}
+{"id: ": 811, "Trip: ": ["Dagenham East", "Barking", "Baker Street", "Marylebone"], "Number of Trips Left: ": 4}
+{"id: ": 812, "Trip: ": ["Croxley", "Baker Street", "Royal Oak"], "Number of Trips Left: ": 2}
+{"id: ": 813, "Trip: ": ["West Harrow", "Wembley Park", "Green Park", "Stockwell", "Clapham North"], "Number of Trips Left: ": 0}
+{"id: ": 814, "Trip: ": ["Baker Street", "Finchley Road"], "Number of Trips Left: ": 2}
+{"id: ": 815, "Trip: ": ["Bank", "Waterloo", "Westminster", "St. James's Park", "South Kensington", "Kew Gardens"], "Number of Trips Left: ": 1}
+{"id: ": 816, "Trip: ": ["Ruislip", "King's Cross St. Pancras", "Camden Town", "Belsize Park"], "Number of Trips Left: ": 0}
+{"id: ": 817, "Trip: ": ["Putney Bridge", "Earl's Court", "Hillingdon"], "Number of Trips Left: ": 4}
+{"id: ": 818, "Trip: ": ["Shepherd's Bush", "Notting Hill Gate", "Royal Oak"], "Number of Trips Left: ": 3}
+{"id: ": 819, "Trip: ": ["Woodside Park", "Moorgate", "Stepney Green"], "Number of Trips Left: ": 4}
+{"id: ": 820, "Trip: ": ["Colindale", "Brent Cross", "King's Cross St. Pancras", "Eastcote"], "Number of Trips Left: ": 0}
+{"id: ": 821, "Trip: ": ["Ruislip Gardens", "Oxford Circus", "Warren Street"], "Number of Trips Left: ": 0}
+{"id: ": 822, "Trip: ": ["Oakwood", "King's Cross St. Pancras", "Camden Town", "Chalk Farm"], "Number of Trips Left: ": 2}
+{"id: ": 823, "Trip: ": ["Northfields", "Turnham Green", "Hammersmith", "Paddington", "Marylebone", "Baker Street", "Kilburn"], "Number of Trips Left: ": 3}
+{"id: ": 824, "Trip: ": ["Pimlico", "Green Park", "Wembley Park", "West Harrow"], "Number of Trips Left: ": 3}
+{"id: ": 825, "Trip: ": ["Canning Town", "Bond Street", "Ruislip Gardens"], "Number of Trips Left: ": 0}
+{"id: ": 826, "Trip: ": ["Becontree", "Aldgate East"], "Number of Trips Left: ": 0}
+{"id: ": 827, "Trip: ": ["Tooting Bec", "Stockwell", "Victoria", "Sloane Square"], "Number of Trips Left: ": 0}
+{"id: ": 829, "Trip: ": ["Chesham", "Aldgate"], "Number of Trips Left: ": 0}
+{"id: ": 830, "Trip: ": ["Northwick Park", "Baker Street", "Edgware Road", "West Brompton"], "Number of Trips Left: ": 0}
+{"id: ": 831, "Trip: ": ["Elm Park", "West Ham", "Wembley Park", "West Harrow"], "Number of Trips Left: ": 3}
+{"id: ": 832, "Trip: ": ["Stockwell", "Victoria", "South Kensington", "Hatton Cross"], "Number of Trips Left: ": 0}
+{"id: ": 833, "Trip: ": ["South Ruislip", "Oxford Circus", "Charing Cross"], "Number of Trips Left: ": 0}
+{"id: ": 834, "Trip: ": ["Eastcote", "Wembley Park", "West Ham", "Dagenham East"], "Number of Trips Left: ": 1}
+{"id: ": 835, "Trip: ": ["St. John's Wood", "Baker Street", "Marylebone", "Paddington", "Hammersmith"], "Number of Trips Left: ": 1}
+{"id: ": 836, "Trip: ": ["Loughton", "Oxford Circus", "Baker Street", "Wembley Park", "Northwood"], "Number of Trips Left: ": 4}
+{"id: ": 837, "Trip: ": ["Dollis Hill", "Baker Street", "Oxford Circus", "Tottenham Court Road", "Leicester Square", "Covent Garden"], "Number of Trips Left: ": 3}
+{"id: ": 839, "Trip: ": ["Marble Arch", "Notting Hill Gate", "Hammersmith", "Stamford Brook"], "Number of Trips Left: ": 1}
+{"id: ": 840, "Trip: ": ["Gunnersbury", "Turnham Green", "Ealing Broadway", "North Acton", "Hanger Lane"], "Number of Trips Left: ": 0}
+{"id: ": 842, "Trip: ": ["Wanstead", "Leyton", "Liverpool Street", "King's Cross St. Pancras", "Highbury & Islington"], "Number of Trips Left: ": 0}
+{"id: ": 843, "Trip: ": ["Russell Square", "Holborn", "Leyton", "Redbridge"], "Number of Trips Left: ": 3}
+{"id: ": 844, "Trip: ": ["Brixton", "Stockwell", "London Bridge", "North Greenwich"], "Number of Trips Left: ": 0}
+{"id: ": 845, "Trip: ": ["North Wembley", "Baker Street", "North Greenwich"], "Number of Trips Left: ": 1}
+{"id: ": 846, "Trip: ": ["Uxbridge", "Baker Street", "Oxford Circus", "Warren Street", "Colindale"], "Number of Trips Left: ": 1}
+{"id: ": 847, "Trip: ": ["Canning Town", "Finchley Road", "Ruislip Manor"], "Number of Trips Left: ": 0}
+{"id: ": 848, "Trip: ": ["High Street Kensington", "Baker Street", "Willesden Green"], "Number of Trips Left: ": 0}
+{"id: ": 849, "Trip: ": ["Bromley-by-Bow", "Baker Street", "Harrow & Wealdstone"], "Number of Trips Left: ": 2}
+{"id: ": 850, "Trip: ": ["Latimer Road", "Victoria", "Stockwell", "Clapham North"], "Number of Trips Left: ": 0}
+{"id: ": 852, "Trip: ": ["Finchley Central", "King's Cross St. Pancras", "Baker Street", "Kilburn Park"], "Number of Trips Left: ": 1}
+{"id: ": 853, "Trip: ": ["Whitechapel", "Moorgate", "Euston"], "Number of Trips Left: ": 1}
+{"id: ": 854, "Trip: ": ["Croxley", "Finchley Road", "King's Cross St. Pancras", "Caledonian Road"], "Number of Trips Left: ": 3}
+{"id: ": 855, "Trip: ": ["Mile End", "Tottenham Court Road", "Goodge Street"], "Number of Trips Left: ": 3}
+{"id: ": 856, "Trip: ": ["Clapham South", "Stockwell", "Victoria", "Latimer Road"], "Number of Trips Left: ": 1}
+{"id: ": 858, "Trip: ": ["North Harrow", "Moorgate"], "Number of Trips Left: ": 1}
+{"id: ": 861, "Trip: ": ["East Acton", "Oxford Circus"], "Number of Trips Left: ": 2}
+{"id: ": 862, "Trip: ": ["Brixton", "Victoria", "Paddington", "Kensal Green"], "Number of Trips Left: ": 3}
+{"id: ": 863, "Trip: ": ["Stanmore", "Baker Street", "Marylebone", "Paddington", "Notting Hill Gate", "Holland Park"], "Number of Trips Left: ": 3}
+{"id: ": 864, "Trip: ": ["Bermondsey", "London Bridge", "Euston", "Edgware"], "Number of Trips Left: ": 0}
+{"id: ": 865, "Trip: ": ["Fairlop", "Leyton", "Oxford Circus", "Paddington", "Latimer Road"], "Number of Trips Left: ": 0}
+{"id: ": 866, "Trip: ": ["Old Street", "Moorgate", "Temple", "Earl's Court"], "Number of Trips Left: ": 2}
+{"id: ": 867, "Trip: ": ["Heathrow Terminal 4", "Hounslow East", "Hammersmith", "Farringdon"], "Number of Trips Left: ": 0}
+{"id: ": 869, "Trip: ": ["Northolt", "North Acton", "Ealing Broadway", "Ealing Common", "North Ealing"], "Number of Trips Left: ": 3}
+{"id: ": 870, "Trip: ": ["Chancery Lane", "Oxford Circus", "Harrow & Wealdstone"], "Number of Trips Left: ": 4}
+{"id: ": 871, "Trip: ": ["Osterley", "Acton Town", "Rayners Lane", "Wembley Park", "Stanmore"], "Number of Trips Left: ": 3}
+{"id: ": 872, "Trip: ": ["Ladbroke Grove", "Hammersmith", "Sudbury Town"], "Number of Trips Left: ": 2}
+{"id: ": 873, "Trip: ": ["Elephant and Castle", "Embankment", "Edgware Road", "Wembley Central"], "Number of Trips Left: ": 0}
+{"id: ": 874, "Trip: ": ["Goldhawk Road", "Notting Hill Gate", "Lancaster Gate"], "Number of Trips Left: ": 1}
+{"id: ": 875, "Trip: ": ["Debden", "Liverpool Street", "King's Cross St. Pancras"], "Number of Trips Left: ": 1}
+{"id: ": 877, "Trip: ": ["Victoria", "Wood Lane"], "Number of Trips Left: ": 4}
+{"id: ": 878, "Trip: ": ["Regent's Park", "Baker Street", "Watford"], "Number of Trips Left: ": 2}
+{"id: ": 881, "Trip: ": ["King's Cross St. Pancras", "Barking", "Becontree"], "Number of Trips Left: ": 4}
+{"id: ": 882, "Trip: ": ["Oakwood", "King's Cross St. Pancras", "East Ham"], "Number of Trips Left: ": 4}
+{"id: ": 883, "Trip: ": ["West Harrow", "Wembley Park", "Green Park", "Stockwell", "Tooting Broadway"], "Number of Trips Left: ": 2}
+{"id: ": 884, "Trip: ": ["Wood Green", "Earl's Court", "Parsons Green"], "Number of Trips Left: ": 2}
+{"id: ": 885, "Trip: ": ["Hounslow Central", "Hammersmith", "Paddington", "Marylebone", "Baker Street", "Neasden"], "Number of Trips Left: ": 2}
+{"id: ": 886, "Trip: ": ["Uxbridge", "Hammersmith", "High Street Kensington"], "Number of Trips Left: ": 1}
+{"id: ": 888, "Trip: ": ["North Acton", "Oxford Circus", "Warren Street", "Finchley Central"], "Number of Trips Left: ": 3}
+{"id: ": 889, "Trip: ": ["West Hampstead", "Wembley Park"], "Number of Trips Left: ": 1}
+{"id: ": 890, "Trip: ": ["Burnt Oak", "Warren Street", "Oxford Circus", "Hanger Lane"], "Number of Trips Left: ": 1}
+{"id: ": 891, "Trip: ": ["Park Royal", "Finsbury Park", "Seven Sisters"], "Number of Trips Left: ": 0}
+{"id: ": 892, "Trip: ": ["Hornchurch", "Barking", "Liverpool Street", "Embankment", "Charing Cross", "Piccadilly Circus"], "Number of Trips Left: ": 3}
+{"id: ": 893, "Trip: ": ["Chiswick Park", "Westminster", "Canada Water"], "Number of Trips Left: ": 4}
+{"id: ": 894, "Trip: ": ["Aldgate East", "Liverpool Street", "Bank", "London Bridge", "Canada Water"], "Number of Trips Left: ": 4}
+{"id: ": 895, "Trip: ": ["Sudbury Town", "Turnham Green", "Richmond"], "Number of Trips Left: ": 4}
+{"id: ": 896, "Trip: ": ["Rickmansworth", "Harrow-on-the-Hill", "Rayners Lane", "Ealing Common", "Ealing Broadway", "North Acton", "South Ruislip"], "Number of Trips Left: ": 1}
+{"id: ": 897, "Trip: ": ["Harrow-on-the-Hill", "Baker Street", "Wembley Central"], "Number of Trips Left: ": 0}
+{"id: ": 898, "Trip: ": ["Heathrow Terminal 5", "South Kensington", "Victoria", "Pimlico"], "Number of Trips Left: ": 4}
+{"id: ": 899, "Trip: ": ["Barbican", "West Harrow"], "Number of Trips Left: ": 4}
+{"id: ": 900, "Trip: ": ["Charing Cross", "Embankment", "Liverpool Street", "Bethnal Green"], "Number of Trips Left: ": 0}
+{"id: ": 901, "Trip: ": ["South Wimbledon", "Stockwell", "Victoria", "Paddington", "Warwick Avenue"], "Number of Trips Left: ": 3}
+{"id: ": 902, "Trip: ": ["Wood Lane", "Notting Hill Gate", "Leyton"], "Number of Trips Left: ": 3}
+{"id: ": 903, "Trip: ": ["Debden", "Bank", "Stockwell"], "Number of Trips Left: ": 3}
+{"id: ": 904, "Trip: ": ["Warren Street", "Oxford Circus", "Paddington", "Westbourne Park"], "Number of Trips Left: ": 1}
+{"id: ": 905, "Trip: ": ["Walthamstow Central", "Stockwell", "Morden"], "Number of Trips Left: ": 0}
+{"id: ": 906, "Trip: ": ["Wood Green", "Turnham Green", "Chiswick Park"], "Number of Trips Left: ": 0}
+{"id: ": 907, "Trip: ": ["Stockwell", "Victoria", "Earl's Court", "East Putney"], "Number of Trips Left: ": 0}
+{"id: ": 910, "Trip: ": ["Rickmansworth", "Moor Park"], "Number of Trips Left: ": 0}
+{"id: ": 911, "Trip: ": ["Wimbledon Park", "Earl's Court", "Sudbury Town"], "Number of Trips Left: ": 3}
+{"id: ": 912, "Trip: ": ["Hounslow Central", "Hammersmith", "Notting Hill Gate", "Tottenham Court Road"], "Number of Trips Left: ": 2}
+{"id: ": 913, "Trip: ": ["Ealing Broadway", "Notting Hill Gate", "Mansion House"], "Number of Trips Left: ": 2}
+{"id: ": 914, "Trip: ": ["Wembley Park", "Rayners Lane", "Acton Town", "Hatton Cross"], "Number of Trips Left: ": 4}
+{"id: ": 915, "Trip: ": ["Queensway", "Oxford Circus", "Warren Street", "Euston", "Blackhorse Road"], "Number of Trips Left: ": 4}
+{"id: ": 916, "Trip: ": ["Harrow & Wealdstone", "Baker Street", "King's Cross St. Pancras", "Walthamstow Central"], "Number of Trips Left: ": 2}
+{"id: ": 917, "Trip: ": ["Highgate", "King's Cross St. Pancras", "Hounslow East"], "Number of Trips Left: ": 0}
+{"id: ": 918, "Trip: ": ["Canons Park", "Baker Street", "Piccadilly Circus"], "Number of Trips Left: ": 1}
+{"id: ": 919, "Trip: ": ["Heathrow Terminal 5", "Hammersmith", "Notting Hill Gate", "Oxford Circus", "Warren Street", "Mornington Crescent"], "Number of Trips Left: ": 0}
+{"id: ": 920, "Trip: ": ["Leyton", "Bank", "South Wimbledon"], "Number of Trips Left: ": 1}
+{"id: ": 921, "Trip: ": ["Seven Sisters", "King's Cross St. Pancras", "Westbourne Park"], "Number of Trips Left: ": 0}
+{"id: ": 922, "Trip: ": ["Oval", "King's Cross St. Pancras", "Wood Green"], "Number of Trips Left: ": 1}
+{"id: ": 924, "Trip: ": ["Roding Valley", "Woodford", "Liverpool Street", "King's Cross St. Pancras", "Camden Town"], "Number of Trips Left: ": 3}
+{"id: ": 925, "Trip: ": ["Edgware Road", "Hammersmith", "Sudbury Town"], "Number of Trips Left: ": 0}
+{"id: ": 926, "Trip: ": ["Charing Cross", "Embankment", "Mansion House", "Stepney Green"], "Number of Trips Left: ": 2}
+{"id: ": 927, "Trip: ": ["North Wembley", "Baker Street", "King's Cross St. Pancras", "Cockfosters"], "Number of Trips Left: ": 4}
+{"id: ": 930, "Trip: ": ["Southfields", "Earl's Court", "Victoria", "Stockwell", "Oval"], "Number of Trips Left: ": 4}
+{"id: ": 931, "Trip: ": ["Sudbury Hill", "Ealing Common", "Ealing Broadway", "North Acton", "Greenford"], "Number of Trips Left: ": 0}
+{"id: ": 932, "Trip: ": ["Ealing Common", "Stamford Brook"], "Number of Trips Left: ": 2}
+{"id: ": 933, "Trip: ": ["Finsbury Park", "King's Cross St. Pancras", "Liverpool Street", "Leyton", "Redbridge"], "Number of Trips Left: ": 1}
+{"id: ": 934, "Trip: ": ["West Ruislip", "Ruislip Gardens", "Notting Hill Gate", "Wood Lane"], "Number of Trips Left: ": 4}
+{"id: ": 935, "Trip: ": ["Highgate", "Camden Town", "Warren Street", "Oxford Circus", "Northolt"], "Number of Trips Left: ": 4}
+{"id: ": 937, "Trip: ": ["Covent Garden", "Earl's Court", "East Putney"], "Number of Trips Left: ": 3}
+{"id: ": 938, "Trip: ": ["Turnpike Lane", "King's Cross St. Pancras", "Mile End", "Gants Hill"], "Number of Trips Left: ": 1}
+{"id: ": 939, "Trip: ": ["Edgware Road", "Embankment"], "Number of Trips Left: ": 0}
+{"id: ": 940, "Trip: ": ["Heathrow Terminal 4", "Hatton Cross", "Acton Town", "Alperton"], "Number of Trips Left: ": 2}
+{"id: ": 942, "Trip: ": ["Latimer Road", "King's Cross St. Pancras", "Kentish Town"], "Number of Trips Left: ": 4}
+{"id: ": 943, "Trip: ": ["Woodford", "Leytonstone", "Redbridge"], "Number of Trips Left: ": 1}
+{"id: ": 948, "Trip: ": ["Mile End", "Leyton", "Wanstead"], "Number of Trips Left: ": 3}
+{"id: ": 949, "Trip: ": ["South Kenton", "Baker Street", "King's Cross St. Pancras", "Manor House"], "Number of Trips Left: ": 1}
+{"id: ": 952, "Trip: ": ["Watford", "Baker Street", "Maida Vale"], "Number of Trips Left: ": 4}
+{"id: ": 953, "Trip: ": ["Canary Wharf", "Westminster", "High Street Kensington"], "Number of Trips Left: ": 4}
+{"id: ": 954, "Trip: ": ["Bond Street", "Notting Hill Gate", "Hammersmith", "Turnham Green"], "Number of Trips Left: ": 0}
+{"id: ": 955, "Trip: ": ["Goodge Street", "Tottenham Court Road", "St. Paul's"], "Number of Trips Left: ": 2}
+{"id: ": 956, "Trip: ": ["Farringdon", "King's Cross St. Pancras"], "Number of Trips Left: ": 3}
+{"id: ": 957, "Trip: ": ["Putney Bridge", "Earl's Court", "Tower Hill"], "Number of Trips Left: ": 1}
+{"id: ": 958, "Trip: ": ["Manor House", "King's Cross St. Pancras", "London Bridge"], "Number of Trips Left: ": 4}
+{"id: ": 960, "Trip: ": ["Leyton", "Stratford", "Swiss Cottage"], "Number of Trips Left: ": 0}
+{"id: ": 961, "Trip: ": ["Earl's Court", "Notting Hill Gate", "Queensway"], "Number of Trips Left: ": 4}
+{"id: ": 963, "Trip: ": ["Wanstead", "Leyton", "Holborn", "Heathrow Terminal 4"], "Number of Trips Left: ": 3}
+{"id: ": 964, "Trip: ": ["Willesden Junction", "Edgware Road", "King's Cross St. Pancras"], "Number of Trips Left: ": 1}
+{"id: ": 965, "Trip: ": ["Victoria", "Baker Street", "Willesden Green"], "Number of Trips Left: ": 3}
+{"id: ": 966, "Trip: ": ["Queen's Park", "Baker Street", "King's Cross St. Pancras", "Wood Green"], "Number of Trips Left: ": 1}
+{"id: ": 968, "Trip: ": ["Marble Arch", "Bond Street", "Wembley Park"], "Number of Trips Left: ": 4}
+{"id: ": 970, "Trip: ": ["Stonebridge Park", "Paddington", "Sloane Square"], "Number of Trips Left: ": 0}
+{"id: ": 971, "Trip: ": ["Marble Arch", "Notting Hill Gate", "Hammersmith", "Chiswick Park"], "Number of Trips Left: ": 1}
+{"id: ": 972, "Trip: ": ["Maida Vale", "Baker Street", "Tower Hill"], "Number of Trips Left: ": 3}
+{"id: ": 974, "Trip: ": ["Hanger Lane", "North Acton", "Ealing Broadway", "Acton Town", "Boston Manor"], "Number of Trips Left: ": 0}
+{"id: ": 975, "Trip: ": ["Bethnal Green", "Bank", "Tooting Broadway"], "Number of Trips Left: ": 0}
+{"id: ": 976, "Trip: ": ["Fulham Broadway", "Paddington", "Regent's Park"], "Number of Trips Left: ": 3}
+{"id: ": 977, "Trip: ": ["Plaistow", "West Ham", "St. John's Wood"], "Number of Trips Left: ": 0}
+{"id: ": 978, "Trip: ": ["Piccadilly Circus", "Holborn", "Leyton", "Wanstead"], "Number of Trips Left: ": 1}
+{"id: ": 979, "Trip: ": ["Holloway Road", "Turnpike Lane"], "Number of Trips Left: ": 2}
+{"id: ": 980, "Trip: ": ["Southwark", "Waterloo", "Charing Cross", "Baker Street"], "Number of Trips Left: ": 3}
+{"id: ": 981, "Trip: ": ["Oval", "Euston", "Tufnell Park"], "Number of Trips Left: ": 4}
+{"id: ": 982, "Trip: ": ["Eastcote", "Wembley Park", "Stratford"], "Number of Trips Left: ": 2}
+{"id: ": 983, "Trip: ": ["Willesden Junction", "Paddington", "Hammersmith", "Hounslow Central"], "Number of Trips Left: ": 3}
+{"id: ": 984, "Trip: ": ["Northwood Hills", "Baker Street"], "Number of Trips Left: ": 4}
+{"id: ": 985, "Trip: ": ["High Street Kensington", "Liverpool Street", "Barking", "Upminster Bridge"], "Number of Trips Left: ": 0}
+{"id: ": 987, "Trip: ": ["Brixton", "Green Park", "Bond Street"], "Number of Trips Left: ": 1}
+{"id: ": 988, "Trip: ": ["Hanger Lane", "North Acton", "Ealing Broadway", "Acton Town", "Hatton Cross"], "Number of Trips Left: ": 1}
+{"id: ": 989, "Trip: ": ["Regent's Park", "Paddington", "Hammersmith", "Richmond"], "Number of Trips Left: ": 2}
+{"id: ": 991, "Trip: ": ["East Ham", "King's Cross St. Pancras", "Camden Town", "Hampstead"], "Number of Trips Left: ": 3}
+{"id: ": 992, "Trip: ": ["Hanger Lane", "Oxford Circus", "Warren Street", "Burnt Oak"], "Number of Trips Left: ": 2}
+{"id: ": 993, "Trip: ": ["Richmond", "Earl's Court"], "Number of Trips Left: ": 0}
+{"id: ": 994, "Trip: ": ["Whitechapel", "King's Cross St. Pancras", "Camden Town", "Chalk Farm"], "Number of Trips Left: ": 1}
+{"id: ": 995, "Trip: ": ["Russell Square", "Holborn", "Oxford Circus", "Paddington"], "Number of Trips Left: ": 1}
+{"id: ": 996, "Trip: ": ["Clapham North", "Stockwell", "Victoria", "Notting Hill Gate", "South Ruislip"], "Number of Trips Left: ": 0}
+{"id: ": 997, "Trip: ": ["Kilburn", "Baker Street", "Marylebone", "Paddington", "Hammersmith", "Gunnersbury"], "Number of Trips Left: ": 1}
+{"id: ": 998, "Trip: ": ["Gants Hill", "Leyton", "Holborn", "Covent Garden"], "Number of Trips Left: ": 2}
+{"id: ": 999, "Trip: ": ["Boston Manor", "Green Park", "West Ham", "Upminster Bridge"], "Number of Trips Left: ": 4}
+{"id: ": 402, "Trip: ": ["Oakwood", "King's Cross St. Pancras", "Brent Cross", "Burnt Oak"], "Number of Trips Left: ": 3}
+{"id: ": 390, "Trip: ": ["West Ham", "Becontree"], "Number of Trips Left: ": 3}
+{"id: ": 710, "Trip: ": ["Charing Cross", "Paddington", "Goldhawk Road"], "Number of Trips Left: ": 3}
+{"id: ": 232, "Trip: ": ["Green Park", "Earl's Court", "Putney Bridge"], "Number of Trips Left: ": 0}
+{"id: ": 372, "Trip: ": ["Turnham Green", "Chiswick Park"], "Number of Trips Left: ": 1}
+{"id: ": 956, "Trip: ": ["King's Cross St. Pancras", "Gloucester Road", "Earl's Court", "Southfields"], "Number of Trips Left: ": 2}
+{"id: ": 165, "Trip: ": ["Waterloo"], "Number of Trips Left: ": 2}
+{"id: ": 932, "Trip: ": ["Manor House"], "Number of Trips Left: ": 1}
+{"id: ": 392, "Trip: ": ["King's Cross St. Pancras", "Seven Sisters"], "Number of Trips Left: ": 0}
+{"id: ": 252, "Trip: ": ["Euston Square", "Royal Oak"], "Number of Trips Left: ": 2}
+{"id: ": 488, "Trip: ": ["Osterley"], "Number of Trips Left: ": 3}
+{"id: ": 2, "Trip: ": ["Camden Town", "Warren Street", "Oxford Circus", "Notting Hill Gate", "Hammersmith", "Turnham Green"], "Number of Trips Left: ": 0}
+{"id: ": 588, "Trip: ": ["Shepherd's Bush Market"], "Number of Trips Left: ": 2}
+{"id: ": 719, "Trip: ": ["St. James's Park", "South Kensington", "Northfields"], "Number of Trips Left: ": 2}
+{"id: ": 814, "Trip: ": ["Finchley Road", "King's Cross St. Pancras", "Finsbury Park"], "Number of Trips Left: ": 1}
+{"id: ": 939, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 68, "Trip: ": ["Camden Town", "Warren Street", "Oxford Circus", "Lancaster Gate"], "Number of Trips Left: ": 0}
+{"id: ": 340, "Trip: ": ["Green Park", "Earl's Court", "West Kensington"], "Number of Trips Left: ": 0}
+{"id: ": 11, "Trip: ": ["Vauxhall", "Stockwell", "Balham"], "Number of Trips Left: ": 0}
+{"id: ": 127, "Trip: ": ["Gloucester Road", "Earl's Court", "Putney Bridge"], "Number of Trips Left: ": 0}
+{"id: ": 465, "Trip: ": [], "Number of Trips Left: ": 2}
+{"id: ": 961, "Trip: ": ["Queensway", "Woodford"], "Number of Trips Left: ": 3}
+{"id: ": 628, "Trip: ": ["Piccadilly Circus", "Park Royal"], "Number of Trips Left: ": 2}
+{"id: ": 440, "Trip: ": ["Northwick Park", "Rayners Lane", "Acton Town", "South Ealing"], "Number of Trips Left: ": 0}
+{"id: ": 910, "Trip: ": ["Moor Park", "Rickmansworth"], "Number of Trips Left: ": 0}
+{"id: ": 209, "Trip: ": ["Hammersmith", "Richmond"], "Number of Trips Left: ": 3}
+{"id: ": 507, "Trip: ": ["Marble Arch"], "Number of Trips Left: ": 2}
+{"id: ": 105, "Trip: ": ["Victoria", "West Kensington"], "Number of Trips Left: ": 0}
+{"id: ": 616, "Trip: ": ["Pinner"], "Number of Trips Left: ": 2}
+{"id: ": 987, "Trip: ": ["Edgware Road", "Harlesden"], "Number of Trips Left: ": 0}
+{"id: ": 4, "Trip: ": [], "Number of Trips Left: ": 3}
+{"id: ": 306, "Trip: ": ["Westminster", "Waterloo", "Bank"], "Number of Trips Left: ": 0}
+{"id: ": 368, "Trip: ": ["Paddington", "Ladbroke Grove"], "Number of Trips Left: ": 2}
+{"id: ": 955, "Trip: ": ["St. Paul's", "Oxford Circus", "Baker Street", "North Harrow"], "Number of Trips Left: ": 1}
+{"id: ": 409, "Trip: ": ["Highbury & Islington"], "Number of Trips Left: ": 3}
+{"id: ": 333, "Trip: ": ["Holborn", "Oxford Circus", "Baker Street", "Chesham"], "Number of Trips Left: ": 2}
+{"id: ": 980, "Trip: ": ["Baker Street", "Edgware Road", "Kensal Green"], "Number of Trips Left: ": 2}
+{"id: ": 255, "Trip: ": ["Goldhawk Road"], "Number of Trips Left: ": 0}
+{"id: ": 755, "Trip: ": ["West Kensington"], "Number of Trips Left: ": 0}
+{"id: ": 231, "Trip: ": ["Euston Square", "Barking"], "Number of Trips Left: ": 0}
+{"id: ": 930, "Trip: ": ["Oval", "Belsize Park"], "Number of Trips Left: ": 3}
+{"id: ": 976, "Trip: ": ["Stockwell", "Balham"], "Number of Trips Left: ": 2}
+{"id: ": 109, "Trip: ": ["Chorleywood"], "Number of Trips Left: ": 0}
+{"id: ": 725, "Trip: ": ["St. John's Wood"], "Number of Trips Left: ": 2}
+{"id: ": 250, "Trip: ": ["Barbican", "Embankment", "Charing Cross", "Oxford Circus"], "Number of Trips Left: ": 3}
+{"id: ": 375, "Trip: ": ["Moorgate", "Old Street"], "Number of Trips Left: ": 2}
+{"id: ": 913, "Trip: ": ["Mansion House", "St. James's Park", "South Kensington"], "Number of Trips Left: ": 1}
+{"id: ": 317, "Trip: ": ["Moorgate", "Liverpool Street", "Leytonstone"], "Number of Trips Left: ": 1}
+{"id: ": 752, "Trip: ": ["Ealing Common"], "Number of Trips Left: ": 1}
+{"id: ": 915, "Trip: ": ["Blackhorse Road", "Finsbury Park", "Osterley"], "Number of Trips Left: ": 3}
+{"id: ": 41, "Trip: ": ["Cannon Street", "King's Cross St. Pancras", "Cockfosters"], "Number of Trips Left: ": 1}
+{"id: ": 853, "Trip: ": ["Harrow-on-the-Hill"], "Number of Trips Left: ": 0}
+{"id: ": 415, "Trip: ": ["Farringdon", "Notting Hill Gate", "Ruislip Gardens"], "Number of Trips Left: ": 0}
+{"id: ": 391, "Trip: ": ["Old Street"], "Number of Trips Left: ": 0}
+{"id: ": 444, "Trip: ": ["King's Cross St. Pancras", "Finchley Road", "Kingsbury"], "Number of Trips Left: ": 0}
+{"id: ": 677, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 724, "Trip: ": ["King's Cross St. Pancras", "Cannon Street"], "Number of Trips Left: ": 0}
+{"id: ": 124, "Trip: ": ["Tottenham Court Road", "Oxford Circus", "Harlesden"], "Number of Trips Left: ": 0}
+{"id: ": 26, "Trip: ": ["Stepney Green"], "Number of Trips Left: ": 0}
+{"id: ": 378, "Trip: ": ["Holborn", "Finsbury Park"], "Number of Trips Left: ": 1}
+{"id: ": 469, "Trip: ": [], "Number of Trips Left: ": 3}
+{"id: ": 573, "Trip: ": ["Charing Cross", "Baker Street"], "Number of Trips Left: ": 2}
+{"id: ": 957, "Trip: ": ["Tower Hill", "King's Cross St. Pancras", "Finsbury Park"], "Number of Trips Left: ": 0}
+{"id: ": 861, "Trip: ": ["Rayners Lane", "Ealing Common", "Ealing Broadway", "White City"], "Number of Trips Left: ": 1}
+{"id: ": 39, "Trip: ": ["Knightsbridge", "Holborn", "Leyton", "Wanstead"], "Number of Trips Left: ": 2}
+{"id: ": 998, "Trip: ": ["Tottenham Court Road", "Hanger Lane"], "Number of Trips Left: ": 1}
+{"id: ": 646, "Trip: ": ["Embankment", "Edgware Road", "Kenton"], "Number of Trips Left: ": 0}
+{"id: ": 708, "Trip: ": ["Barkingside"], "Number of Trips Left: ": 0}
+{"id: ": 726, "Trip: ": ["King's Cross St. Pancras", "Arsenal"], "Number of Trips Left: ": 0}
+{"id: ": 855, "Trip: ": ["Goodge Street", "Tottenham Court Road", "Liverpool Street", "Barking"], "Number of Trips Left: ": 2}
+{"id: ": 252, "Trip: ": ["Royal Oak", "Barking"], "Number of Trips Left: ": 1}
+{"id: ": 994, "Trip: ": ["King's Cross St. Pancras", "Liverpool Street", "Leyton", "Wanstead"], "Number of Trips Left: ": 0}
+{"id: ": 744, "Trip: ": ["King's Cross St. Pancras", "Turnpike Lane"], "Number of Trips Left: ": 3}
+{"id: ": 822, "Trip: ": ["King's Cross St. Pancras", "Acton Town"], "Number of Trips Left: ": 1}
+{"id: ": 970, "Trip: ": ["Sloane Square", "Paddington", "Stonebridge Park"], "Number of Trips Left: ": 0}
+{"id: ": 695, "Trip: ": ["Gloucester Road", "King's Cross St. Pancras", "Tottenham Hale"], "Number of Trips Left: ": 2}
+{"id: ": 821, "Trip: ": ["Ruislip Gardens"], "Number of Trips Left: ": 0}
+{"id: ": 826, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 30, "Trip: ": ["Pimlico"], "Number of Trips Left: ": 0}
+{"id: ": 775, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 833, "Trip: ": ["Charing Cross", "Oxford Circus", "South Ruislip"], "Number of Trips Left: ": 0}
+{"id: ": 128, "Trip: ": [], "Number of Trips Left: ": 1}
+{"id: ": 652, "Trip: ": ["Rayners Lane", "Ealing Common", "Ealing Broadway"], "Number of Trips Left: ": 2}
+{"id: ": 842, "Trip: ": ["Liverpool Street", "Leyton", "Wanstead"], "Number of Trips Left: ": 0}
+{"id: ": 221, "Trip: ": ["South Kensington", "Baker Street", "Northwick Park"], "Number of Trips Left: ": 1}
+{"id: ": 725, "Trip: ": ["St. John's Wood", "Baker Street", "Marylebone", "Paddington", "Notting Hill Gate", "White City"], "Number of Trips Left: ": 1}
+{"id: ": 948, "Trip: ": ["Heathrow Terminal 5"], "Number of Trips Left: ": 2}
+{"id: ": 977, "Trip: ": ["St. John's Wood", "West Ham", "Plaistow"], "Number of Trips Left: ": 0}
+{"id: ": 465, "Trip: ": [], "Number of Trips Left: ": 1}
+{"id: ": 786, "Trip: ": ["Oxford Circus", "Harlesden"], "Number of Trips Left: ": 0}
+{"id: ": 425, "Trip: ": ["King's Cross St. Pancras", "Finchley Road", "Kilburn"], "Number of Trips Left: ": 2}
+{"id: ": 485, "Trip: ": ["Oxford Circus", "Bond Street"], "Number of Trips Left: ": 1}
+{"id: ": 754, "Trip: ": ["West Hampstead", "Baker Street", "Piccadilly Circus"], "Number of Trips Left: ": 3}
+{"id: ": 764, "Trip: ": ["Bond Street", "Debden"], "Number of Trips Left: ": 0}
+{"id: ": 315, "Trip: ": ["Tottenham Hale", "King's Cross St. Pancras", "Embankment", "Waterloo", "Southwark"], "Number of Trips Left: ": 0}
+{"id: ": 338, "Trip: ": ["Tottenham Hale", "King's Cross St. Pancras", "Plaistow"], "Number of Trips Left: ": 0}
+{"id: ": 981, "Trip: ": ["Tufnell Park", "King's Cross St. Pancras", "Turnham Green", "Chiswick Park"], "Number of Trips Left: ": 3}
+{"id: ": 164, "Trip: ": ["Tufnell Park", "Moorgate", "Whitechapel"], "Number of Trips Left: ": 0}
+{"id: ": 183, "Trip: ": ["Temple", "Stamford Brook"], "Number of Trips Left: ": 2}
+{"id: ": 926, "Trip: ": ["Bank", "Elephant and Castle"], "Number of Trips Left: ": 1}
+{"id: ": 31, "Trip: ": ["Barbican", "Liverpool Street", "Debden"], "Number of Trips Left: ": 3}
+{"id: ": 52, "Trip: ": ["Moorgate", "Euston"], "Number of Trips Left: ": 2}
+{"id: ": 173, "Trip: ": ["Baker Street", "West Harrow"], "Number of Trips Left: ": 0}
+{"id: ": 359, "Trip: ": ["Clapham South"], "Number of Trips Left: ": 0}
+{"id: ": 1, "Trip: ": ["Redbridge", "Leytonstone", "Northolt"], "Number of Trips Left: ": 2}
+{"id: ": 507, "Trip: ": ["Canons Park"], "Number of Trips Left: ": 1}
+{"id: ": 651, "Trip: ": ["Warren Street", "Golders Green"], "Number of Trips Left: ": 3}
+{"id: ": 697, "Trip: ": ["Neasden"], "Number of Trips Left: ": 3}
+{"id: ": 541, "Trip: ": ["Russell Square"], "Number of Trips Left: ": 1}
+{"id: ": 551, "Trip: ": ["Latimer Road", "Barking", "Dagenham East"], "Number of Trips Left: ": 3}
+{"id: ": 180, "Trip: ": ["Latimer Road", "Paddington", "Kensal Green"], "Number of Trips Left: ": 3}
+{"id: ": 357, "Trip: ": ["Ickenham"], "Number of Trips Left: ": 1}
+{"id: ": 284, "Trip: ": ["Kilburn", "Baker Street", "Charing Cross", "Waterloo"], "Number of Trips Left: ": 1}
+{"id: ": 303, "Trip: ": ["Moorgate", "Embankment", "Leicester Square"], "Number of Trips Left: ": 0}
+{"id: ": 538, "Trip: ": ["Rayners Lane", "Hammersmith"], "Number of Trips Left: ": 0}
+{"id: ": 991, "Trip: ": ["Hampstead", "Clapham North"], "Number of Trips Left: ": 2}
+{"id: ": 457, "Trip: ": ["Bethnal Green", "Ruislip Gardens"], "Number of Trips Left: ": 3}
+{"id: ": 900, "Trip: ": ["Embankment", "Charing Cross"], "Number of Trips Left: ": 0}
+{"id: ": 9, "Trip: ": ["Pinner"], "Number of Trips Left: ": 0}
+{"id: ": 139, "Trip: ": ["Waterloo", "Westminster", "Victoria", "Earl's Court", "Southfields"], "Number of Trips Left: ": 0}
+{"id: ": 50, "Trip: ": ["Canada Water"], "Number of Trips Left: ": 1}
+{"id: ": 477, "Trip: ": ["Westminster", "North Greenwich"], "Number of Trips Left: ": 3}
+{"id: ": 743, "Trip: ": ["Westminster", "Waterloo"], "Number of Trips Left: ": 0}
+{"id: ": 498, "Trip: ": ["Gants Hill", "Hainault", "Woodford", "Buckhurst Hill"], "Number of Trips Left: ": 0}
+{"id: ": 818, "Trip: ": ["Royal Oak", "Westminster"], "Number of Trips Left: ": 2}
+{"id: ": 898, "Trip: ": ["South Kensington", "Ruislip Manor"], "Number of Trips Left: ": 3}
+{"id: ": 560, "Trip: ": ["Charing Cross", "Kennington", "Colliers Wood"], "Number of Trips Left: ": 1}
+{"id: ": 347, "Trip: ": ["Bow Road", "Farringdon"], "Number of Trips Left: ": 1}
+{"id: ": 770, "Trip: ": ["Green Park", "Knightsbridge"], "Number of Trips Left: ": 2}
+{"id: ": 410, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 456, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 490, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 155, "Trip: ": ["Russell Square", "Oakwood"], "Number of Trips Left: ": 1}
+{"id: ": 227, "Trip: ": ["Oxford Circus", "Paddington"], "Number of Trips Left: ": 0}
+{"id: ": 426, "Trip: ": ["Russell Square", "King's Cross St. Pancras", "Northwick Park"], "Number of Trips Left: ": 0}
+{"id: ": 459, "Trip: ": [], "Number of Trips Left: ": 3}
+{"id: ": 497, "Trip: ": ["London Bridge", "Canary Wharf"], "Number of Trips Left: ": 0}
+{"id: ": 185, "Trip: ": ["Victoria", "Westminster", "North Greenwich"], "Number of Trips Left: ": 2}
+{"id: ": 249, "Trip: ": [], "Number of Trips Left: ": 1}
+{"id: ": 213, "Trip: ": ["Dollis Hill", "Baker Street", "Oxford Circus", "Warren Street", "Mornington Crescent"], "Number of Trips Left: ": 3}
+{"id: ": 485, "Trip: ": ["Hammersmith", "Turnham Green", "South Ealing"], "Number of Trips Left: ": 0}
+{"id: ": 305, "Trip: ": ["Charing Cross", "Piccadilly Circus", "Boston Manor"], "Number of Trips Left: ": 2}
+{"id: ": 349, "Trip: ": ["Bank", "Tooting Bec"], "Number of Trips Left: ": 0}
+{"id: ": 13, "Trip: ": ["Warren Street", "Chalk Farm"], "Number of Trips Left: ": 1}
+{"id: ": 684, "Trip: ": ["Waterloo", "London Bridge"], "Number of Trips Left: ": 2}
+{"id: ": 491, "Trip: ": ["Golders Green", "King's Cross St. Pancras", "Holborn", "Loughton"], "Number of Trips Left: ": 3}
+{"id: ": 740, "Trip: ": ["Parsons Green", "Paddington", "Harlesden"], "Number of Trips Left: ": 0}
+{"id: ": 884, "Trip: ": ["Parsons Green", "Notting Hill Gate", "Ruislip Gardens"], "Number of Trips Left: ": 1}
+{"id: ": 214, "Trip: ": ["Piccadilly Circus"], "Number of Trips Left: ": 1}
+{"id: ": 409, "Trip: ": ["Mansion House"], "Number of Trips Left: ": 2}
+{"id: ": 40, "Trip: ": ["South Kenton"], "Number of Trips Left: ": 0}
+{"id: ": 463, "Trip: ": ["Green Park"], "Number of Trips Left: ": 0}
+{"id: ": 459, "Trip: ": ["Chancery Lane", "Oxford Circus", "Edgware Road"], "Number of Trips Left: ": 2}
+{"id: ": 848, "Trip: ": ["Willesden Green", "Baker Street", "High Street Kensington"], "Number of Trips Left: ": 0}
+{"id: ": 965, "Trip: ": ["Willesden Green", "Baker Street", "Edgware Road", "Wimbledon Park"], "Number of Trips Left: ": 2}
+{"id: ": 698, "Trip: ": ["Willesden Green", "Baker Street", "Marylebone", "Paddington", "Notting Hill Gate", "White City"], "Number of Trips Left: ": 0}
+{"id: ": 892, "Trip: ": ["Seven Sisters"], "Number of Trips Left: ": 2}
+{"id: ": 218, "Trip: ": ["Bayswater"], "Number of Trips Left: ": 0}
+{"id: ": 877, "Trip: ": ["Wood Lane", "Monument"], "Number of Trips Left: ": 3}
+{"id: ": 643, "Trip: ": ["Tottenham Court Road", "Oxford Circus", "Baker Street", "West Hampstead"], "Number of Trips Left: ": 0}
+{"id: ": 63, "Trip: ": ["Charing Cross"], "Number of Trips Left: ": 0}
+{"id: ": 200, "Trip: ": ["Southfields"], "Number of Trips Left: ": 0}
+{"id: ": 689, "Trip: ": ["Russell Square"], "Number of Trips Left: ": 3}
+{"id: ": 232, "Trip: ": ["Green Park", "Warren Street", "Edgware"], "Number of Trips Left: ": 0}
+{"id: ": 601, "Trip: ": ["Stonebridge Park"], "Number of Trips Left: ": 1}
+{"id: ": 791, "Trip: ": ["Seven Sisters"], "Number of Trips Left: ": 2}
+{"id: ": 830, "Trip: ": ["West Brompton", "Edgware Road", "Baker Street", "Northwick Park"], "Number of Trips Left: ": 0}
+{"id: ": 6, "Trip: ": ["King's Cross St. Pancras", "Northfields"], "Number of Trips Left: ": 2}
+{"id: ": 255, "Trip: ": ["Manor House"], "Number of Trips Left: ": 0}
+{"id: ": 154, "Trip: ": ["Finchley Central", "King's Cross St. Pancras", "Northwick Park"], "Number of Trips Left: ": 1}
+{"id: ": 557, "Trip: ": ["South Kenton"], "Number of Trips Left: ": 1}
+{"id: ": 778, "Trip: ": ["Barons Court"], "Number of Trips Left: ": 2}
+{"id: ": 20, "Trip: ": ["Warren Street", "Belsize Park"], "Number of Trips Left: ": 0}
+{"id: ": 470, "Trip: ": ["Canning Town"], "Number of Trips Left: ": 0}
+{"id: ": 639, "Trip: ": ["Aldgate"], "Number of Trips Left: ": 2}
+{"id: ": 136, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 584, "Trip: ": ["Dollis Hill", "Swiss Cottage"], "Number of Trips Left: ": 2}
+{"id: ": 131, "Trip: ": ["Notting Hill Gate", "Queensway"], "Number of Trips Left: ": 0}
+{"id: ": 504, "Trip: ": ["Finchley Road", "Watford"], "Number of Trips Left: ": 0}
+{"id: ": 814, "Trip: ": ["Baker Street", "Maida Vale"], "Number of Trips Left: ": 0}
+{"id: ": 166, "Trip: ": ["Marylebone"], "Number of Trips Left: ": 0}
+{"id: ": 138, "Trip: ": ["Chancery Lane", "Epping"], "Number of Trips Left: ": 3}
+{"id: ": 310, "Trip: ": ["Mornington Crescent", "Tottenham Court Road", "Holborn"], "Number of Trips Left: ": 1}
+{"id: ": 682, "Trip: ": ["Lambeth North"], "Number of Trips Left: ": 3}
+{"id: ": 816, "Trip: ": ["King's Cross St. Pancras", "Ruislip"], "Number of Trips Left: ": 0}
+{"id: ": 937, "Trip: ": ["Green Park", "Warren Street", "Woodside Park"], "Number of Trips Left: ": 2}
+{"id: ": 968, "Trip: ": ["Edgware Road", "Willesden Junction"], "Number of Trips Left: ": 3}
+{"id: ": 889, "Trip: ": ["Ladbroke Grove"], "Number of Trips Left: ": 0}
+{"id: ": 723, "Trip: ": ["Goodge Street", "Tottenham Court Road", "Oxford Circus", "Baker Street", "Ruislip"], "Number of Trips Left: ": 1}
+{"id: ": 224, "Trip: ": ["Hounslow West"], "Number of Trips Left: ": 0}
+{"id: ": 30, "Trip: ": ["Tooting Broadway"], "Number of Trips Left: ": 0}
+{"id: ": 296, "Trip: ": ["Warren Street", "Edgware"], "Number of Trips Left: ": 0}
+{"id: ": 456, "Trip: ": ["West Ham", "Upton Park"], "Number of Trips Left: ": 0}
+{"id: ": 594, "Trip: ": ["St. John's Wood"], "Number of Trips Left: ": 1}
+{"id: ": 656, "Trip: ": ["West Ham", "Barking"], "Number of Trips Left: ": 0}
+{"id: ": 663, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 515, "Trip: ": ["Swiss Cottage", "West Ham", "Plaistow"], "Number of Trips Left: ": 0}
+{"id: ": 388, "Trip: ": ["Kentish Town", "King's Cross St. Pancras", "Rayners Lane"], "Number of Trips Left: ": 1}
+{"id: ": 781, "Trip: ": ["Kentish Town", "Moorgate", "Liverpool Street", "Leytonstone"], "Number of Trips Left: ": 1}
+{"id: ": 801, "Trip: ": ["Charing Cross"], "Number of Trips Left: ": 2}
+{"id: ": 83, "Trip: ": ["London Bridge", "North Greenwich"], "Number of Trips Left: ": 2}
+{"id: ": 156, "Trip: ": ["Bethnal Green"], "Number of Trips Left: ": 3}
+{"id: ": 214, "Trip: ": ["Piccadilly Circus", "Charing Cross", "Embankment", "Cannon Street", "Becontree"], "Number of Trips Left: ": 0}
+{"id: ": 780, "Trip: ": ["West Ham", "Barking"], "Number of Trips Left: ": 2}
+{"id: ": 957, "Trip: ": ["Putney Bridge"], "Number of Trips Left: ": 0}
+{"id: ": 655, "Trip: ": ["West Ham"], "Number of Trips Left: ": 0}
+{"id: ": 36, "Trip: ": ["Oxford Circus", "Notting Hill Gate", "Hammersmith", "Kew Gardens"], "Number of Trips Left: ": 0}
+{"id: ": 573, "Trip: ": ["Baker Street", "Oxford Circus", "Leyton", "Wanstead"], "Number of Trips Left: ": 1}
+{"id: ": 706, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 795, "Trip: ": ["Golders Green"], "Number of Trips Left: ": 0}
+{"id: ": 261, "Trip: ": ["Harrow-on-the-Hill", "Northwood Hills"], "Number of Trips Left: ": 3}
+{"id: ": 356, "Trip: ": [], "Number of Trips Left: ": 3}
+{"id: ": 956, "Trip: ": ["Southfields", "Edgware Road"], "Number of Trips Left: ": 1}
+{"id: ": 72, "Trip: ": ["Green Park", "Warren Street", "Hampstead"], "Number of Trips Left: ": 3}
+{"id: ": 930, "Trip: ": ["King's Cross St. Pancras", "Upton Park"], "Number of Trips Left: ": 2}
+{"id: ": 387, "Trip: ": ["King's Cross St. Pancras", "Finchley Road", "Croxley"], "Number of Trips Left: ": 2}
+{"id: ": 843, "Trip: ": ["Earl's Court", "Wimbledon"], "Number of Trips Left: ": 2}
+{"id: ": 464, "Trip: ": [], "Number of Trips Left: ": 1}
+{"id: ": 558, "Trip: ": ["Heathrow Terminal 4"], "Number of Trips Left: ": 0}
+{"id: ": 647, "Trip: ": ["Notting Hill Gate", "Ealing Broadway"], "Number of Trips Left: ": 1}
+{"id: ": 811, "Trip: ": ["Marylebone", "Baker Street", "Victoria", "Stockwell", "South Wimbledon"], "Number of Trips Left: ": 3}
+{"id: ": 110, "Trip: ": ["Notting Hill Gate", "North Acton"], "Number of Trips Left: ": 1}
+{"id: ": 251, "Trip: ": ["Hammersmith", "Sudbury Hill"], "Number of Trips Left: ": 2}
+{"id: ": 229, "Trip: ": ["Oxford Circus", "West Ruislip"], "Number of Trips Left: ": 2}
+{"id: ": 55, "Trip: ": ["Parsons Green", "Edgware Road", "Baker Street", "Finchley Road"], "Number of Trips Left: ": 0}
+{"id: ": 752, "Trip: ": ["Ealing Common", "Russell Square"], "Number of Trips Left: ": 0}
+{"id: ": 12, "Trip: ": ["Kingsbury", "Finchley Road", "King's Cross St. Pancras", "Brent Cross", "Colindale"], "Number of Trips Left: ": 2}
+{"id: ": 913, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 125, "Trip: ": ["Burnt Oak", "Colliers Wood"], "Number of Trips Left: ": 2}
+{"id: ": 402, "Trip: ": ["Burnt Oak", "Balham"], "Number of Trips Left: ": 2}
+{"id: ": 856, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 208, "Trip: ": ["Highgate", "London Bridge", "Canada Water"], "Number of Trips Left: ": 0}
+{"id: ": 310, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 459, "Trip: ": ["Harrow-on-the-Hill"], "Number of Trips Left: ": 1}
+{"id: ": 188, "Trip: ": ["Goldhawk Road", "Gloucester Road", "Knightsbridge"], "Number of Trips Left: ": 2}
+{"id: ": 675, "Trip: ": ["St. John's Wood", "Baker Street", "Marylebone", "Paddington", "Hammersmith", "Kew Gardens"], "Number of Trips Left: ": 0}
+{"id: ": 751, "Trip: ": ["Caledonian Road", "King's Cross St. Pancras", "Baker Street"], "Number of Trips Left: ": 3}
+{"id: ": 854, "Trip: ": ["Caledonian Road", "Eastcote"], "Number of Trips Left: ": 2}
+{"id: ": 112, "Trip: ": ["Tottenham Hale"], "Number of Trips Left: ": 3}
+{"id: ": 268, "Trip: ": ["Tottenham Hale"], "Number of Trips Left: ": 0}
+{"id: ": 682, "Trip: ": ["Lambeth North", "Embankment", "Temple"], "Number of Trips Left: ": 2}
+{"id: ": 347, "Trip: ": ["Bank", "Chancery Lane"], "Number of Trips Left: ": 0}
+{"id: ": 290, "Trip: ": ["North Acton", "Ealing Broadway", "Acton Town"], "Number of Trips Left: ": 1}
+{"id: ": 412, "Trip: ": ["Dagenham East"], "Number of Trips Left: ": 2}
+{"id: ": 49, "Trip: ": ["Highgate", "King's Cross St. Pancras", "Ickenham"], "Number of Trips Left: ": 0}
+{"id: ": 568, "Trip: ": ["Paddington", "Oxford Circus", "Leyton", "Newbury Park"], "Number of Trips Left: ": 2}
+{"id: ": 995, "Trip: ": ["Paddington", "Hammersmith", "Sudbury Hill"], "Number of Trips Left: ": 0}
+{"id: ": 227, "Trip: ": ["Paddington", "North Wembley"], "Number of Trips Left: ": 0}
+{"id: ": 667, "Trip: ": ["Highbury & Islington"], "Number of Trips Left: ": 0}
+{"id: ": 375, "Trip: ": ["Finchley Road"], "Number of Trips Left: ": 1}
+{"id: ": 641, "Trip: ": ["Queensbury", "Finchley Road", "Aldgate"], "Number of Trips Left: ": 0}
+{"id: ": 984, "Trip: ": ["Baker Street", "Marylebone", "Paddington", "Notting Hill Gate", "Ealing Broadway"], "Number of Trips Left: ": 3}
+{"id: ": 960, "Trip: ": ["Swiss Cottage", "Stratford", "Leyton"], "Number of Trips Left: ": 0}
+{"id: ": 465, "Trip: ": ["Hammersmith", "Turnham Green", "South Ealing"], "Number of Trips Left: ": 0}
+{"id: ": 244, "Trip: ": ["St. James's Park"], "Number of Trips Left: ": 3}
+{"id: ": 346, "Trip: ": ["Rayners Lane", "Ealing Common", "Ealing Broadway", "White City"], "Number of Trips Left: ": 2}
+{"id: ": 469, "Trip: ": ["Rayners Lane", "Cockfosters"], "Number of Trips Left: ": 2}
+{"id: ": 441, "Trip: ": ["Charing Cross", "Piccadilly Circus", "Osterley"], "Number of Trips Left: ": 0}
+{"id: ": 582, "Trip: ": ["Finchley Road", "Neasden"], "Number of Trips Left: ": 0}
+{"id: ": 158, "Trip: ": ["Warren Street", "Colindale"], "Number of Trips Left: ": 1}
+{"id: ": 56, "Trip: ": ["Oxford Circus", "Mile End", "West Ham"], "Number of Trips Left: ": 2}
+{"id: ": 669, "Trip: ": ["Earl's Court", "Embankment"], "Number of Trips Left: ": 1}
+{"id: ": 13, "Trip: ": ["Chalk Farm", "Camden Town", "King's Cross St. Pancras", "West Ham"], "Number of Trips Left: ": 0}
+{"id: ": 421, "Trip: ": ["Bayswater", "Victoria"], "Number of Trips Left: ": 2}
+{"id: ": 24, "Trip: ": ["Moorgate", "Euston", "Mornington Crescent"], "Number of Trips Left: ": 1}
+{"id: ": 726, "Trip: ": ["Whitechapel"], "Number of Trips Left: ": 0}
+{"id: ": 5, "Trip: ": [], "Number of Trips Left: ": 1}
+{"id: ": 651, "Trip: ": ["Golders Green", "King's Cross St. Pancras", "Liverpool Street", "Woodford", "Chigwell"], "Number of Trips Left: ": 2}
+{"id: ": 622, "Trip: ": ["Park Royal", "South Kensington"], "Number of Trips Left: ": 2}
+{"id: ": 571, "Trip: ": ["Warwick Avenue", "Edgware Road", "Farringdon", "Stepney Green"], "Number of Trips Left: ": 2}
+{"id: ": 433, "Trip: ": ["Great Portland Street", "Rickmansworth"], "Number of Trips Left: ": 0}
+{"id: ": 671, "Trip: ": ["Bromley-by-Bow"], "Number of Trips Left: ": 3}
+{"id: ": 345, "Trip: ": ["Victoria", "Stockwell", "Clapham South"], "Number of Trips Left: ": 3}
+{"id: ": 330, "Trip: ": ["Stanmore"], "Number of Trips Left: ": 0}
+{"id: ": 378, "Trip: ": ["Finchley Road", "Willesden Green"], "Number of Trips Left: ": 0}
+{"id: ": 352, "Trip: ": ["Kensal Green"], "Number of Trips Left: ": 0}
+{"id: ": 751, "Trip: ": ["Baker Street", "Gloucester Road", "Barons Court"], "Number of Trips Left: ": 2}
+{"id: ": 787, "Trip: ": ["Knightsbridge"], "Number of Trips Left: ": 3}
+{"id: ": 806, "Trip: ": ["Waterloo"], "Number of Trips Left: ": 1}
+{"id: ": 888, "Trip: ": ["Finchley Central", "Warren Street", "Oxford Circus", "Notting Hill Gate", "Hammersmith", "Hatton Cross"], "Number of Trips Left: ": 2}
+{"id: ": 913, "Trip: ": ["West Kensington", "Ealing Broadway"], "Number of Trips Left: ": 0}
+{"id: ": 58, "Trip: ": ["Canons Park", "Stratford", "Leyton"], "Number of Trips Left: ": 3}
+{"id: ": 105, "Trip: ": ["Holborn", "Leyton", "Hainault"], "Number of Trips Left: ": 0}
+{"id: ": 340, "Trip: ": ["Green Park", "Warren Street", "Chalk Farm"], "Number of Trips Left: ": 0}
+{"id: ": 140, "Trip: ": ["King's Cross St. Pancras", "Hendon Central"], "Number of Trips Left: ": 0}
+{"id: ": 643, "Trip: ": ["West Hampstead", "Baker Street", "Marylebone", "Paddington", "Notting Hill Gate", "Greenford"], "Number of Trips Left: ": 0}
+{"id: ": 525, "Trip: ": ["Oxford Circus", "Buckhurst Hill"], "Number of Trips Left: ": 2}
+{"id: ": 853, "Trip: ": ["Harrow-on-the-Hill", "King's Cross St. Pancras", "Whitechapel"], "Number of Trips Left: ": 0}
+{"id: ": 846, "Trip: ": ["King's Cross St. Pancras", "Bounds Green"], "Number of Trips Left: ": 0}
+{"id: ": 992, "Trip: ": ["Burnt Oak", "South Wimbledon"], "Number of Trips Left: ": 1}
+{"id: ": 594, "Trip: ": ["Chesham"], "Number of Trips Left: ": 0}
+{"id: ": 667, "Trip: ": ["Covent Garden"], "Number of Trips Left: ": 0}
+{"id: ": 61, "Trip: ": ["Charing Cross"], "Number of Trips Left: ": 0}
+{"id: ": 410, "Trip: ": ["Preston Road", "Ickenham"], "Number of Trips Left: ": 0}
+{"id: ": 71, "Trip: ": [], "Number of Trips Left: ": 1}
+{"id: ": 444, "Trip: ": ["Kingsbury", "Bermondsey"], "Number of Trips Left: ": 0}
+{"id: ": 569, "Trip: ": ["Kingsbury", "Baker Street", "Gloucester Road"], "Number of Trips Left: ": 1}
+{"id: ": 940, "Trip: ": ["Alperton", "Holborn", "Debden"], "Number of Trips Left: ": 1}
+{"id: ": 297, "Trip: ": ["Oxford Circus", "Warren Street", "Belsize Park"], "Number of Trips Left: ": 2}
+{"id: ": 187, "Trip: ": ["Manor House", "King's Cross St. Pancras", "Tower Hill"], "Number of Trips Left: ": 1}
+{"id: ": 264, "Trip: ": ["Manor House", "King's Cross St. Pancras", "Northwood"], "Number of Trips Left: ": 0}
+{"id: ": 702, "Trip: ": ["Wimbledon Park"], "Number of Trips Left: ": 3}
+{"id: ": 932, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 949, "Trip: ": ["High Street Kensington", "Kensington"], "Number of Trips Left: ": 0}
+{"id: ": 964, "Trip: ": ["King's Cross St. Pancras", "Manor House"], "Number of Trips Left: ": 0}
+{"id: ": 4, "Trip: ": [], "Number of Trips Left: ": 2}
+{"id: ": 167, "Trip: ": ["Hammersmith", "Acton Town"], "Number of Trips Left: ": 3}
+{"id: ": 237, "Trip: ": ["Warren Street", "Mornington Crescent"], "Number of Trips Left: ": 2}
+{"id: ": 201, "Trip: ": ["Kilburn", "Baker Street", "Oxford Circus"], "Number of Trips Left: ": 0}
+{"id: ": 697, "Trip: ": ["Neasden", "Baker Street", "Oxford Circus", "Tottenham Court Road", "Leicester Square"], "Number of Trips Left: ": 2}
+{"id: ": 8, "Trip: ": ["Canons Park"], "Number of Trips Left: ": 1}
+{"id: ": 253, "Trip: ": ["Manor House"], "Number of Trips Left: ": 0}
+{"id: ": 52, "Trip: ": ["Notting Hill Gate", "Hammersmith", "Hatton Cross"], "Number of Trips Left: ": 1}
+{"id: ": 701, "Trip: ": ["Green Park"], "Number of Trips Left: ": 2}
+{"id: ": 604, "Trip: ": ["Fulham Broadway"], "Number of Trips Left: ": 1}
+{"id: ": 979, "Trip: ": ["East Putney"], "Number of Trips Left: ": 1}
+{"id: ": 803, "Trip: ": [], "Number of Trips Left: ": 0}
+{"id: ": 522, "Trip: ": ["South Woodford", "Liverpool Street", "Moorgate", "Tufnell Park"], "Number of Trips Left: ": 3}
+{"id: ": 520, "Trip: ": ["Paddington", "Marylebone", "Baker Street", "Wembley Park", "Amersham"], "Number of Trips Left: ": 2}
+{"id: ": 563, "Trip: ": ["Finsbury Park", "Hammersmith"], "Number of Trips Left: ": 3}
+{"id: ": 618, "Trip: ": ["King's Cross St. Pancras", "Cockfosters"], "Number of Trips Left: "
