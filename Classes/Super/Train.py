@@ -67,14 +67,14 @@ class Train:
                 self.cooldown-= ((time.time()-self.currentTime)*simulation_speed)
                 if self.cooldown==0:
                     stop = nodeTraffic_dict[self.currentStop]
-                    self.remove=True
+                    # self.remove=True
                     if self.idObject in stop:
                         stop.pop(self.idObject)
 
             elif self.cooldown<0:
                 self.cooldown=0
                 stop = nodeTraffic_dict[self.currentStop]
-                self.remove=True
+                # self.remove=True
                 if self.idObject in stop:
                     stop.pop(self.idObject)
 
@@ -168,7 +168,7 @@ class Train:
                 self.incrementIndexes(way_dict,node_dict)
 
                 self.cooldown=node_dict[self.currentNode]['delay']
-                self.send=True
+
                 vel=self.getPosVectorFromNode(node_dict,self.nextNode).subtract(self.getPosVectorFromNode(node_dict,self.currentNode))
                 if vel.length()!=0:
                     vel.normalize()
@@ -259,6 +259,7 @@ class Train:
         pos=Vector(nextStop['x'],nextStop['y'])
         if self.currentNode == self.nextStop or  (self.particle.pos.copy().distanceTo(pos)<300 and (pos.copy().subtract(self.particle.pos)).dot(self.particle.vel)<0):
             self.stopIndex+=1
+            self.send=True
             self.currentStop=self.nextStop
             # if in current remove, add yourself to
 
@@ -286,7 +287,6 @@ class Train:
         self.node_list = way['nodes']
 
         self.stop_list = line.getStopListFromLineName(relation_dict,way_dict, line_name)
-
         self.reachedEnd = False
 
         self.wayIndex = 0
@@ -316,11 +316,11 @@ class Train:
 
     def encode(self):
 
-        data = {'id': self.idObject,
+        data = {'id': str(self.idObject),
                 'pos':{'x':self.particle.pos.getX(),'y':self.particle.pos.getY()},
                 'stop_list':self.stop_list,
                 'stop_index':self.stopIndex,
-                'stop':self.currentStop
+                'stop':self.currentStop,
                 }
 
         return data

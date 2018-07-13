@@ -1,5 +1,5 @@
 from External.Objects import *
-
+import json
 def recieveStops(stop):
 
     if not stop['id']in stop_dict:
@@ -9,4 +9,5 @@ def recieveStops(stop):
             stop_dict['id']=stop
 
 def recieveWeightedGraph(graph):
-    weighted_graph_dict.update(graph)
+    with open(cwd+'/External/WeightedGraph','w')as f:
+        json.dump(graph,f)

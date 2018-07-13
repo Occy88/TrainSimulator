@@ -100,7 +100,7 @@ def getStopListFromLineName(relation_dict,way_dic,name):
                 if tags['name']==name:
                     members = relation['members']
                     for element in members:
-                        if element['type'] == 'node' and element['role'] == 'stop':
+                        if element['type'] == 'node':
                             if element['ref'] in nodeCheck_dic:
                                 stop_list.append(element['ref'])
                     #check stop_list for authenticity/ if all stop nodes are in the way lists

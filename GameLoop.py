@@ -7,6 +7,7 @@ print("""\
 """)
 
 import sys, configparser
+import time
 from SimpleGUICS2Pygame import simplegui_lib_fps
 from SimpleGUICS2Pygame import simpleguics2pygame
 #LOADING SETTINGS
@@ -34,28 +35,32 @@ from Handlers.KeyHandler import keydown, keyup
 from Handlers.ClickHandler import checkClick
 from Loading.Objects import send_list
 from Loading.Objects import *
+from Loading.Objects import simTime
 from GameStates.intro import introLoop, waitingLoop,storyLoop
-from External.RecieveStops import recieveStops,recieveWeightedGraph
-from External.TripManager import updatePeople
 from threading import Thread
 #-----START----GAME----CLOCK
 fps = simplegui_lib_fps.FPS()
 fps.start()
 #initiate Ai
-recieveWeightedGraph(weighted_graph_dict)
-print("HERE")
-updateP=Thread(target=updatePeople)
-print("then here")
-updateP.start()
+# print("HERE")
+# updateP=Thread(target=updatePeople)
+# print("then here")
+# updateP.start()
 
 print("NOW Here ")
 
 print("MONSTERS LOADED AND SPAWNED")
+cwd=os.getcwd()
 
 
 #--------------GAME-----LOOP-------------------
+
+
+startTime=time.time()
+currentTime=time.time()
+
 def draw(canvas):
-    
+
 #========== GAME LOOPS NON MAIN =====================
 
         # x,y=train.nextNode['lon'],train.nextNode['lat']
@@ -66,35 +71,45 @@ def draw(canvas):
         # line.drawByName(canvas, cam, line_dict, way_dict, node_dict, 'Waterloo & City: Waterloo → Bank',
         #                 'blue')
         autoCam.update(cam,train_dict)
-        mapLoader.update((baseNode['lat'], baseNode['lon']), cam, spriteDictionary)
-        mapLoader.draw(canvas, cam)
+        # mapLoader.update((baseNode['lat'], baseNode['lon']), cam, spriteDictionary)
+        # mapLoader.draw(canvas, cam)
         trainLoader.load(train_dict,spriteDictionary,relation_dict,line_dict,way_dict,node_dict,nodeTraffic_dict,variables['simulation_speed'])
+        global simTime,currentTime
+        simTime += (time.time() - currentTime) * variables['simulation_speed']
+        currentTime=time.time()
+
+        timeString="("+str(round(((simTime/60)/60)))+" : "+str(round((simTime/60)%60))+" : "+str(round(simTime%60,1))+")"
+        timeLable.set_text(timeString)
         for trainId in train_dict:
             train=train_dict[trainId]
             train.update(nodeTraffic_dict,relation_dict,line_dict,way_dict,node_dict,variables['simulation_speed'])
             # line.drawNodeList(canvas,cam,node_dict,all_stops)
-            train.draw(canvas,cam,node_dict)
+            # train.draw(canvas,cam,node_dict)
             if train.send:
                 train.send=False
                 stopId=train.currentStop
                 stop=all_stops_dict[stopId]
                 stop['train']=train.encode()
+
+                stop['time']=simTime
                 send_list.append(stop)
-            if train.remove:
-                train.remove=False
-                stopId = train.currentStop
-                stop = all_stops_dict[stopId]
-                stop['train'] = {}
-                send_list.append(stop)
+            # if train.remove:
+            #     train.remove=False
+            #     stopId = train.currentStop
+            #     stop = all_stops_dict[stopId]
+            #     stop['train'] = {}
+            #     send_list.append(stop)
+        if len(send_list)>0:
+            with open(cwd + '/Loading/TrainLog', 'a+') as outfile:
+                for stop in send_list:
+
+                    json.dump(stop,outfile)
+                    outfile.write("\n")
+            send_list.clear()
 
 
+        numTrains.set_text('Number of Trains: '+str(len(train_dict)))
 
-        for stop in send_list:
-            recieveStops(stop)
-        send_list.clear()
-
-
-        life.set_text('Number of Trains: '+str(len(train_dict)))
 #========================  ===========================================
 
 #================ CLICK HANDLER =================================
@@ -140,8 +155,8 @@ def draw(canvas):
 frame = simpleguics2pygame.create_frame('Game', int(config['CANVAS']['CANVAS_WIDTH']), int(config['CANVAS']['CANVAS_HEIGHT']))
 frame.set_canvas_background('Black')
 #Labels
-life = frame.add_label('Number of Trains: '+str(len(train_dict)))
-magic = frame.add_label('Magic: ')
+numTrains = frame.add_label('Number of Trains: '+str(len(train_dict)))
+timeLable = frame.add_label('Time: ')
 rng = frame.add_label('Ranfe: ')
 arrows = frame.add_label('Arrows: ')
 spells = frame.add_label('Spells: ')

@@ -15,7 +15,7 @@ height = 10000
 tree_range=20000
 two_player=False
 [CANVAS]
-canvas_width = 1600
+canvas_width = 3400
 canvas_height = 2000
 game_state = False
 

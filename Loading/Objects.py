@@ -63,6 +63,7 @@ monster_set_external = set()
 
 variables={'simulation_speed':1}
 
+simTime=0
 # MOUSE HANDLER (PYGAME)(NO RIGHT/MIDDLE CLICKS ON SIMPLEGUI)
 mouse = Mouse()
 # CONVERSION OF SIMPLE GUI MOUSE LOCATION TO PYGAME LOCATION
@@ -75,32 +76,24 @@ def getUid():
 
 
 # ------------------ DICTIONARY OF ALL PICTURES LOCATIONS-----------------
-print('LOADING ASSETS')
 cwd = os.getcwd()
 link=cwd + '/img/splash.jpg'
 splash = simpleguics2pygame.load_image(link)
 link=cwd + '/img/story.jpg'
 
 story = simpleguics2pygame.load_image(link)
-print(story.get_height())
-print(splash.get_width())
 
 spriteDictionary = {}
 
 # -----------------------MOVING OBJECTS-------------------
-print("ASSETS LOADED")
-print("LOADING OBJECTS")
 # CAMERA
 cam = Camera(Vector(0,0), Vector(int(config['CANVAS']['CANVAS_WIDTH'])*4,int(config['CANVAS']['CANVAS_HEIGHT'])*4))
 
 # PLAYERWrotham Heath Golf Club, Seven Mile Ln, Borough Green, Wrotham Heath, Sevenoaks TN15 8QZ
 
 # -----------------------NON-MOVING OBJECTS------------------
-print("OBJECTS LOADED")
-print("GENERATING RANDOM ENVIRONMENT")
 # randomGrass()
 # randomTrees()
-print("ENVIRONMENT GENERATED")
 
 #----------------   LOADING DATA FOR NODES----------------------------
 file = open(cwd+"/img/Data/data.txt",'r', encoding='utf-8')
@@ -262,14 +255,12 @@ for name in weighted_graph_dict:
                 weight=pos1.distanceTo(pos2)
                 wgStops=weighted_graph_dict[name]
                 if not stopName in wgStops:
-                    print(stopName,weight)
                     wgStops.update({stopName:weight})
 
 
 
 none_connected_stop_list=[]
 for stopName in weighted_graph_dict:
-    print("===========================================")
     if len((weighted_graph_dict[stopName]))<1:
         none_connected_stop_list.append(stopName)
 for name in none_connected_stop_list:
