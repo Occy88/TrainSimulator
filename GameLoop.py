@@ -71,8 +71,8 @@ def draw(canvas):
         # line.drawByName(canvas, cam, line_dict, way_dict, node_dict, 'Waterloo & City: Waterloo → Bank',
         #                 'blue')
         autoCam.update(cam,train_dict)
-        # mapLoader.update((baseNode['lat'], baseNode['lon']), cam, spriteDictionary)
-        # mapLoader.draw(canvas, cam)
+        mapLoader.update((baseNode['lat'], baseNode['lon']), cam, spriteDictionary)
+        mapLoader.draw(canvas, cam)
         trainLoader.load(train_dict,spriteDictionary,relation_dict,line_dict,way_dict,node_dict,nodeTraffic_dict,variables['simulation_speed'])
         global simTime,currentTime
         simTime += (time.time() - currentTime) * variables['simulation_speed']

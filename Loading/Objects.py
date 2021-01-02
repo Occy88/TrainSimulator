@@ -220,7 +220,7 @@ for stopId in all_stops_dict:
 
 
 
-
+print(node_dict)
 #==================ATTEMPT AT FINDING PAIR FROM LINE NAME=============
 #node_corrections:
 node=node_dict[5473272644]
